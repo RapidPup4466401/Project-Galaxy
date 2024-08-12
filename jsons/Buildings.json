@@ -1868,7 +1868,7 @@
 		"requiredTech": "Fusion Applications",
 		"specialistSlots": {"Scientist": 3},
 		"uniques": [
-			"[+10]% Science [in this city]",
+			"[+5]% Science [in this city]",
 			"[+15]% Science [in this city] <when at war> <hidden from users>",
 			"Cost increases by [200] per owned city",
 			"Cannot be purchase <hidden from users>",
@@ -2047,7 +2047,7 @@
 		"requiredTech": "Space Exploration I",
 		"uniques": [
 			"Only available <in cities with a [Launch Platform]>",
-			"[+10]% [Culture] [in this city]",
+			"[+5]% [Culture] [in this city]",
 			"[+5]% [Science] [in this city]",
 			"Cost increases by [50] per owned city",
 			"Cannot be purchased <hidden from users>",
@@ -2066,7 +2066,7 @@
 		"uniques": [
 			"Only available <in cities with a [Spaceport]>",
 			"Only available <in cities with a [Explore Space I]>",
-			"[+20]% [Culture] [in this city]",
+			"[+10]% [Culture] [in this city]",
 			"[+10]% [Science] [in this city]",
 			"Cost increases by [50] per owned city",
 			"Cannot be purchased <hidden from users>",
@@ -2085,7 +2085,7 @@
 		"uniques": [
 			"Only available <in cities with a [Spaceport]>",
 			"Only available <in cities with a [Explore Space II]>",
-			"[+30]% [Culture] [in this city]",
+			"[+20]% [Culture] [in this city]",
 			"[+15]% [Science] [in this city]",
 			"Cost increases by [50] per owned city",
 			"Cannot be purchased <hidden from users>",
@@ -2122,7 +2122,7 @@
 		"requiredTech": "Satellites",
 		"uniques": [
 			"Only available <in cities with a [Launch Platform]>",
-			"[+20]% [Culture] [in all cities]",
+			"[+10]% [Culture] [in all cities]",
 			"[+10]% [Science] [in all cities]",
 			"Cost increases by [50] per owned city",
 			"Cannot be purchased <hidden from users>",
@@ -2201,7 +2201,7 @@
 		"requiredTech": "Plastics",
 		"uniques": [
 			"Only available <in cities with a [Research Lab]>",
-			"[+10]% Science [in this city]",
+			"[+5]% Science [in this city]",
 			"[+5]% Production [in this city]",
 			"Destroyed when the city is captured"],
 	},
@@ -2360,7 +2360,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
 			"Only available <in cities with a [University]>",
-			"[+20]% [Science] [in this city] <with [Iron]>",
+			"[+10]% [Science] [in this city] <with [Iron]>",
 			"Destroyed when the city is captured"],
 	},
 	{
