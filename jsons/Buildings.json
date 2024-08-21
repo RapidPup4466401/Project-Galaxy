@@ -215,7 +215,7 @@
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
-		"name": "Advanced Alloys Factory A",
+		"name": "Advanced Alloys Factory AS",
 		"maintenance": 10,
 		"cost": 4000,
 		"production": 3,
@@ -230,7 +230,7 @@
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
-		"name": "Advanced Alloys Factory B",
+		"name": "Advanced Alloys Factory TI",
 		"maintenance": 10,
 		"cost": 4000,
 		"production": 3,
@@ -245,7 +245,7 @@
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
-		"name": "Advanced Alloys Factory C",
+		"name": "Advanced Alloys Factory SCN",
 		"maintenance": 12,
 		"cost": 4000,
 		"production": 3,
@@ -262,7 +262,7 @@
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
-		"name": "Advanced Alloys Factory D",
+		"name": "Advanced Alloys Factory AT",
 		"maintenance": 10,
 		"cost": 4000,
 		"production": 3,
@@ -1544,6 +1544,37 @@
 			"Only available [in this city] <with [Iron]> <hidden from users>",
 			"Destroyed when the city is captured"],
 	},	
+	{
+		"name": "Underground Bunker",
+		"maintenance": 4,
+		"cost": 1000,
+		"cityHealth": 25,
+		"requiredTech": "Mountain Mining I",
+		"uniques": [
+			"Only available <in cities with a [Military Base]>",
+			"Destroyed when the city is captured <with [50]% chance>"],
+	},
+	{
+		"name": "Underground Compound",
+		"maintenance": 4,
+		"cost": 1500,
+		"cityHealth": 30,
+		"requiredTech": "Mountain Mining II",
+		"uniques": [
+			"Only available <in this city> <if [Research Lab] is constructed>",
+			"Destroyed when the city is captured <with [20]% chance>"],
+	},
+	{
+		"name": "Underground Lab",
+		"maintenance": 2,
+		"cost": 800,
+		"cityHealth": 15,
+		"requiredTech": "Mountain Mining I",
+		"uniques": [
+			"Only available <in cities with a [Research Lab]>>",
+			"[+5]% [Science] [in this city]",
+			"Destroyed when the city is captured <with [50]% chance>"],
+	},
 
 	//Deep Sea Mining Pack
 
