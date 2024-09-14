@@ -166,7 +166,13 @@
 				"name": "Advanced Satellites",
 				"row": 3,
 				"prerequisites": ["Mineral Extraction","Fusion Applications","Advanced Lasers","Digitalization","Advanced Radio"],
-				"quote": "'We need more powerful satellites, ones that ...' - ???"
+				"quote": "'We need more powerful satellites, ones that can shoot lasers...' - ???"
+			},
+			{
+				"name": "Cloud Computing",
+				"row": 4,
+				"prerequisites": ["Advanced Lasers","Digitalization","Advanced Radio"],
+				"quote": "'The ability to access anything stored online whenever wherever...' - ???"
 			},
 			{
 				"name": "Mechs I",
@@ -222,13 +228,13 @@
 			{
 				"name": "Artificial Intelligence",
 				"row": 1,
-				"prerequisites": ["Cryptocurrency","Generative Intelligence"],
+				"prerequisites": ["Cryptocurrency","Generative Intelligence","Cloud Computing"],
 				"quote": "'Responsive, adaptable, and generative AI has never been more advanced...' - ???"
 			},
 			{
 				"name": "Quantum Computing",
 				"row": 2,
-				"prerequisites": ["Quantum Physics"],
+				"prerequisites": ["Quantum Physics","Cloud Computing"],
 				"quote": "'Our capabilities in data managment and control have never seen before...' - ???"
 			},
 			{
