@@ -129,6 +129,12 @@
 				"prerequisites": ["Nuclear Fusion","Advanced Robotics","Mountain Mining III"],
 				"quote": "'The ways of the stone and earth have been uncovered through years of research, and now, we have the ability to expand downwards further than ever before...' - ???"
 			}
+			{
+				"name": "Drones",
+				"row": 14,
+				"prerequisites": ["Advanced Robotics"],
+				"quote": "'We should sell this remotely controllable, autonomous device to the civilian masses!' - ???"
+			}
 		]
 	},
 	{
@@ -165,7 +171,7 @@
 			{
 				"name": "Mechs I",
 				"row": 10,
-				"prerequisites": ["Advanced Lasers","Fusion Applications","Advanced Submersibles"],
+				"prerequisites": ["Advanced Lasers","Fusion Applications","Advanced Submersibles","Drones"],
 				"quote": "'Primitive, yet promising... perhaps it could be of better use with better technology...' - ???"
 			},
 			{
@@ -264,7 +270,7 @@
 			{
 				"name": "Mechs II",
 				"row": 12,
-				"prerequisites": ["Mechs I"],
+				"prerequisites": ["Mechs I","Advanced Stealth"],
 				"quote": "'Our machinations only continue to grow in strength for our soon to come wars...' - ???"
 			},
 			{
@@ -465,6 +471,39 @@
 	{
 		"columnNumber": 22,
 		"era": "Future era",
+		"techCost": 60000,
+		"buildingCost": 1500,
+		"wonderCost": 1900,
+		"techs": [
+			{
+				"name": "Gates",
+				"row": 1,
+				"prerequisites": ["Dark Energy","Degenerate Matter","Dark Matter","Quantum Applications","Antimatter Applications"],
+				"quote": "'Creating a rife in the space-time continuum? Uh oh. - ???"
+			},
+			{
+				"name": "Wormholes",
+				"row": 3,
+				"prerequisites": ["Dark Energy","Degenerate Matter","Dark Matter","Quantum Applications","Antimatter Applications"],
+				"quote": "'Creating a rife in the space-time continuum? Uh oh. - ???"
+			},
+			{
+				"name": "Terraform",
+				"row": 6,
+				"prerequisites": ["Advanced Simulations","Planetary Alliance","Advanced Flight","Space Colonization","Automation"],
+				"quote": "'Playing god with planets now? Now this is my type of game. - ???"
+			}
+			{
+				"name": "Cloning",
+				"row": 9,
+				"prerequisites": ["Advanced Simulations","Metagensis","Super Intelligence"],
+				"quote": "'True cloning, not that off-brand one that takes your DNA and 'grows' a second you. - ???"
+			}
+		]
+	},
+	{
+		"columnNumber": 23,
+		"era": "Future era",
 		"techCost": 22000,
 		"buildingCost": 1500,
 		"wonderCost": 1900,
@@ -472,7 +511,7 @@
 			{
 				"name": "Future Tech",
 				"row": 7,
-				"prerequisites": ["Mass Drilling III","Degenerate Matter","Automation","Dark Matter","Antimatter Applications","Planetary Alliance","Advanced Flight","Space Colonization","Metagenesis","Quantum Applications","Super Intelligence","Advanced Simulations"],
+				"prerequisites": ["Gates","Wormholes","Terraform","Cloning"],
 				"quote": "'To the future, and beyond!' - ???"
 			}
 		]
