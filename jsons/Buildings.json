@@ -1561,7 +1561,7 @@
 		"cityHealth": 30,
 		"requiredTech": "Mountain Mining II",
 		"uniques": [
-			"Only available <in this city> <if [Research Lab] is constructed>",
+			"Only available <in cities with a [Research Lab]>",
 			"Destroyed when the city is captured <with [20]% chance>"],
 	},
 	{
@@ -1571,7 +1571,7 @@
 		"cityHealth": 15,
 		"requiredTech": "Mountain Mining I",
 		"uniques": [
-			"Only available <in cities with a [Research Lab]>>",
+			"Only available <in cities with a [Research Lab]>",
 			"[+5]% [Science] [in this city]",
 			"Destroyed when the city is captured <with [50]% chance>"],
 	},
