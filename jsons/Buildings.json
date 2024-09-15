@@ -833,6 +833,19 @@
 			"Destroyed when the city is captured"],
 	},
 	{
+		"name": "Oil Synthesis Plant",
+		"maintenance": 5,
+		"cost": 3500,
+		"production": 4,
+		"requiredTech": "Synthetic Fluids",
+		"uniques": [
+			"Only available <in cities with a [Synthesis Plant]>",
+			"Only available <in cities with a [Oil Synthesis Lab]>",
+			"[+5]% Production [in this city]",
+			"Provides [5] [Oil]",
+			"Destroyed when the city is captured"],
+	},
+	{
 		"name": "Platinum Jewelry Manufactory",
 		"maintenance": 3,
 		"cost": 500,
@@ -2441,6 +2454,20 @@
 			"Destroyed when the city is captured"],
 	},
 	{
+		"name": "Synthetic Fluid Research Facility",
+		"cost": 2000,
+		"maintenance": 10,
+		"happiness": 1,
+		"science": 8,
+		"specialistSlots": {"Scientist": 2},
+		"requiredTech": "Synthesization",
+		"uniques": [
+			"Only available <in cities with a [Research Center]>",
+			"Only available <in cities with a [Research Lab]>",
+			"[+5]% [Science] [in this city]",
+			"Destroyed when the city is captured"],
+	},
+	{
 		"name": "Gravitational Influxes Research Facility",
 		"cost": 8000,
 		"maintenance": 10,
@@ -2498,6 +2525,18 @@
 		"uniques": [
 			"Only available <in cities with a [Metallurgy Research Lab]>",
 			"Provides [1] [Nickel]",
+			"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Oil Synthesis Lab",
+		"maintenance": 10,
+		"cost": 1000,
+		"science": 5,
+		"requiredTech": "Synthetic Fluids",
+		"specialistSlots": {"Scientist": 1},
+		"uniques": [
+			"Only available <in cities with a [Fluid Research Lab]>",
+			"Provides [1] [Oil]",
 			"Destroyed when the city is captured"],
 	},
 	{
