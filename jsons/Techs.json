@@ -502,7 +502,7 @@
 			{
 				"name": "Cloning",
 				"row": 9,
-				"prerequisites": ["Advanced Simulations","Metagensis","Super Intelligence"],
+				"prerequisites": ["Advanced Simulations","Metagenesis","Super Intelligence"],
 				"quote": "'True cloning, not that off-brand one that takes your DNA and 'grows' a second you. - ???"
 			}
 		]
