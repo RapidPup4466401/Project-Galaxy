@@ -1120,7 +1120,27 @@
 	},
 
 	//Happiness Pack
-	
+
+	{
+		"name": "Virtual Assistants Softwares",
+		"cost": 4000,
+		"happiness": 4,
+		"science": 5,
+		"production": 5,
+		"gold": 5,
+		"culture": 5,
+		"faith": 5,
+		"requiredTech": "Artificial Intelligence",
+		"uniques": [
+			"Only available <in cities with a [Institute of Artificial Intelligence Research]>",
+			"Only available <in cities with a [Chatbots]>",
+			"[+5]% [Gold] [in this city]",
+			"[+5]% [Production] [in this city]",
+			"[+5]% [Science] [in this city]",
+			"[+5]% [Culture] [in this city]",
+			"[+5]% [Faith] [in this city]",
+			"[+5]% [Happiness] [in this city]"],		
+	},
 	{
 		"name": "Chatbots",
 		"cost": 300,
@@ -1129,6 +1149,15 @@
 		"uniques": [
 			"Only available <in cities with a [Data Center]>",
 			"Only available <in cities with a [Social Media Interacts]>"],		
+	},
+	{
+		"name": "Chatbots AI",
+		"cost": 1000,
+		"happiness": 4,
+		"requiredTech": "Artificial Intelligence",
+		"uniques": [
+			"Only available <in cities with a [Institute of Artificial Intelligence Research]>",
+			"Only available <in cities with a [Chatbots]>"],		
 	},
 	{
 		"name": "Data Center",
@@ -1157,6 +1186,15 @@
 		"uniques": [
 			"Only available <in cities with a [Hospital]>",
 			"Only available <if [Institute of Technology] is constructed> <in [in capital] cities>"],		
+	},
+	{
+		"name": "Quantum Data Center",
+		"maintenance": 5,
+		"cost": 4000,
+		"happiness": 5,
+		"requiredTech": "Quantum Computing",
+		"uniques": [
+			"Only available <in cities with a [Data Center]>"],		
 	},
 	{
 		"name": "Social Media Interacts",
@@ -2269,6 +2307,21 @@
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
+		"name": "Orbital Defense Sat Array",
+		"isNationalWonder": "True",
+		"cost": 15000,
+		"requiredTech": "Starships",
+		"specialistSlots": {"Engineer": 4},
+		"uniques": [
+			"Only available <in cities with a [Orbital Station]>",
+			"Only available <in cities with a [Satellite Network]>",
+			"[+35]% Strength for cities [in all cities]",
+			"Cost increases by [1000] per owned city",
+			"Cannot be purchased <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
+	{
 		"name": "Orbital Station",
 		"isNationalWonder": "True",
 		"cost": 10000,
@@ -2280,8 +2333,47 @@
 			"[+5]% [Culture] [in this city] <hidden from users>",
 			"[+5]% [Science] [in this city] <hidden from users>",
 			"[+5]% [Production] [in this city] <hidden from users>",
-			"[+10]% Strength for cities [in all cities] <if [Orbital Station] is constructed>",
+			"[+10]% Strength for cities [in all cities]",
 			"Cost increases by [200] per owned city",
+			"Cannot be purchased <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
+	{
+		"name": "Orbital Shipyard",
+		"isNationalWonder": "True",
+		"cost": 10000,
+		"happiness": 5,
+		"gold": 5,
+		"production": 25,
+		"science": 15,
+		"culture": 5,
+		"requiredTech": "Starships",
+		"specialistSlots": {"Engineer": 2},
+		"uniques": [
+			"Only available <in cities with a [Orbital Station]>",
+			"[+10]% Strength for cities [in all cities]",
+			"[+10]% [Production] [in this city]",
+			"[+10]% [Science] [in this city]",
+			"Cost increases by [500] per owned city",
+			"Cannot be purchased <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
+	{
+		"name": "Orbital Starship Support Structure",
+		"isNationalWonder": "True",
+		"cost": 30000,
+		"requiredTech": "Starships",
+		"specialistSlots": {"Engineer": 6},
+		"uniques": [
+			"Only available <in cities with a [Orbital Station]>",
+			"Only available <in cities with a [Orbital Shipyard]>",
+			"Only available <in cities with a [Launch Platform]>",
+			"Only available <in cities with a [Orbital Defense Sat Array]> <hidden from users>",
+			"Only available <in cities with a [Satellite Network]> <hidden from users>",
+			"[+50]% Strength for cities [in all cities]",
+			"Cost increases by [2000] per owned city",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
