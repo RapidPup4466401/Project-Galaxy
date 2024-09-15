@@ -18,7 +18,7 @@
 			"[+5]% [Production] [in this city] <if [Synthesis Plant] is constructed><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Nuclear Factory] is constructed> <with [Uranium]><hidden from users>",
 			"[+10]% [Production] [in this city] <with [Coal]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Automated Factory",
@@ -38,7 +38,7 @@
 			"[+5]% [Production] [in this city] <if [Assembly Plant] is constructed> <with [Coal]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Nuclear Factory] is constructed> <with [Uranium]><hidden from users>",
 			"[+10]% [Production] [in this city] <with [Microchip]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Beyond Factory",
@@ -63,7 +63,7 @@
 			"[+3]% [Production] [in this city] <if [Neo Factory] is constructed> <with [Microchip]><hidden from users>",
 			"[+5]% [Production] [in this city] <with [Microchip]>",
 			"[+5]% [Production] [in this city] <with [Antimatter]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Manufacturing Plant",
@@ -81,7 +81,7 @@
 			"[+5]% [Production] [in this city] <if [Assembly Plant] is constructed> <with [Coal]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Nuclear Factory] is constructed> <with [Uranium]><hidden from users>",
 			"[+5]% [Production] [in this city] <with [Coal]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Neo Factory",
@@ -103,7 +103,7 @@
 			"[+5]% [Production] [in this city] <if [Assembly Plant] is constructed> <with [Coal]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Nuclear Factory] is constructed> <with [Uranium]><hidden from users>",
 			"[+10]% [Production] [in this city] <with [Microchip]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Shipyard",
@@ -123,7 +123,7 @@
 			"[+5]% [Production] [in this city] <if [Nuclear Factory] is constructed> <with [Uranium]><hidden from users>",
 			"[+10]% Production when constructing [{Water}] units [in this city]",
 			"[+10]% [Production] [in this city] <with [Iron]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Spaceport",
@@ -137,7 +137,7 @@
 			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <with [Aluminum]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Automated Factory] is constructed> <with [Aluminum]><hidden from users>",
 			"[+10]% [Production] [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Fabrication Plant",
@@ -156,7 +156,7 @@
 			"[+5]% [Production] [in this city] <if [Assembly Plant] is constructed> <with [Coal]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Synthesis Plant] is constructed> <hidden from users>",
 			"[+20]% [Production] [in this city] <with [Microchip]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Nuclear Factory",
@@ -177,7 +177,7 @@
 			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <with [Aluminum]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Assembly Plant] is constructed> <with [Coal]><hidden from users>",
 			"[+30]% [Production] [in this city] <with [Microchip]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Synthesis Plant",
@@ -193,7 +193,7 @@
 			"[+5]% [Production] [in this city] <if [Automated Factory] is constructed> <with [Coal]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Manufacturing Plant] is constructed> <with [Coal]><hidden from users>",
 			"[+20]% [Production] [in this city] <with [Aluminum]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 		
 	//Industry for all nation cities, buildings that increase production capabilities and/or resources
@@ -290,7 +290,7 @@
 			"Consumes [1] [Electronic Component]",
 			"Provides [3] [Aircraft Parts]",
 			"[+30]% Production when constructing [Air] units [in this city] <with [Steel]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Aircraft Carrier Shipyard",
@@ -319,7 +319,7 @@
 			"Only available <in cities with a [Synthesis Plant]>",
 			"Only available <in cities with a [Synthesization Research Facility]>",
 			"Provides [3] [Aluminum]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Antimatter Production Facility",
@@ -332,7 +332,7 @@
 			"Only available <in cities with a [Antimatter Research Facility]>",
 			"Only available <in cities with a [Particle Accelerator Facility]>",
 			"Provides [4] [Antimatter]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Armored Vehicles Assembly Plant",
@@ -347,7 +347,7 @@
 			"Consumes [1] [Vehicle Parts]",
 			"Consumes [1] [Iron]",
 			"Consumes [1] [Steel]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Automated Antimatter Production Facility",
@@ -359,7 +359,7 @@
 			"Only available <in cities with a [Automated Factory]>",
 			"Only available <in cities with a [Antimatter Production Facility]>",
 			"Provides [5] [Antimatter]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Automated Aircraft Assembly Plant",
@@ -378,7 +378,7 @@
 			"Consumes [1] [Electronic Component]",
 			"Provides [4] [Aircraft Parts]",
 			"[+80]% Production when constructing [{Air}] units [in this city] <with [Microchip]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Automated Wire Manufacturing Plant",
@@ -397,7 +397,7 @@
 			"Consumes [1] [Cobalt]",
 			"Consumes [1] [Gold Ore]",
 			"Provides [8] [Wire] <with [Microchip]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Automobiles Factory",
@@ -410,7 +410,7 @@
 			"Only available [in this city] <with [Coal]> <hidden from users>",
 			"Provides [1] [Vehicle Parts] <with [Coal]>",
 			"Obsolete with [Plastics]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Battery Manufacturing Plant",
@@ -429,7 +429,7 @@
 			"Consumes [1] [Nickel]",
 			"Consumes [1] [Cobalt]",
 			"Provides [3] [Battery]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Ceramics Factory",
@@ -441,7 +441,7 @@
 			"Only available <in cities with a [Factory]>",
 			"Only available <in cities with a [Kiln]>",
 			"Provides [3] [Ceramics]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Ceramic Fibers Manufacturing Plant",
@@ -454,7 +454,7 @@
 			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [2] [Ceramics]",
 			"Provides [3] [Fibers] <with [Ceramics]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Cobalt Jewelry Manufactory",
@@ -468,7 +468,7 @@
 			"Only available [in this city] <with [Cobalt]> <hidden from users>",
 			"Consumes [2] [Cobalt]",
 			"Provides [2] [Jewelry]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Cobalt Synthesis Plant",
@@ -482,7 +482,7 @@
 			"Only available <in cities with a [Cobalt Synthesis Lab]>",
 			"[+5]% Production [in this city]",
 			"Provides [3] [Cobalt]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Dark Matter Production Facility",
@@ -495,7 +495,7 @@
 			"Only available <in cities with a [Dark Matter Research Facility]>",
 			"Only available <in cities with a [Gravitational Influxes Research Facility]>",
 			"Provides [4] [Dark Matter]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Deep Drilling Sites",
@@ -510,7 +510,7 @@
 			"Provides [2] [Uranium] <with [40]% chance> <every [2] turns> <for <2> turns>",
 			"Provides [2] [Coal] <with [65]% chance> <every [2] turns> <for <2> turns>",
 			"Provides [1] [Sulfur] <with [30]% chance> <every [2] turns> <for <2> turns>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Drilling Sites",
@@ -522,7 +522,7 @@
 			"Provides [1] [Titanium] <if [Drilling Sites] is constructed> <every [2] turns> <for <2> turns> <with [50]% chance>",
 			"Provides [1] [Aluminum]  <every [2] turns> <for <2> turns> <with [75]% chance>",
 			"Provides [1] [Iron] <every [2] turns> <for <2> turns> <with [90]% chance>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Electronic Circuit Factory",
@@ -536,7 +536,7 @@
 			"Consumes [1] [Electronic Component]",
 			"Consumes [1] [Fibers]",
 			"Provides [2] [Electronic Circuit] <with [Electronic Component]> <with [Fibers]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Electronic Component Factory",
@@ -551,7 +551,7 @@
 			"Consumes [1] [Copper]",
 			"Consumes [1] [Wire]",
 			"Provides [2] [Electronic Component]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Electronic Component Fabrication Plant",
@@ -569,7 +569,7 @@
 			"Consumes [1] [Cobalt]",
 			"Consumes [1] [Manganese]",
 			"Provides [8] [Electronic Component]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Electronic Circuit Fabrication Plant",
@@ -584,7 +584,7 @@
 			"Consumes [2] [Electronic Component]",
 			"Consumes [1] [Fibers]",
 			"Provides [5] [Electronic Circuit]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Expanded Drilling Sites",
@@ -598,7 +598,7 @@
 			"Provides [2] [Iron] <with [98]% chance> <every [2] turns> <for <2> turns>",
 			"Provides [1] [Uranium] <with [20]% chance> <every [2] turns> <for <2> turns>",
 			"Provides [1] [Coal] <with [40]% chance> <every [2] turns> <for <2> turns>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Gemstone Jewelry Manufactory",
@@ -612,7 +612,7 @@
 			"Only available [in this city] <with [Gems]> <hidden from users>",
 			"Consumes [1] [Gems]",
 			"Provides [2] [Jewelry]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Heavy Machinery Assembly Plant",
@@ -626,7 +626,7 @@
 			"Consumes [1] [Aluminum]",
 			"Consumes [2] [Steel]",
 			"Provides [4] [Machinery]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Iron Synthesis Plant",
@@ -638,7 +638,7 @@
 			"Only available <in cities with a [Synthesis Plant]>",
 			"Only available <in cities with a [Synthesization Research Facility]>",
 			"Provides [4] [Iron]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Jewelry Manufacturing Plant",
@@ -651,7 +651,7 @@
 			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Steel]",
 			"Provides [2] [Jewelry]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Kiln",
@@ -661,7 +661,7 @@
 		"requiredTech": "Pottery",
 		"uniques": [
 			"Provides [2] [Ceramics]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Launch Platform",
@@ -671,7 +671,7 @@
 		"production": 4,
 		"requiredTech": "Advanced Radio",
 		"uniques": [
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Launch Site",
@@ -680,7 +680,7 @@
 		"science": 2,
 		"requiredTech": "Satellites",
 		"uniques": [
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Machinery Assembly Plant",
@@ -693,7 +693,7 @@
 			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Steel]",
 			"Provides [1] [Machinery]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Magnet Manufacturing Plant",
@@ -710,7 +710,7 @@
 			"Consumes [1] [Cobalt]",
 			"Consumes [1] [Iron]",
 			"Provides [4] [Magnet]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Microchip Factory",
@@ -724,7 +724,7 @@
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Gold Ore]",
 			"Provides [1] [Microchip]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Microchip Fabrication Plant",
@@ -741,7 +741,7 @@
 			"Consumes [1] [Electronic Circuit]",
 			"Consumes [1] [Electronic Component]",
 			"Provides [5] [Microchip]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Microchip Fabrication Complex",
@@ -759,7 +759,7 @@
 			"Consumes [1] [Electronic Circuit]",
 			"Consumes [1] [Electronic Component]",
 			"Provides [10] [Microchip]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Nanofibers Manufacturing Plant",
@@ -770,11 +770,14 @@
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
 			"Only availabe [in this city] <with [Microchip]> <hidden from users>",
+			"Only availabe [in this city] <with [Titanium]> <hidden from users>",
 			"Only availabe [in this city] <with [Aluminum]> <hidden from users>",
-			"Consumes [1] [Titanium]",
-			"Consumes [1] [Aluminum]",
-			"[+5]% [Production] [in this city] <with [Aluminum]>",
-			"[+5]% [Production] [in this city] <with [Titanium]>",
+			"Consumes [1] [Titanium] <hidden from users>",
+			"Consumes [1] [Aluminum] <hidden from users>", 
+			"Provides [2] [Fibers] <with [Titanium]>",
+			"Provides [2] [Fibers] <with [Aluminum]>",
+			"[+5]% [Production] [in this city] <with [Aluminum]> <hidden from users>",
+			"[+5]% [Production] [in this city] <with [Titanium]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -787,7 +790,7 @@
 		"uniques": [
 			"Only available <in cities with a [Nickel Synthesis Lab]>",
 			"Provides [3] [Nickel]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Nuclear Battery Manufacturing Plant",
@@ -803,7 +806,7 @@
 			"Consumes [1] [Uranium]",
 			"Consumes [1] [Lead]",
 			"Provides [6] [Battery]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Nuclear Waste Disposal Plant",
@@ -830,7 +833,7 @@
 			"Consumes [1] [Rubber]",
 			"Consumes [1] [Oil]",
 			"Provides [3] [Fibers]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Oil Synthesis Plant",
@@ -843,7 +846,7 @@
 			"Only available <in cities with a [Oil Synthesis Lab]>",
 			"[+5]% Production [in this city]",
 			"Provides [5] [Oil]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Platinum Jewelry Manufactory",
@@ -857,7 +860,7 @@
 			"Only available [in this city] <with [Platinum]> <hidden from users>",
 			"Consumes [2] [Platinum]",
 			"Provides [2] [Jewelry]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Polyester Factory",
@@ -871,7 +874,7 @@
 			"Consumes [1] [Coal]",
 			"Consumes [1] [Rubber]",
 			"Provides [2] [Fibers]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Porcelain Factory",
@@ -886,7 +889,7 @@
 			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [2] [Ceramics]",
 			"Provides [2] [Porcelain]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Porcelain Workshop",
@@ -900,7 +903,7 @@
 			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Provides [1] [Porcelain]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Railyard",
@@ -911,7 +914,7 @@
 		"uniques": [
 			"Only available <after adopting [Industry]> <hidden from users>",
 			"[+5]% [Production] [in this city]",
-			"Destroyed when the city is captured"],	
+			"Destroyed when the city is captured <hidden from users>"],	
 	},
 	{
 		"name": "Steel Forge",
@@ -924,7 +927,7 @@
 			"Only available [in this city] <with [Iron]> <hidden from users>",
 			"Consumes [1] [Iron]",
 			"Provides [1] [Steel] <with [Iron]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Steel Mill",
@@ -939,7 +942,7 @@
 			"Consumes [2] [Iron]",
 			"Consumes [2] [Coal]",
 			"Provides [5] [Steel] <with [Iron]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Steel Production Plant",
@@ -955,7 +958,7 @@
 			"Consumes [3] [Iron]",
 			"Consumes [2] [Coal]",
 			"Provides [8] [Steel] <with [Iron]> <with [Coal]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Steel Works",
@@ -969,7 +972,7 @@
 			"Consumes [1] [Iron]",
 			"Consumes [1] [Manganese]",
 			"Provides [2] [Steel] <with [Iron]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Synthetic Rubber Manufacturing Plant",
@@ -983,7 +986,7 @@
 			"Only available [in this city] <with [Sulfur]> <hidden from users>",
 			"Consumes [1] [Sulfur]",
 			"Provides [2] [Rubber]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Titanium Synthesis Plant",
@@ -995,7 +998,7 @@
 			"Only available <in cities with a [Synthesis Plant]>",
 			"Only available <in cities with a [Synthesization Research Facility]>",
 			"Provides [3] [Titanium]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Vehicle Assembly Plant",
@@ -1011,7 +1014,7 @@
 			"Consumes [1] [Steel]",
 			"Consumes [1] [Aluminum]",
 			"Provides [3] [Vehicle Parts]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Wainwright Shop",
@@ -1019,7 +1022,7 @@
 		"production": 3,
 		"requiredTech": "The Wheel",
 		"uniques": [
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Obsolete with [Biology]"],
 	},
 	{
@@ -1037,7 +1040,7 @@
 			"Consumes [1] [Silver]",
 			"Consumes [1] [Gold Ore]",
 			"Provides [4] [Wire]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Wire Wheel Factory",
@@ -1049,7 +1052,7 @@
 			"Only available <in cities with a [Factory]>",
 			"Only available [in this city] <with [Iron]> <hidden from users>",
 			"Consumes [1] [Iron]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Obsolete with [Biology]"],
 	},
 	{
@@ -1062,7 +1065,7 @@
 			"Only available <in cities with a [Synthesis Plant]>",
 			"Only available <in cities with a [Synthesization Research Facility]>",
 			"Provides [3] [Uranium]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Zinc Jewelry Manufactory",
@@ -1076,7 +1079,7 @@
 			"Only available [in this city] <with [Zinc]> <hidden from users>",
 			"Consumes [2] [Zinc]",
 			"Provides [2] [Jewelry]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Zinc Synthesis Plant",
@@ -1088,7 +1091,7 @@
 		"uniques": [
 			"Only available <in cities with a [Zinc Synthesis Lab]>",
 			"Provides [3] [Zinc]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 
 	// Finance Pack
@@ -1099,13 +1102,13 @@
 		"cost": 700,
 		"culture": 3,
 		"happiness": 2,
-		"requiredTech": "Cloud Computing",
+		"requiredTech": "Cryptocurrency",
 		"uniques": [
 			"Only available <in cities with a [Digitalized Market]>",
 			"[+10]% [Gold] [in this city] <every [1] turns> <with [50]% chance>",
 			"[-10]% [Gold] [in this city] <every [2] turns> <with [50]% chance>",
 			"[-12]% [Gold] [in this city] <every [1] turns> <with [75]% chance> <when below [1] Happiness>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Digitalized Market",
@@ -1116,7 +1119,7 @@
 		"uniques": [
 			"Only available <in cities with a [Stock Market]>",
 			"[+5]% [Gold] [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 
 	//Happiness Pack
@@ -1218,7 +1221,7 @@
 		"uniques": [
 			"Only available <in cities with a [Cultural Preserveration Center]>",
 			"[+10]% [Culture] [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Cultural Preservation Center",
@@ -1232,7 +1235,7 @@
 			"Only available <before adopting [Industrial Focus]> <hidden from users>",
 			"Only available <after adopting [Preservationism]> <hidden from users>",
 			"[+10]% [Culture] [in this city]",
-			"Destroyed when the city is captured"],					
+			"Destroyed when the city is captured <hidden from users>"],					
 	},
 		
 	// Cultural buildings as normal for all nation states.
@@ -1363,7 +1366,7 @@
 		"requiredResource": "Iron",
 		"uniques": [
 			"New [Military] units start with [20] Experience [in this city] <with [Iron]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Basic Training Facilities",
@@ -1373,7 +1376,7 @@
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
 			"New [Military] units start with [10] Experience [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Body Armor Manufacturing Plant",
@@ -1387,7 +1390,7 @@
 			"Consumes [2] [Ceramics]",
 			"Consumes [1] [Titanium]",
 			"New [Military] units start with [15] Experience [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Chokepoints",
@@ -1397,7 +1400,7 @@
 		"requiredTech": "Military Science",
 		"uniques": [
 			"Only available <in cities with a [Military Base]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "City Fortifications",
@@ -1409,7 +1412,7 @@
 		"uniques": [
 			"Only available <in cities with a [Military Base]>",
 			"Only available <in cities with a [Chokepoints]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Defensive Trenches",
@@ -1421,7 +1424,7 @@
 		"uniques": [
 			"[-1] [Happiness] [in this city] <when at war>",
 			"[+20]% Strength bonus for [Wounded] units within [1] tiles <when at war>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Distribution Center",
@@ -1434,7 +1437,7 @@
 			"[2] Unit Supply <when at war> <with [Steel]>",
 			"[1] [Happiness] [in this city] <when not at war> <with [Steel]>",
 			"[-3] [Happiness] [in this city] <when at war> <with [Steel]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Elite Unit Training Facilities",
@@ -1447,7 +1450,7 @@
 			"Consumes [1] [Aluminum]",
 			"New [{Military}] units start with [40] Experience [in this city]",
 			"Limited to [2] per Civilization",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Exo-Skeleton Assembly Plant",
@@ -1467,7 +1470,7 @@
 			"Consumes [1] [Electronic Circuit]",
 			"Provides [2] [Robotic Parts]",
 			"New [{Military}] units start with [60] Experience [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Exo-Suit Assembly Plant",
@@ -1487,7 +1490,7 @@
 			"Consumes [3] [Electronic Circuit]",
 			"Provides [4] [Robotic Parts]",
 			"New [{Military}] units start with [150] Experience [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Firearms Manufacturing Plant",
@@ -1501,7 +1504,7 @@
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Iron]",
 			"New [{Military}] units start with [10] Experience [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Fortified Tunnels",
@@ -1510,7 +1513,7 @@
 		"requiredBuilding": "Tunnels",
 		"cityHealth": 10,
 		"requiredTech": "Military Science",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Gunpowder Factory",
@@ -1526,7 +1529,7 @@
 			"Consumes [2] [Sulfur]",
 			"All newly-trained [{Ranged Gunpowder}] units in this city receive the [Logistics] promotion",
 			"All newly-trained [{Gunpowder}] units in this city receive the [Blitz] promotion",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Gunpowder Mill",
@@ -1540,7 +1543,7 @@
 			"Only available [in this city] <with [Sulfur]> <hidden from users>",
 			"New [{Ranged Gunpowder}] units start with [10] Experience [in this city]",
 			"New [{Gunpowder}] units start with [10] Experience [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Improved Urban Defenses",
@@ -1552,7 +1555,7 @@
 			"Only available [in this city] <with [Aluminum]> <hidden from users>",
 			"Only available <in cities with a [Urban Defenses]>",
 			"Consumes [1] [Aluminum]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Integrated Firearms Manufacturing Plant",
@@ -1567,7 +1570,7 @@
 			"Consumes [1] [Steel]",
 			"Consumes [1] [Titanium]",
 			"New [Military] units start with [20] Experience [in this city] <with [Steel]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Makeshift Runway",
@@ -1577,7 +1580,7 @@
 		"cityStrength": 5, 
 		"uniques": [
 			"[+5]% [Production] [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Mechs Assembly Plant",
@@ -1598,7 +1601,7 @@
 			"Consumes [1] [Electronic Circuit]",
 			"Provides [3] [Robotic Parts]",
 			"New [{Military}] units start with [100] Experience [in this city] <with [Microchip]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Military Communications Array",
@@ -1608,7 +1611,7 @@
 		"cityStrength": 5,
 		"cityHealth": 5,
 		"requiredTech": "Radio",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Military Communication Towers",
@@ -1618,7 +1621,7 @@
 		"cityStrength": 10,
 		"cityHealth": 5,
 		"requiredTech": "Electronics",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Parabolic Antennaes",
@@ -1629,7 +1632,7 @@
 		"production": 3,
 		"cityStrength": 10,
 		"requiredTech": "Satellites",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Paved Runway",
@@ -1643,7 +1646,7 @@
 			"Only available <in cities with a [Makeshift Runway]>",
 			"[+10]% [Production] [in this city]",
 			"[+20]% Production when constructing [{Air}] units [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "SMART Firearms Manufacturing Plant",
@@ -1663,7 +1666,7 @@
 			"Consumes [1] [Electronic Circuit]",
 			"Provides [2] [Robotic Parts]",
 			"New [{Military}] units start with [30] Experience [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Special Operatives Training Facilities",
@@ -1679,7 +1682,7 @@
 			"Consumes [1] [Microchip]",
 			"New [Military] units start with [80] Experience [in this city] <with [Microchip]>",
 			"Limited to [1] per Civilization",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},	
 	{
 		"name": "Supply Depot",
@@ -1691,14 +1694,14 @@
 			"[2] Unit Supply <when not at war> <with [Steel]>",
 			"[6] Unit Supply <when at war> <with [Steel]>",
 			"[-3] [Happiness] [in this city] <when at war> <with [Steel]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Tunnels",
 		"cost": 75,
 		"cityHealth": 10,
 		"requiredTech": "Engineering",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Urban Defenses",
@@ -1709,7 +1712,7 @@
 		"requiredTech": "Military Science",
 		"uniques": [
 			"Only available [in this city] <with [Iron]> <hidden from users>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},	
 	{
 		"name": "Underground Bunker",
@@ -1719,18 +1722,18 @@
 		"requiredTech": "Mountain Mining I",
 		"uniques": [
 			"Only available <in cities with a [Military Base]>",
-			"Destroyed when the city is captured <with [50]% chance>"],
+			"Destroyed when the city is captured <hidden from users> <with [50]% chance>"],
 	},
 	{
 		"name": "Underground Compound",
 		"maintenance": 4,
 		"cost": 1500,
 		"cityHealth": 30,
-		"requiredTech": "Mountain Mining II",
+		"requiredTech": "Mountain Mining III",
 		"uniques": [
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Underground Bunker]>",
-			"Destroyed when the city is captured <with [20]% chance>"],
+			"Destroyed when the city is captured <hidden from users> <with [20]% chance>"],
 	}
 	{
 		"name": "Underground Base",
@@ -1741,7 +1744,7 @@
 		"requiredTech": "Subterranean Constructions",
 		"uniques": [
 			"Only available <in cities with a [Underground Compound]>",
-			"Destroyed when the city is captured <with [50]% chance>"],
+			"Destroyed when the city is captured <hidden from users> <with [50]% chance>"],
 	}
 
 	//Deep Sea Mining Pack
@@ -1758,7 +1761,7 @@
 			"Only available <in cities with a [Research Center]>",
 			"Must be on [Coastal]",
 			"[+5]% Science",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Deep Sea Mining Infrastructure",
@@ -1775,7 +1778,7 @@
 			"[+30]% [Production] [in this city] <with [Aluminum]>",
 			"[+10]% [Science] [in this city] <with [Aluminum]>",
 			"[+50]% [Gold] [in this city] <with [Aluminum]>",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"[+5 Production] from [Ocean] tiles [in this city] <with [Aluminum]>",
 			"[+7 Production] from [Deep Ocean] tiles [in this city] <with [Aluminum]>",
 			"[+3 Production] from [Abyssal Ocean] tiles [in this city] <with [Aluminum]>"],
@@ -1792,7 +1795,7 @@
 			"Only available <in cities with a [Deep Sea Mining Foundations]>",
 			"Must be on [Coastal]",
 			"[+10]% [Science] [in this city] <with [Aluminum]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Deep Sea Mining Operations",
@@ -1810,7 +1813,7 @@
 			"[+5]% [Science] [in this city] <with [Aluminum]>",
 			"[+5]% [Production] [in this city] <with [Aluminum]>",
 			"[+5]% [Gold] [in this city] <with [Aluminum]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Manganese Crusts Extraction Plant",
@@ -1831,7 +1834,7 @@
 			"Provides [1] [Gold Ore]",
 			"Provides [1] [Zinc]",
 			"Provides [2] [Manganese]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Polymetallic Nodules Extraction Plant",
@@ -1848,7 +1851,7 @@
 			"Provides [3] [Copper]",
 			"Provides [1] [Cobalt]",
 			"Provides [2] [Aluminum]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Polymetallic Nodules Extraction Plant [Variant A]",
@@ -1864,7 +1867,7 @@
 			"Provides [2] [Copper]",
 			"Provides [2] [Gold Ore]",
 			"Provides [1] [Aluminum]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Sulfide Deposits Extraction Plant",
@@ -1882,7 +1885,7 @@
 			"Provides [1] [Silver]",
 			"Provides [2] [Gold Ore]",
 			"Provides [2] [Zinc]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Sulfur Extraction Plant",
@@ -1896,7 +1899,7 @@
 			"Only available [in this city] <with [Sulfide Deposits]> <hidden from users>",
 			"Consumes [1] [Sulfide Deposits]",
 			"Provides [5] [Sulfur]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 
 	// Buildings that primarily produce Food and food-related aspects to the city. 
@@ -1912,7 +1915,7 @@
 			"[+3 Food] from [Farm] tiles [in this city]",
 			"[+50]% [Food] [in this city]",
 			"[+20]% [Food] [in this city] <if [Chemicals Research Lab] is constructed>",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Limited to [5] per Civilization",
 			"Must have an owned [Farm] within [1] tiles"],
 	},
@@ -1926,7 +1929,7 @@
 		"uniques": [
 			"Must be on [Coastal]",
 			"[+15]% [Food] [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Fishing Boats] within [2] tiles"],
 	},
 	{
@@ -1941,7 +1944,7 @@
 			"[+1 Food] from [Fish] tiles [in this city]",
 			"[+5]% [Food] [in this city]",
 			"Must be on [Coastal]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Aquaponics",
@@ -1952,7 +1955,7 @@
 		"uniques": [
 			"Only available <in cities with a [Aquaculture Research Lab]>",
 			"[+15]% Food [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Farming Management Center",
@@ -1968,7 +1971,7 @@
 			"[+2 Food] from [Farm] tiles [in this city]",
 			"[+10]% Food [in this city]",
 			"[+5]% Production [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Farm] within [2] tiles"],
 	},
 	{
@@ -1983,7 +1986,7 @@
 			"[+2 Food] from [Farm] tiles [in this city]",
 			"[+10]% [Food] [in this city]",
 			"[+20]% [Food] [in this city] <if [Chemicals Research Lab] is constructed>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Fish Farm",
@@ -1996,7 +1999,7 @@
 			"[+3 Food] from [Fish] tiles [in this city]",
 			"[+10]% [Food] [in this city]",
 			"Must have an owned [Fish] within [2] tiles",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "GMO Plant",
@@ -2012,7 +2015,7 @@
 			"[+30]% [Food] [in this city]",
 			"[+25]% [Food] [in this city] <if [Chemicals Research Lab] is constructed>",
 			"[+5]% [Science] [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Limited to [5] per Civilization",
 			"Must have an owned [Farm] within [1] tiles"],
 	},
@@ -2026,7 +2029,7 @@
 			"Only available <in cities with a [Aquaculture Management Center]>",
 			"Must be on [Coastal]",
 			"[+10]% Food [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Fish] within [2] tiles"],
 	},
 	{
@@ -2042,7 +2045,7 @@
 			"[+2 Food] from [Pasture] tiles [in this city]",
 			"[+10]% Food [in this city]",
 			"[+5]% Production [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Pasture] within [2] tiles"],
 	},
 	{
@@ -2055,7 +2058,7 @@
 		"uniques": [
 			"Only available <in cities with a [Market]>",
 			"[+1 Food] from [Farm] tiles [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Farm] within [1] tiles"],
 	},
 	{
@@ -2068,7 +2071,7 @@
 		"uniques": [
 			"Only available <in cities with a [Market]>",
 			"[+1 Food] from [Fish] tiles [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Fishing Boats] within [1] tiles"],
 	},
 
@@ -2243,9 +2246,9 @@
 		"cityHealth": 20,
 		"requiredTech": "Starships",
 		"uniques": [
-			"Only available <in cities with a [Orbital Station]>",
+			"Only available <in cities with a [Orbital Station]> <hidden from users>",
 			"[+20]% Strength for cities [in all cities] <if [Orbital Defense Platform] is constructed>",
-			"Cost increases by [400] per owned city",
+			"Cost increases by [400] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2313,10 +2316,10 @@
 		"requiredTech": "Starships",
 		"specialistSlots": {"Engineer": 4},
 		"uniques": [
-			"Only available <in cities with a [Orbital Station]>",
-			"Only available <in cities with a [Satellite Network]>",
+			"Only available <in cities with a [Orbital Station]> <hidden from users>",
+			"Only available <in cities with a [Satellite Network]> <hidden from users>",
 			"[+35]% Strength for cities [in all cities]",
-			"Cost increases by [1000] per owned city",
+			"Cost increases by [1000] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2329,12 +2332,12 @@
 		"cityHealth": 10,
 		"requiredTech": "Space Stations",
 		"uniques": [
-			"Only available <in cities with a [Space Station]>",
+			"Only available <in cities with a [Space Station]> <hidden from users>",
 			"[+5]% [Culture] [in this city] <hidden from users>",
 			"[+5]% [Science] [in this city] <hidden from users>",
 			"[+5]% [Production] [in this city] <hidden from users>",
 			"[+10]% Strength for cities [in all cities]",
-			"Cost increases by [200] per owned city",
+			"Cost increases by [200] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2351,11 +2354,11 @@
 		"requiredTech": "Starships",
 		"specialistSlots": {"Engineer": 2},
 		"uniques": [
-			"Only available <in cities with a [Orbital Station]>",
+			"Only available <in cities with a [Orbital Station]> <hidden from users>",
 			"[+10]% Strength for cities [in all cities]",
-			"[+10]% [Production] [in this city]",
-			"[+10]% [Science] [in this city]",
-			"Cost increases by [500] per owned city",
+			"[+10]% [Production] [in this city] <hidden from users>",
+			"[+10]% [Science] [in this city] <hidden from users>",
+			"Cost increases by [500] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2367,13 +2370,13 @@
 		"requiredTech": "Starships",
 		"specialistSlots": {"Engineer": 6},
 		"uniques": [
-			"Only available <in cities with a [Orbital Station]>",
-			"Only available <in cities with a [Orbital Shipyard]>",
-			"Only available <in cities with a [Launch Platform]>",
+			"Only available <in cities with a [Orbital Station]> <hidden from users>",
+			"Only available <in cities with a [Orbital Shipyard]> <hidden from users>",
+			"Only available <in cities with a [Launch Platform]> <hidden from users>",
 			"Only available <in cities with a [Orbital Defense Sat Array]> <hidden from users>",
 			"Only available <in cities with a [Satellite Network]> <hidden from users>",
 			"[+50]% Strength for cities [in all cities]",
-			"Cost increases by [2000] per owned city",
+			"Cost increases by [2000] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2389,10 +2392,10 @@
 		"cityStrenth": 10,
 		"requiredTech": "Satellites",
 		"uniques": [
-			"Only available <in cities with a [Launch Platform]>",
+			"Only available <in cities with a [Launch Platform]> <hidden from users>",
 			"[+10]% [Culture] [in all cities]",
 			"[+10]% [Science] [in all cities]",
-			"Cost increases by [50] per owned city",
+			"Cost increases by [50] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2408,10 +2411,10 @@
 		"requiredTech": "Space Stations",
 		"specialistSlots": {"Scientist": 2},
 		"uniques": [
-			"Only available <in cities with a [Launch Platform]>",
+			"Only available <in cities with a [Launch Platform]> <hidden from users>",
 			"[+10]% [Culture] [in this city]",
 			"[+10]% [Science] [in this city]",
-			"Cost increases by [30] per owned city",
+			"Cost increases by [30] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2429,10 +2432,10 @@
 		"requiredTech": "Antimatter",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Research Center]>",
-			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
 			"Provides [1] [Antimatter]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Aquaculture Research Lab",
@@ -2446,7 +2449,7 @@
 			"Only available <in cities with a [Research Center]>",
 			"Only available <in cities with a [Research Lab]>",
 			"Must be on [Coastal]","[+5]% [Food] [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Fish] within [2] tiles"],
 	},
 	{
@@ -2457,9 +2460,9 @@
 		"requiredTech": "Lasers",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Metallurgy Research Lab]>",
+			"Only available <in cities with a [Metallurgy Research Lab]> <hidden from users>",
 			"Provides [1] [Cobalt]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Chemicals Research Lab",
@@ -2471,7 +2474,7 @@
 			"Only available <in cities with a [Research Lab]>",
 			"[+5]% Science [in this city]",
 			"[+5]% Production [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Crop Research Center",
@@ -2487,7 +2490,7 @@
 			"[+1 Food] from [Farm] tiles [in this city]",
 			"[+5]% [Food] [in this city]",
 			"[+5]% [Science] [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Farm] within [2] tiles"],
 	},
 	{
@@ -2502,7 +2505,7 @@
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Gravitational Influxes Research Facility]>",
 			"Provides [1] [Dark Matter]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Dark Energy Research Facility",
@@ -2515,7 +2518,7 @@
 			"Only available <in cities with a [Research Center]>",
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Gravitational Influxes Research Facility]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Degenerate Matter Research Facility",
@@ -2529,7 +2532,7 @@
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Particle Accelerator Facility]>",
 			"Provides [1] [Degenerate Matter]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Extraction Methods Research Center",
@@ -2543,7 +2546,7 @@
 			"only available [in this city] <with [Aluminum]> <hidden from users>",
 			"Consumes [1] [Aluminum]",
 			"[+5]% Science [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Synthetic Fluid Research Facility",
@@ -2557,7 +2560,7 @@
 			"Only available <in cities with a [Research Center]>",
 			"Only available <in cities with a [Research Lab]>",
 			"[+5]% [Science] [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Gravitational Influxes Research Facility",
@@ -2571,7 +2574,7 @@
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Research Center]>",
 			"Only available <in cities with a [Particle Accelerator Facility]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "GMO Lab",
@@ -2588,7 +2591,7 @@
 			"[+1 Food] from [Farm] tiles [in this city]",
 			"[+10]% [Food] [in this city]",
 			"[+5]% [Science] [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Limited to [5] per Civilization",
 			"Must have an owned [Farm] within [2] tiles"],
 	},
@@ -2604,7 +2607,7 @@
 			"Only available <in cities with a [Research Center]>",
 			"Only available <in cities with a [Research Lab]>",
 			"[+5]% [Science] [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Nickel Synthesis Lab",
@@ -2617,19 +2620,19 @@
 		"uniques": [
 			"Only available <in cities with a [Metallurgy Research Lab]>",
 			"Provides [1] [Nickel]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Oil Synthesis Lab",
 		"maintenance": 10,
 		"cost": 1000,
 		"science": 5,
-		"requiredTech": "Synthetic Fluids",
+		"requiredTech": "Synthesization",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
 			"Only available <in cities with a [Fluid Research Lab]>",
 			"Provides [1] [Oil]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Particle Accelerator Facility",
@@ -2642,7 +2645,7 @@
 		"uniques": [
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Research Center]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Quantum Test Facility",
@@ -2657,7 +2660,7 @@
 			"Only available <in cities with a [Particle Accelerator Facility]>",
 			"Only available <in cities with a [Institute of Quantum Physics Research]>",
 			"Only available <in cities with a [Research Center]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Research Center",
@@ -2670,7 +2673,7 @@
 		"uniques": [
 			"Only available <in cities with a [University]>",
 			"[+10]% [Science] [in this city] <with [Iron]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Subterranean Research Facility",
@@ -2681,7 +2684,7 @@
 		"uniques": [
 			"Only available <in cities with a [Underground Lab]>",
 			"[+10]% [Science] [in this city]",
-			"Destroyed when the city is captured <with [80]% chance>"],
+			"Destroyed when the city is captured <hidden from users> <with [80]% chance>"],
 	},
 	{
 		"name": "Synthesization Research Facility",
@@ -2693,7 +2696,7 @@
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Research Center]>",
 			"Only available <in cities with a [Metallurgy Research Lab]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Underground Lab",
@@ -2704,7 +2707,7 @@
 		"uniques": [
 			"Only available <in cities with a [Research Lab]>",
 			"[+5]% [Science] [in this city]",
-			"Destroyed when the city is captured <with [50]% chance>"],
+			"Destroyed when the city is captured <hidden from users> <with [50]% chance>"],
 	},
 	{
 		"name": "Zinc Synthesis Lab",
@@ -2717,7 +2720,7 @@
 		"uniques": [
 			"Only available <in cities with a [Metallurgy Research Lab]>",
 			"Provides [1] [Zinc]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 
 	// All the medieval stuff I didn't care much for. Might provide cultural uses later on in game if I can code that in.
@@ -2728,7 +2731,7 @@
 		"maintenance": 1,
 		"production": 3,
 		"requiredTech": "Mining",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Inner Walls",
@@ -2742,7 +2745,7 @@
 			"only available <in cities with a [Walls]>",
 			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"[+2 Culture] [in this city] <during the [Information era]><hidden from users>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Stone Keep",
@@ -2756,7 +2759,7 @@
 			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Only available <in cities with a [Walls>",
 			"Obsolete with [Dynamite]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Battlements",
@@ -2768,7 +2771,7 @@
 			"Only available <in cities with a [Walls]>",
 			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Combustion]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Defensive Gate Emplacements",
@@ -2782,7 +2785,7 @@
 			"Only available <in cities with a [Walls]>",
 			"only available <in cities with a [Battlements]>",
 			"Obsolete with [Combustion]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Sewers",
@@ -2792,7 +2795,7 @@
 		"happiness": 2,
 		"requiredTech": "Engineering",
 		"uniques": [
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Defensive Towers",
@@ -2803,7 +2806,7 @@
 		"uniques": [
 			"Only available <in cities with a [Walls]>",
 			"only available <in cities with a [Battlements]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Stone Towers",
@@ -2816,7 +2819,7 @@
 			"only available <in cities with a [Walls]>",
 			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Dynamite]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Canals",
@@ -2829,7 +2832,7 @@
 		"culture": 3,
 		"uniques": [
 			"[+3 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Fortress",
@@ -2843,7 +2846,7 @@
 			"Requires at least [10] population",
 			"[+8 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Flight]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Mountain Fortress",
@@ -2860,7 +2863,7 @@
 			"Obsolete with [Electronics]",
 			"[-2] Unit Supply <when at war>",
 			"Must have an owned [Mountain] within [1] tiles <hidden from users>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Moat",
@@ -2873,7 +2876,7 @@
 			"only available <in cities with a [Stone Keep]>",
 			"only available <in cities with a [Castle]>",
 			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Obsolete with [Military Science]",
 			"Must be next to [River]"],
 	},
@@ -2885,7 +2888,7 @@
 		"requiredTech": "Printing Press",
 		"uniques": [
 			"only available <in cities with a [Library]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Archery Training",
@@ -2894,7 +2897,7 @@
 		"requiredTech": "Archery",
 		"uniques": [
 			"New [Archery] units start with [15] Experience [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Obsolete with [Gunpowder]"],
 	},
 	{
@@ -2906,7 +2909,7 @@
 		"requiredTech": "Construction",
 		"uniques": [
 			"New [Archery] units start with [25] Experience [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Obsolete with [Gunpowder]"],
 	},
 	{
@@ -2921,7 +2924,7 @@
 		"uniques": [
 			"Only available <in cities without a [Way of the Blade Training]>",
 			"New [Archery] units start with [60] Experience [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Obsolete with [Gunpowder]"],
 	},
 	{
@@ -2932,7 +2935,7 @@
 		"culture": 1,
 		"uniques": [
 			"New [Mounted] units start with [15] Experience [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Obsolete with [Gunpowder]"],
 	},
 	{
@@ -2942,7 +2945,7 @@
 		"food": -1,
 		"uniques": [
 			"New [Sword] units start with [10] Experience [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Obsolete with [Rifling]"],
 	},
 	{
@@ -2954,7 +2957,7 @@
 		"requiredTech": "Iron Working",
 		"uniques": [
 			"New [Sword] units start with [20] Experience [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Obsolete with [Rifling]"],
 	},
 	{
@@ -2969,7 +2972,7 @@
 		"uniques": [
 			"Only available <in cities without a [Ranger Training]>",
 			"New [Sword] units start with [50] Experience [in this city]",
-			"Destroyed when the city is captured",
+			"Destroyed when the city is captured <hidden from users>",
 			"Obsolete with [Rifling]"]
 	}
 ]
