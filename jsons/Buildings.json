@@ -1623,19 +1623,20 @@
 		"requiredTech": "Mountain Mining II",
 		"uniques": [
 			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Underground Bunker]>",
 			"Destroyed when the city is captured <with [20]% chance>"],
-	},
+	}
 	{
-		"name": "Underground Lab",
-		"maintenance": 2,
-		"cost": 800,
-		"cityHealth": 15,
-		"requiredTech": "Mountain Mining I",
+		"name": "Underground Base",
+		"maintenance": 7,
+		"cost": 3500,
+		"cityHealth": 40,
+		"cityStrength": 15,
+		"requiredTech": "Subterranean Construction",
 		"uniques": [
-			"Only available <in cities with a [Research Lab]>",
-			"[+5]% [Science] [in this city]",
+			"Only available <in cities with a [Underground Compound]>",
 			"Destroyed when the city is captured <with [50]% chance>"],
-	},
+	}
 
 	//Deep Sea Mining Pack
 
@@ -2443,6 +2444,21 @@
 			"Destroyed when the city is captured"],
 	},
 	{
+		"name": "Quantum Test Facility",
+		"cost": 5000,
+		"maintenance": 8,
+		"happiness": 1,
+		"science": 12,
+		"requiredTech": "Particle Physics",
+		"specialistSlots": {"Scientist": 1},
+		"uniques": [
+			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Particle Accelerator Facility]>",
+			"Only available <in cities with a [Institute of Quantum Physics Research]>",
+			"Only available <in cities with a [Research Center]>",
+			"Destroyed when the city is captured"],
+	},
+	{
 		"name": "Research Center",
 		"maintenance": 5,
 		"cost": 1000,
@@ -2456,6 +2472,17 @@
 			"Destroyed when the city is captured"],
 	},
 	{
+		"name": "Subterranean Research Facility",
+		"maintenance": 5,
+		"cost": 2500,
+		"cityHealth": 15,
+		"requiredTech": "Subterranean Construction",
+		"uniques": [
+			"Only available <in cities with a [Underground Lab]>",
+			"[+10]% [Science] [in this city]",
+			"Destroyed when the city is captured <with [80]% chance>"],
+	},
+	{
 		"name": "Synthesization Research Facility",
 		"maintenance": 9,
 		"cost": 1500,
@@ -2466,6 +2493,17 @@
 			"Only available <in cities with a [Research Center]>",
 			"Only available <in cities with a [Metallurgy Research Lab]>",
 			"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Underground Lab",
+		"maintenance": 2,
+		"cost": 800,
+		"cityHealth": 15,
+		"requiredTech": "Mountain Mining II",
+		"uniques": [
+			"Only available <in cities with a [Research Lab]>",
+			"[+5]% [Science] [in this city]",
+			"Destroyed when the city is captured <with [50]% chance>"],
 	},
 	{
 		"name": "Zinc Synthesis Lab",
