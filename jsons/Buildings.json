@@ -1062,6 +1062,34 @@
 			"Destroyed when the city is captured"],
 	},
 
+	// Finance Pack
+	// Finance Base Blocks
+
+	{
+		"name": "Crypto Market",
+		"cost": 700,
+		"culture": 3,
+		"happiness": 2,
+		"requiredTech": "Cloud Computing",
+		"uniques": [
+			"Only available <in cities with a [Digitalized Market]>",
+			"[+10]% [Gold] [in this city] <every [1] turns> <with [50]% chance>",
+			"[-10]% [Gold] [in this city] <every [2] turns> <with [50]% chance>",
+			"[-12]% [Gold] [in this city] <every [1] turns> <with [75]% chance> <when below [1] Happiness>",
+			"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Digitalized Market",
+		"maintenance": 1,
+		"cost": 1500,
+		"happiness": 1,
+		"requiredTech": "Digitalization",
+		"uniques": [
+			"Only available <in cities with a [Stock Market]>",
+			"[+5]% [Gold] [in this city]",
+			"Destroyed when the city is captured"],
+	},
+	
 	// Cultural Pack
 	// Cultural Base Blocks
 
@@ -1106,6 +1134,26 @@
 			"Only available <in cities with a [Cultural Preserveration Center]>"],		
 	},
 	{
+		"name": "Cell Tower",
+		"maintenance": 1,
+		"cost": 800,
+		"culture": 3,
+		"happiness": 1,
+		"requiredTech": "Advanced Radio",
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Only available <in cities with a [Broadcast Tower]>"],		
+	},
+	{
+		"name": "Data Center",
+		"maintenance": 3,
+		"cost": 2000,
+		"happiness": 3,
+		"requiredTech": "Digitalization",
+		"uniques": [
+			"Only available <in cities with a [Broadcast Tower]>"],		
+	},
+	{
 		"name": "Heritage Site",
 		"maintenance": 3,
 		"cost": 200,
@@ -1125,7 +1173,8 @@
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
 			"Only available <in cities with a [University]>",
-			"Only available <in cities with a [Theatre]>"],
+			"Only available <in cities with a [Theatre]>",
+			"Only available <after adopting [Preservationism]> <hidden from users>"],
 	},
 	{
 		"name": "Statues",
@@ -1183,6 +1232,18 @@
 		"requiredTech": "Electricity",
 		"uniques": [
 			"Only available <in cities with a [Cultural Preservation Center]>"],
+	},
+	{
+		"name": "The Internet",
+		"isNationalWonder": true,
+		"cost": 8000,
+		"culture": 5,
+		"happiness": 5,
+		"requiredTech": "Cloud Computing",
+		"uniques": [
+			"[+15]% [Culture] [in all cities]",
+			"[+5 Culture] [in all cities]",
+			"Only available <in cities with a [Data Center]>"],		
 	},
 		
 	// Military Pack
@@ -1731,7 +1792,7 @@
 			"Destroyed when the city is captured"],
 	},
 
-	// Buildings that primarily procude Food and food-related aspects to the city. 
+	// Buildings that primarily produce Food and food-related aspects to the city. 
 
 	{
 		"name": "Algae Farm",
@@ -1893,7 +1954,7 @@
 
 	{
 		"name": "Expiremental Weapons Testing Site",
-		"isNationalWonder": "True",
+		"isNationalWonder": true,
 		"cost": 2000,
 		"science": 10,
 		"requiredTech": "Fusion Applications",
