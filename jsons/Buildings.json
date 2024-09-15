@@ -29,7 +29,7 @@
 		"requiredTech": "Mass 3D Printing I",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
-			"Only available <after adopting [Automationism]>",
+			"Only available <after adopting [Automationism]><hidden from users>",
 			"Only available <in cities with a [Factory]> <hidden from users>",
 			"[+5]% [Production] [in this city] <if [Factory] is constructed> <with [Coal]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Manufacturing Plant] is constructed> <with [Iron]><hidden from users>",
@@ -48,7 +48,7 @@
 		"requiredTech": "Automation",
 		"specialistSlots": {"Engineer": 4},
 		"uniques": [
-			"Only available <after adopting [Beyond Factories]>",
+			"Only available <after adopting [Beyond Factories]><hidden from users>",
 			"Consumes [2] [Microchip]",
 			"Consumes [1] [Antimatter]",
 			"Only available <in cities with a [Automated Factory]> <hidden from users>",
@@ -92,7 +92,7 @@
 		"requiredTech": "Mass 3D Printing III",
 		"specialistSlots": {"Engineer": 3},
 		"uniques": [
-			"Only available <after adopting [Beyond Factories]>",
+			"Only available <after adopting [Beyond Factories]><hidden from users>",
 			"Only available <in cities with a [Automated Factory]> <hidden from users>",
 			"Only available <in cities with a [Nuclear Factory]> <hidden from users>",
 			"[+5]% [Production] [in this city] <if [Factory] is constructed> <with [Coal]><hidden from users>",
@@ -114,7 +114,7 @@
 		"requiredTech": "Compass",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
-			"Must be on [Coastal]",
+			"Must be on [Coastal]<hidden from users>",
 			"[+5]% [Production] [in this city] <if [Factory] is constructed> <with [Coal]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Manufacturing Plant] is constructed> <with [Iron]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <with [Aluminum]><hidden from users>",
@@ -122,7 +122,7 @@
 			"[+5]% [Production] [in this city] <if [Assembly Plant] is constructed> <with [Coal]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Nuclear Factory] is constructed> <with [Uranium]><hidden from users>",
 			"[+10]% Production when constructing [{Water}] units [in this city]",
-			"[+10]% [Production] [in this city] <with [Iron]>",
+			"[+10]% [Production] [in this city] <with [Iron]><hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -205,13 +205,13 @@
 		"production": 8,
 		"requiredTech": "Mass 3D Printing II",
 		"uniques": [
-			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available <in cities with a [Manufacturing Plant]> <hidden from users>",
 			"Only availabe [in this city] <with [Microchip]> <hidden from users>",
 			"Only availabe [in this city] <with [Aluminum]> <hidden from users>",
 			"Consumes [1] [Titanium]",
 			"Consumes [1] [Aluminum]",
-			"[+10]% [Production] [in this city] <with [Aluminum]>",
-			"[+10]% [Production] [in this city] <with [Titanium]>",
+			"[+10]% [Production] [in this city] <with [Aluminum]> <hidden from users>",
+			"[+10]% [Production] [in this city] <with [Titanium]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -221,7 +221,7 @@
 		"production": 3,
 		"requiredTech": "Advanced Alloys",
 		"uniques": [
-			"Only available <in cities with a [Neo Factory]>",
+			"Only available <in cities with a [Neo Factory]> <hidden from users>",
 			"Only availabe [in this city] <with [Steel]> <hidden from users>",
 			"Only availabe [in this city] <with [Aluminum]> <hidden from users>",
 			"Consumes [2] [Steel]",
@@ -236,7 +236,7 @@
 		"production": 3,
 		"requiredTech": "Advanced Alloys",
 		"uniques": [
-			"Only available <in cities with a [Neo Factory]>",
+			"Only available <in cities with a [Neo Factory]> <hidden from users>",
 			"Only availabe [in this city] <with [Iron]> <hidden from users>",
 			"Only availabe [in this city] <with [Titanium]> <hidden from users>",
 			"Consumes [2] [Iron]",
@@ -251,7 +251,7 @@
 		"production": 3,
 		"requiredTech": "Advanced Alloys",
 		"uniques": [
-			"Only available <in cities with a [Neo Factory]>",
+			"Only available <in cities with a [Neo Factory]> <hidden from users>",
 			"Only availabe [in this city] <with [Steel]> <hidden from users>",
 			"Only availabe [in this city] <with [Cobalt]> <hidden from users>",
 			"Only availabe [in this city] <with [Chromium]> <hidden from users>",
@@ -268,7 +268,7 @@
 		"production": 3,
 		"requiredTech": "Advanced Alloys",
 		"uniques": [
-			"Only available <in cities with a [Neo Factory]>",
+			"Only available <in cities with a [Neo Factory]> <hidden from users>",
 			"Only availabe [in this city] <with [Aluminum]> <hidden from users>",
 			"Only availabe [in this city] <with [Titanium]> <hidden from users>",
 			"Consumes [2] [Aluminum]",
@@ -283,7 +283,7 @@
 		"production": 3,
 		"requiredTech": "Radar",
 		"uniques": [
-			"Only available <in cities with a [Assembly Plant]>",
+			"Only available <in cities with a [Assembly Plant]> <hidden from users>",
 			"Only available [in this city] <with [Machinery]> <hidden from users>",
 			"Consumes [1] [Steel]",
 			"Consumes [1] [Machinery]",
@@ -300,7 +300,7 @@
 		"requiredTech": "Computers",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
-			"Only available <in cities with a [Shipyard]>",
+			"Only available <in cities with a [Shipyard]> <hidden from users>",
 			"[+50]% Production when constructing [Aircraft Carrier] units [in this city] <with [Aluminum]>",
 			"New [Aircraft Carrier] units start with [60] Experience [in this city] <with [Aluminum]>",
 			"Only available [in this city] <with [Aluminum]> <hidden from users>",
@@ -316,8 +316,8 @@
 		"production": 5,
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
-			"Only available <in cities with a [Synthesis Plant]>",
-			"Only available <in cities with a [Synthesization Research Facility]>",
+			"Only available <in cities with a [Synthesis Plant]> <hidden from users>",
+			"Only available <in cities with a [Synthesization Research Facility]> <hidden from users>",
 			"Provides [3] [Aluminum]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -329,8 +329,8 @@
 		"requiredTech": "Antimatter Applications",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
-			"Only available <in cities with a [Antimatter Research Facility]>",
-			"Only available <in cities with a [Particle Accelerator Facility]>",
+			"Only available <in cities with a [Antimatter Research Facility]> <hidden from users>",
+			"Only available <in cities with a [Particle Accelerator Facility]> <hidden from users>",
 			"Provides [4] [Antimatter]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -341,7 +341,7 @@
 		"production": 10,
 		"requiredTech": "Combustion",
 		"uniques": [
-			"Only available <in cities with a [Vehicle Assembly Plant]>",
+			"Only available <in cities with a [Vehicle Assembly Plant]> <hidden from users>",
 			"[+30]% Production when constructing [Armored] units [in this city] <with [Steel]>",
 			"Only available [in this city] <with [Vehicle Parts]> <hidden from users>",
 			"Consumes [1] [Vehicle Parts]",
@@ -356,8 +356,8 @@
 		"production": 15,
 		"requiredTech": "Antimatter Applications",
 		"uniques": [
-			"Only available <in cities with a [Automated Factory]>",
-			"Only available <in cities with a [Antimatter Production Facility]>",
+			"Only available <in cities with a [Automated Factory]> <hidden from users>",
+			"Only available <in cities with a [Antimatter Production Facility]> <hidden from users>",
 			"Provides [5] [Antimatter]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -369,9 +369,9 @@
 		"requiredTech": "Advanced Robotics",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
-			"Only available <in cities with a [Aircraft Assembly Plant]>",
-			"Only available [in this city] <with [Microchip]> <hidden from users>",
-			"Only available [in this city] <with [Robotic Parts]> <hidden from users>",
+			"Only available <in cities with a [Aircraft Assembly Plant]> <hidden from users>",
+			"Only available [in this city] <with [Microchip]> <hidden from users> <hidden from users>",
+			"Only available [in this city] <with [Robotic Parts]> <hidden from users> <hidden from users>",
 			"Consumes [1] [Titanium]",
 			"Consumes [1] [Microchip]",
 			"Consumes [1] [Robotic Parts]",
@@ -388,9 +388,9 @@
 		"gold": 6,
 		"requiredTech": "Electronics",
 		"uniques": [
-			"Only available <in cities with a [Wire Manufacturing Plant]>",
-			"Only available [in this city] <with [Microchip]> <hidden from users>",
-			"Only available [in this city] <with [Robotic Parts]> <hidden from users>",
+			"Only available <in cities with a [Wire Manufacturing Plant]> <hidden from users>",
+			"Only available [in this city] <with [Microchip]> <hidden from users> <hidden from users>",
+			"Only available [in this city] <with [Robotic Parts]> <hidden from users> <hidden from users>",
 			"Consumes [1] [Microchip]",
 			"Consumes [1] [Robotic Parts]",
 			"Consumes [1] [Copper]",
@@ -406,10 +406,10 @@
 		"production": 5,
 		"requiredTech": "Steam Power",
 		"uniques": [
-			"Only available <in cities with a [Factory]>",
-			"Only available [in this city] <with [Coal]> <hidden from users>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
+			"Only available [in this city] <with [Coal]> <hidden from users> <hidden from users>",
 			"Provides [1] [Vehicle Parts] <with [Coal]>",
-			"Obsolete with [Plastics]",
+			"Obsolete with [Plastics] <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -421,7 +421,7 @@
 		"gold": 1,
 		"requiredTech": "Electricity",
 		"uniques": [
-			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available <in cities with a [Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Nickel]> <hidden from users>",
 			"Only available [in this city] <with [Cobalt]> <hidden from users>",
 			"Only available [in this city] <with [Manganese]> <hidden from users>",
@@ -438,8 +438,8 @@
 		"production": 4,
 		"requiredTech": "Industrialization",
 		"uniques": [
-			"Only available <in cities with a [Factory]>",
-			"Only available <in cities with a [Kiln]>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
+			"Only available <in cities with a [Kiln]> <hidden from users>",
 			"Provides [3] [Ceramics]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -450,7 +450,7 @@
 		"production": 3,
 		"requiredTech": "Electronics",
 		"uniques": [
-			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available <in cities with a [Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [2] [Ceramics]",
 			"Provides [3] [Fibers] <with [Ceramics]>",
@@ -464,8 +464,8 @@
 		"gold": 2,
 		"requiredTech": "Industrialization",
 		"uniques": [
-			"Only available <in cities with a [Jewelry Manufacturing Plant]>",
-			"Only available [in this city] <with [Cobalt]> <hidden from users>",
+			"Only available <in cities with a [Jewelry Manufacturing Plant]> <hidden from users>",
+			"Only available [in this city] <with [Cobalt]> <hidden from users> <hidden from users>",
 			"Consumes [2] [Cobalt]",
 			"Provides [2] [Jewelry]",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -478,8 +478,8 @@
 		"production": 4,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
-			"Only available <in cities with a [Synthesis Plant]>",
-			"Only available <in cities with a [Cobalt Synthesis Lab]>",
+			"Only available <in cities with a [Synthesis Plant]> <hidden from users>",
+			"Only available <in cities with a [Cobalt Synthesis Lab]> <hidden from users>",
 			"[+5]% Production [in this city]",
 			"Provides [3] [Cobalt]",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -492,8 +492,8 @@
 		"requiredTech": "Dark Matter",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
-			"Only available <in cities with a [Dark Matter Research Facility]>",
-			"Only available <in cities with a [Gravitational Influxes Research Facility]>",
+			"Only available <in cities with a [Dark Matter Research Facility]> <hidden from users>",
+			"Only available <in cities with a [Gravitational Influxes Research Facility]> <hidden from users>",
 			"Provides [4] [Dark Matter]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -504,12 +504,13 @@
 		"production": 12,
 		"requiredTech": "Mass Drilling III",
 		"uniques": [
-			"Provides [2] [Titanium] <with [80]% chance> <every [2] turns> <for <2> turns>",
-			"Provides [3] [Aluminum] <with [95]% chance> <every [2] turns> <for <2> turns>",
-			"Provides [3] [Iron] <with [99]% chance> <every [2] turns> <for <2> turns>",
-			"Provides [2] [Uranium] <with [40]% chance> <every [2] turns> <for <2> turns>",
-			"Provides [2] [Coal] <with [65]% chance> <every [2] turns> <for <2> turns>",
-			"Provides [1] [Sulfur] <with [30]% chance> <every [2] turns> <for <2> turns>",
+			"Provides [2] [Titanium] <with [80]% chance> <every [2] turns> <for <2> turns> <hidden from users>",
+			"Provides [3] [Aluminum] <with [95]% chance> <every [2] turns> <for <2> turns> <hidden from users>",
+			"Provides [3] [Iron] <with [99]% chance> <every [2] turns> <for <2> turns> <hidden from users>",
+			"Provides [2] [Uranium] <with [40]% chance> <every [2] turns> <for <2> turns> <hidden from users>",
+			"Provides [2] [Coal] <with [65]% chance> <every [2] turns> <for <2> turns> <hidden from users>",
+			"Provides [1] [Sulfur] <with [30]% chance> <every [2] turns> <for <2> turns> <hidden from users>",
+			"Provides a variation of resources over time at differing intervals based on chance of discovery.",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -519,9 +520,10 @@
 		"production": 5,
 		"requiredTech": "Mass Drilling",
 		"uniques": [
-			"Provides [1] [Titanium] <if [Drilling Sites] is constructed> <every [2] turns> <for <2> turns> <with [50]% chance>",
-			"Provides [1] [Aluminum]  <every [2] turns> <for <2> turns> <with [75]% chance>",
-			"Provides [1] [Iron] <every [2] turns> <for <2> turns> <with [90]% chance>",
+			"Provides [1] [Titanium] <if [Drilling Sites] is constructed> <every [2] turns> <for <2> turns> <with [50]% chance> <hidden from users>",
+			"Provides [1] [Aluminum]  <every [2] turns> <for <2> turns> <with [75]% chance> <hidden from users>",
+			"Provides [1] [Iron] <every [2] turns> <for <2> turns> <with [90]% chance> <hidden from users>",
+			"Provides a variation of resources over time at differing intervals based on chance of discovery.",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -531,7 +533,7 @@
 		"production": 1,
 		"requiredTech": "Electronics",
 		"uniques": [
-			"Only available <in cities with a [Factory]>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
 			"Only available [in this city] <with [Electronic Component]> <hidden from users>",
 			"Consumes [1] [Electronic Component]",
 			"Consumes [1] [Fibers]",
@@ -546,7 +548,7 @@
 		"gold": 2,
 		"requiredTech": "Electronics",
 		"uniques": [
-			"Only available <in cities with a [Factory]>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
 			"Only available [in this city] <with [Copper]> <hidden from users>",
 			"Consumes [1] [Copper]",
 			"Consumes [1] [Wire]",
@@ -561,8 +563,8 @@
 		"gold": 2,
 		"requiredTech": "Computers",
 		"uniques": [
-			"Only available <in cities with a [Fabrication Plant]>",
-			"Only available <in cities with a [Electronic Component Factory]>",
+			"Only available <in cities with a [Fabrication Plant]> <hidden from users>",
+			"Only available <in cities with a [Electronic Component Factory]> <hidden from users>",
 			"Only available [in this city] <with [Manganese]> <hidden from users>",
 			"Consumes [1] [Copper]",
 			"Consumes [1] [Wire]",
@@ -578,8 +580,8 @@
 		"production": 2,
 		"requiredTech": "Computers",
 		"uniques": [
-			"Only available <in cities with a [Fabrication Plant]>",
-			"Only available <in cities with a [Electronic Circuit Factory]>",
+			"Only available <in cities with a [Fabrication Plant]> <hidden from users>",
+			"Only available <in cities with a [Electronic Circuit Factory]> <hidden from users>",
 			"Only available [in this city] <with [Electronic Component]> <hidden from users>",
 			"Consumes [2] [Electronic Component]",
 			"Consumes [1] [Fibers]",
@@ -593,11 +595,12 @@
 		"production": 10,
 		"requiredTech": "Mass Drilling II",
 		"uniques": [
-			"Provides [1] [Titanium] <with [60]% chance> <every [2] turns> <for <2> turns>",
-			"Provides [2] [Aluminum] <with [85]% chance> <every [2] turns> <for <2> turns>",
-			"Provides [2] [Iron] <with [98]% chance> <every [2] turns> <for <2> turns>",
-			"Provides [1] [Uranium] <with [20]% chance> <every [2] turns> <for <2> turns>",
-			"Provides [1] [Coal] <with [40]% chance> <every [2] turns> <for <2> turns>",
+			"Provides [1] [Titanium] <with [60]% chance> <every [2] turns> <for <2> turns> <hidden from users>",
+			"Provides [2] [Aluminum] <with [85]% chance> <every [2] turns> <for <2> turns> <hidden from users>",
+			"Provides [2] [Iron] <with [98]% chance> <every [2] turns> <for <2> turns> <hidden from users>",
+			"Provides [1] [Uranium] <with [20]% chance> <every [2] turns> <for <2> turns> <hidden from users>",
+			"Provides [1] [Coal] <with [40]% chance> <every [2] turns> <for <2> turns> <hidden from users>",
+			"Provides a variation of resources over time at differing intervals based on chance of discovery.",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -608,7 +611,7 @@
 		"gold": 1,
 		"requiredTech": "Industrialization",
 		"uniques": [
-			"Only available <in cities with a [Jewelry Manufacturing Plant]>",
+			"Only available <in cities with a [Jewelry Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Gems]> <hidden from users>",
 			"Consumes [1] [Gems]",
 			"Provides [2] [Jewelry]",
@@ -621,7 +624,7 @@
 		"production": 3,
 		"requiredTech": "Combustion",
 		"uniques": [
-			"Only available <in cities with a [Machinery Assembly Plant]>",
+			"Only available <in cities with a [Machinery Assembly Plant]> <hidden from users>",
 			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Aluminum]",
 			"Consumes [2] [Steel]",
@@ -635,8 +638,8 @@
 		"production": 5,
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
-			"Only available <in cities with a [Synthesis Plant]>",
-			"Only available <in cities with a [Synthesization Research Facility]>",
+			"Only available <in cities with a [Synthesis Plant]> <hidden from users>",
+			"Only available <in cities with a [Synthesization Research Facility]> <hidden from users>",
 			"Provides [4] [Iron]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -647,7 +650,7 @@
 		"production": 1,
 		"requiredTech": "Industrialization",
 		"uniques": [
-			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available <in cities with a [Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Steel]",
 			"Provides [2] [Jewelry]",
@@ -689,7 +692,7 @@
 		"production": 1,
 		"requiredTech": "Combustion",
 		"uniques": [
-			"Only available <in cities with a [Assembly Plant]>",
+			"Only available <in cities with a [Assembly Plant]> <hidden from users>",
 			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Steel]",
 			"Provides [1] [Machinery]",
@@ -704,7 +707,7 @@
 		"gold": 3,
 		"requiredTech": "Electricity",
 		"uniques": [
-			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available <in cities with a [Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Cobalt]> <hidden from users>",
 			"Consumes [1] [Nickel]",
 			"Consumes [1] [Cobalt]",
@@ -719,7 +722,7 @@
 		"production": 1,
 		"requiredTech": "Electronics",
 		"uniques": [
-			"Only available <in cities with a [Factory]>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
 			"Only available [in this city] <with [Gold ore]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Gold Ore]",
@@ -733,7 +736,7 @@
 		"production": 5,
 		"requiredTech": "Lasers",
 		"uniques": [
-			"Only available <in cities with a [Fabrication Plant]>",
+			"Only available <in cities with a [Fabrication Plant]> <hidden from users>",
 			"Only available [in this city] <with [Gold Ore]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Gold Ore]",
@@ -751,7 +754,7 @@
 		"requiredTech": "Nanotechnology",
 		"uniques": [
 			"Limited to [2] per Civilization",
-			"Only available <in cities with a [Microchip Fabrication Plant]>",
+			"Only available <in cities with a [Microchip Fabrication Plant]> <hidden from users>",
 			"Only available [in this city] <with [Gold Ore]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Gold Ore]",
@@ -768,12 +771,12 @@
 		"production": 3,
 		"requiredTech": "Nanofibers",
 		"uniques": [
-			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available <in cities with a [Manufacturing Plant]> <hidden from users>",
 			"Only availabe [in this city] <with [Microchip]> <hidden from users>",
 			"Only availabe [in this city] <with [Titanium]> <hidden from users>",
 			"Only availabe [in this city] <with [Aluminum]> <hidden from users>",
-			"Consumes [1] [Titanium] <hidden from users>",
-			"Consumes [1] [Aluminum] <hidden from users>", 
+			"Consumes [1] [Titanium]",
+			"Consumes [1] [Aluminum]", 
 			"Provides [2] [Fibers] <with [Titanium]>",
 			"Provides [2] [Fibers] <with [Aluminum]>",
 			"[+5]% [Production] [in this city] <with [Aluminum]> <hidden from users>",
@@ -788,7 +791,7 @@
 		"production": 4,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
-			"Only available <in cities with a [Nickel Synthesis Lab]>",
+			"Only available <in cities with a [Nickel Synthesis Lab]> <hidden from users>",
 			"Provides [3] [Nickel]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -800,7 +803,7 @@
 		"production": 5,
 		"requiredTech": "Particle Physics",
 		"uniques": [
-			"Only available <in cities with a [Battery Manufacturing Plant]>",
+			"Only available <in cities with a [Battery Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Microchip]> <hidden from users>",
 			"Consumes [1] [Microchip]",
 			"Consumes [1] [Uranium]",
@@ -812,12 +815,11 @@
 		"name": "Nuclear Waste Disposal Plant",
 		"maintenance": 7,
 		"cost": 1000,
-		"science": 4,
 		"production": 4,
 		"happiness": 3,
 		"requiredTech": "Nuclear Fission",
 		"uniques": [
-			"Only available <in cities with a [Nuclear Plant]>",
+			"Only available <in cities with a [Nuclear Plant]> <hidden from users>",
 			"[+5]% Production [in this city]",
 			"[+5]% Production [in this city] <if [Nuclear Factory] is constructed> <hidden from users>"],
 	},
@@ -828,7 +830,7 @@
 		"production": 1,
 		"requiredTech": "Plastics",
 		"uniques": [
-			"Only available <in cities with a [Factory]>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
 			"Only available [in this city] <with [Rubber]> <hidden from users>",
 			"Consumes [1] [Rubber]",
 			"Consumes [1] [Oil]",
@@ -842,8 +844,8 @@
 		"production": 4,
 		"requiredTech": "Synthetic Fluids",
 		"uniques": [
-			"Only available <in cities with a [Synthesis Plant]>",
-			"Only available <in cities with a [Oil Synthesis Lab]>",
+			"Only available <in cities with a [Synthesis Plant]> <hidden from users>",
+			"Only available <in cities with a [Oil Synthesis Lab]> <hidden from users>",
 			"[+5]% Production [in this city]",
 			"Provides [5] [Oil]",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -856,7 +858,7 @@
 		"gold": 2,
 		"requiredTech": "Industrialization",
 		"uniques": [
-			"Only available <in cities with a [Jewelry Manufacturing Plant]>",
+			"Only available <in cities with a [Jewelry Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Platinum]> <hidden from users>",
 			"Consumes [2] [Platinum]",
 			"Provides [2] [Jewelry]",
@@ -869,7 +871,7 @@
 		"production": 1,
 		"requiredTech": "Plastics",
 		"uniques": [
-			"Only available <in cities with a [Factory]>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
 			"Only available [in this city] <with [Rubber]> <hidden from users>",
 			"Consumes [1] [Coal]",
 			"Consumes [1] [Rubber]",
@@ -884,8 +886,8 @@
 		"production": 2,
 		"requiredTech": "Industrialization",
 		"uniques": [
-			"Only available <in cities with a [Porcelain Workshop]>",
-			"Only available <in cities with a [Factory]>",
+			"Only available <in cities with a [Porcelain Workshop]> <hidden from users>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
 			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [2] [Ceramics]",
 			"Provides [2] [Porcelain]",
@@ -899,7 +901,7 @@
 		"production": 1,
 		"requiredTech": "Masonry",
 		"uniques": [
-			"Only available <in cities with a [Kiln]>",
+			"Only available <in cities with a [Kiln]> <hidden from users>",
 			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Provides [1] [Porcelain]",
@@ -923,7 +925,7 @@
 		"production": 2,
 		"requiredTech": "Steel",
 		"uniques": [
-			"Only available <in cities with a [Forge]>",
+			"Only available <in cities with a [Forge]> <hidden from users>",
 			"Only available [in this city] <with [Iron]> <hidden from users>",
 			"Consumes [1] [Iron]",
 			"Provides [1] [Steel] <with [Iron]>",
@@ -937,7 +939,7 @@
 		"happiness": -2,
 		"requiredTech": "Electricity",
 		"uniques": [
-			"Only available <in cities with a [Steel Works]>",
+			"Only available <in cities with a [Steel Works]> <hidden from users>",
 			"Only available [in this city] <with [Coal]> <hidden from users>",
 			"Consumes [2] [Iron]",
 			"Consumes [2] [Coal]",
@@ -952,8 +954,8 @@
 		"happiness": -4,
 		"requiredTech": "Electronics",
 		"uniques": [
-			"Only available <in cities with a [Steel Mill]>",
-			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available <in cities with a [Steel Mill]> <hidden from users>",
+			"Only available <in cities with a [Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Coal]> <hidden from users>",
 			"Consumes [3] [Iron]",
 			"Consumes [2] [Coal]",
@@ -967,7 +969,7 @@
 		"production": 4,
 		"requiredTech": "Industrialization",
 		"uniques": [
-			"Only available <in cities with a [Factory]>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
 			"Only available [in this city] <with [Manganese]> <hidden from users>",
 			"Consumes [1] [Iron]",
 			"Consumes [1] [Manganese]",
@@ -982,7 +984,7 @@
 		"science": 1,
 		"requiredTech": "Biology",
 		"uniques": [
-			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available <in cities with a [Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Sulfur]> <hidden from users>",
 			"Consumes [1] [Sulfur]",
 			"Provides [2] [Rubber]",
@@ -995,8 +997,8 @@
 		"production": 10,
 		"requiredTech": "Decomposition",
 		"uniques": [
-			"Only available <in cities with a [Synthesis Plant]>",
-			"Only available <in cities with a [Synthesization Research Facility]>",
+			"Only available <in cities with a [Synthesis Plant]> <hidden from users>",
+			"Only available <in cities with a [Synthesization Research Facility]> <hidden from users>",
 			"Provides [3] [Titanium]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -1008,7 +1010,7 @@
 		"happiness": 2,
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
-			"Only available <in cities with a [Assembly Plant]>",
+			"Only available <in cities with a [Assembly Plant]> <hidden from users>",
 			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Rubber]",
 			"Consumes [1] [Steel]",
@@ -1033,7 +1035,7 @@
 		"gold": 4,
 		"requiredTech": "Electronics",
 		"uniques": [
-			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available <in cities with a [Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Gold Ore]> <hidden from users>",
 			"Consumes [1] [Copper]",
 			"Consumes [1] [Cobalt]",
@@ -1049,7 +1051,7 @@
 		"production": 4,
 		"requiredTech": "Steam Power",
 		"uniques": [
-			"Only available <in cities with a [Factory]>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
 			"Only available [in this city] <with [Iron]> <hidden from users>",
 			"Consumes [1] [Iron]",
 			"Destroyed when the city is captured <hidden from users>",
@@ -1062,7 +1064,7 @@
 		"production": 10,
 		"requiredTech": "Hadron Physics",
 		"uniques": [
-			"Only available <in cities with a [Synthesis Plant]>",
+			"Only available <in cities with a [Synthesis Plant]> <hidden from users>",
 			"Only available <in cities with a [Synthesization Research Facility]>",
 			"Provides [3] [Uranium]",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -1075,7 +1077,7 @@
 		"gold": 1,
 		"requiredTech": "Industrialization",
 		"uniques": [
-			"Only available <in cities with a [Jewelry Manufacturing Plant]>",
+			"Only available <in cities with a [Jewelry Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Zinc]> <hidden from users>",
 			"Consumes [2] [Zinc]",
 			"Provides [2] [Jewelry]",
@@ -1089,7 +1091,7 @@
 		"production": 4,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
-			"Only available <in cities with a [Zinc Synthesis Lab]>",
+			"Only available <in cities with a [Zinc Synthesis Lab]> <hidden from users>",
 			"Provides [3] [Zinc]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -1104,7 +1106,7 @@
 		"happiness": 2,
 		"requiredTech": "Cryptocurrency",
 		"uniques": [
-			"Only available <in cities with a [Digitalized Market]>",
+			"Only available <in cities with a [Digitalized Market]> <hidden from users>",
 			"[+10]% [Gold] [in this city] <every [1] turns> <with [50]% chance>",
 			"[-10]% [Gold] [in this city] <every [2] turns> <with [50]% chance>",
 			"[-12]% [Gold] [in this city] <every [1] turns> <with [75]% chance> <when below [1] Happiness>",
@@ -1117,7 +1119,7 @@
 		"happiness": 1,
 		"requiredTech": "Digitalization",
 		"uniques": [
-			"Only available <in cities with a [Stock Market]>",
+			"Only available <in cities with a [Stock Market]> <hidden from users>",
 			"[+5]% [Gold] [in this city]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -1135,14 +1137,14 @@
 		"faith": 5,
 		"requiredTech": "Artificial Intelligence",
 		"uniques": [
-			"Only available <in cities with a [Institute of Artificial Intelligence Research]>",
-			"Only available <in cities with a [Chatbots]>",
-			"[+5]% [Gold] [in this city]",
-			"[+5]% [Production] [in this city]",
-			"[+5]% [Science] [in this city]",
-			"[+5]% [Culture] [in this city]",
-			"[+5]% [Faith] [in this city]",
-			"[+5]% [Happiness] [in this city]"],		
+			"Only available <in cities with a [Institute of Artificial Intelligence Research]> <hidden from users>",
+			"Only available <in cities with a [Chatbots]> <hidden from users>",
+			"[+5]% [Gold] [in this city] <hidden from users>",
+			"[+5]% [Production] [in this city] <hidden from users>",
+			"[+5]% [Science] [in this city] <hidden from users>",
+			"[+5]% [Culture] [in this city] <hidden from users>",
+			"[+5]% [Faith] [in this city] <hidden from users>",
+			"[+5]% [Happiness] [in this city] <hidden from users>"],		
 	},
 	{
 		"name": "Chatbots",
@@ -1150,8 +1152,8 @@
 		"happiness": 2,
 		"requiredTech": "Generative Intelligence",
 		"uniques": [
-			"Only available <in cities with a [Data Center]>",
-			"Only available <in cities with a [Social Media Interacts]>"],		
+			"Only available <in cities with a [Data Center]> <hidden from users>",
+			"Only available <in cities with a [Social Media Interacts]> <hidden from users>"],		
 	},
 	{
 		"name": "Chatbots AI",
@@ -1159,8 +1161,8 @@
 		"happiness": 4,
 		"requiredTech": "Artificial Intelligence",
 		"uniques": [
-			"Only available <in cities with a [Institute of Artificial Intelligence Research]>",
-			"Only available <in cities with a [Chatbots]>"],		
+			"Only available <in cities with a [Institute of Artificial Intelligence Research]> <hidden from users>",
+			"Only available <in cities with a [Chatbots]> <hidden from users>"],		
 	},
 	{
 		"name": "Data Center",
@@ -1169,7 +1171,7 @@
 		"happiness": 3,
 		"requiredTech": "Digitalization",
 		"uniques": [
-			"Only available <in cities with a [Broadcast Tower]>"],		
+			"Only available <in cities with a [Broadcast Tower]> <hidden from users>"],		
 	},
 	{
 		"name": "Image Generators",
@@ -1177,8 +1179,8 @@
 		"happiness": 2,
 		"requiredTech": "Generative Intelligence",
 		"uniques": [
-			"Only available <in cities with a [Data Center]>",
-			"Only available <in cities with a [Social Media Interacts]>"],		
+			"Only available <in cities with a [Data Center]> <hidden from users>",
+			"Only available <in cities with a [Social Media Interacts]> <hidden from users>"],		
 	},
 	{
 		"name": "Nanitic Treatments Facility",
@@ -1187,8 +1189,8 @@
 		"happiness": 3,
 		"requiredTech": "Nanites",
 		"uniques": [
-			"Only available <in cities with a [Hospital]>",
-			"Only available <if [Institute of Technology] is constructed> <in [in capital] cities>"],		
+			"Only available <in cities with a [Hospital]> <hidden from users>",
+			"Only available <if [Institute of Technology] is constructed> <in [in capital] cities> <hidden from users>"],		
 	},
 	{
 		"name": "Quantum Data Center",
@@ -1197,7 +1199,7 @@
 		"happiness": 5,
 		"requiredTech": "Quantum Computing",
 		"uniques": [
-			"Only available <in cities with a [Data Center]>"],		
+			"Only available <in cities with a [Data Center]> <hidden from users>"],		
 	},
 	{
 		"name": "Social Media Interacts",
@@ -1205,7 +1207,7 @@
 		"happiness": 2,
 		"requiredTech": "Generative Intelligence",
 		"uniques": [
-			"Only available <in cities with a [Data Center]>"],		
+			"Only available <in cities with a [Data Center]> <hidden from users>"],		
 	},
 	
 	// Cultural Pack
@@ -1219,7 +1221,7 @@
 		"happiness": 2,
 		"requiredTech": "Radio",
 		"uniques": [
-			"Only available <in cities with a [Cultural Preserveration Center]>",
+			"Only available <in cities with a [Cultural Preserveration Center]> <hidden from users>",
 			"[+10]% [Culture] [in this city]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -1249,7 +1251,7 @@
 		"requiredTech": "Radio",
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
-			"Only available <in cities with a [Cultural Preserveration Center]>"],		
+			"Only available <in cities with a [Cultural Preserveration Center]> <hidden from users>"],		
 	},
 	{
 		"name": "Cell Tower",
@@ -1260,7 +1262,7 @@
 		"requiredTech": "Advanced Radio",
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
-			"Only available <in cities with a [Broadcast Tower]>"],		
+			"Only available <in cities with a [Broadcast Tower]> <hidden from users>"],		
 	},
 	{
 		"name": "Heritage Site",
@@ -1270,7 +1272,7 @@
 		"happiness": 3,
 		"requiredTech": "Archaeology",
 		"uniques": [
-			"Only available <in cities with a [Cultural Preserveration Center]>",
+			"Only available <in cities with a [Cultural Preserveration Center]> <hidden from users>",
 			"Only available <after adopting [Preservationism]> <hidden from users>"],		
 	},
 	{
@@ -1281,8 +1283,8 @@
 		"requiredTech": "Acoustics",
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
-			"Only available <in cities with a [University]>",
-			"Only available <in cities with a [Theatre]>",
+			"Only available <in cities with a [University]> <hidden from users>",
+			"Only available <in cities with a [Theatre]> <hidden from users>",
 			"Only available <after adopting [Preservationism]> <hidden from users>"],
 	},
 	{
@@ -1319,8 +1321,8 @@
 		"culture": 6,
 		"requiredTech": "Archaeology",
 		"uniques": [
-			"Only available <in cities with a [Cultural Preservation Center]>",
-			"Only available <in cities with a [Museum]>"],
+			"Only available <in cities with a [Cultural Preservation Center]> <hidden from users>",
+			"Only available <in cities with a [Museum]> <hidden from users>"],
 	},
 	{
 		"name": "Historical Society",
@@ -1329,8 +1331,8 @@
 		"culture": 7,
 		"requiredTech": "Archaeology",
 		"uniques": [
-			"Only available <in cities with a [Cultural Preservation Center]>",
-			"Only available <in cities with a [Museum]>"],
+			"Only available <in cities with a [Cultural Preservation Center]> <hidden from users>",
+			"Only available <in cities with a [Museum]> <hidden from users>"],
 	},
 	{
 		"name": "Cultural Language Center",
@@ -1340,7 +1342,7 @@
 		"happiness": 2, 
 		"requiredTech": "Electricity",
 		"uniques": [
-			"Only available <in cities with a [Cultural Preservation Center]>"],
+			"Only available <in cities with a [Cultural Preservation Center]> <hidden from users>"],
 	},
 	{
 		"name": "The Internet",
@@ -1352,7 +1354,7 @@
 		"uniques": [
 			"[+15]% [Culture] [in all cities]",
 			"[+5 Culture] [in all cities]",
-			"Only available <in cities with a [Data Center]>"],		
+			"Only available <in cities with a [Data Center]> <hidden from users>"],		
 	},
 		
 	// Military Pack
@@ -1385,7 +1387,7 @@
 		"production": 1,
 		"requiredTech": "Electronics",
 		"uniques": [
-			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available <in cities with a [Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [2] [Ceramics]",
 			"Consumes [1] [Titanium]",
@@ -1399,7 +1401,7 @@
 		"cityHealth": 10,
 		"requiredTech": "Military Science",
 		"uniques": [
-			"Only available <in cities with a [Military Base]>",
+			"Only available <in cities with a [Military Base]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -1445,7 +1447,7 @@
 		"cost": 1700,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": [
-			"Only available <in cities with a [Advanced Individual Training Facilities]>",
+			"Only available <in cities with a [Advanced Individual Training Facilities]> <hidden from users>",
 			"Only available [in this city] <with [Aluminum]> <hidden from users>",
 			"Consumes [1] [Aluminum]",
 			"New [{Military}] units start with [40] Experience [in this city]",
@@ -1459,7 +1461,7 @@
 		"production": 3,
 		"requiredTech": "Robotics",
 		"uniques": [
-			"Only available <in cities with a [Assembly Plant]>",
+			"Only available <in cities with a [Assembly Plant]> <hidden from users>",
 			"Only available [in this city] <with [Microchip]> <hidden from users>",
 			"Limited to [3] per Civilization",
 			"Consumes [1] [Battery]",
@@ -1479,7 +1481,7 @@
 		"production": 6,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": [
-			"Only available <in cities with a [Exo-Skeleton Assembly Plant]>",
+			"Only available <in cities with a [Exo-Skeleton Assembly Plant]> <hidden from users>",
 			"Only available [in this city] <with [Microchip]> <hidden from users>",
 			"Limited to [1] per Civilization",
 			"Consumes [1] [Battery]",
@@ -1499,7 +1501,7 @@
 		"production": 2,
 		"requiredTech": "Rifling",
 		"uniques": [
-			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available <in cities with a [Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Iron]",
@@ -1513,7 +1515,8 @@
 		"requiredBuilding": "Tunnels",
 		"cityHealth": 10,
 		"requiredTech": "Military Science",
-		"uniques": ["Destroyed when the city is captured <hidden from users>"],
+		"uniques": [
+			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
 		"name": "Gunpowder Factory",
@@ -1523,8 +1526,8 @@
 		"happiness": -3,
 		"requiredTech": "Industrialization",
 		"uniques": [
-			"Only available <in cities with a [Gunpowder Mill]>",
-			"Only available <in cities with a [Factory]>",
+			"Only available <in cities with a [Gunpowder Mill]> <hidden from users>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
 			"Only available [in this city] <with [Sulfur]> <hidden from users>",
 			"Consumes [2] [Sulfur]",
 			"All newly-trained [{Ranged Gunpowder}] units in this city receive the [Logistics] promotion",
@@ -1553,7 +1556,7 @@
 		"requiredTech": "Ballistics",
 		"uniques": [
 			"Only available [in this city] <with [Aluminum]> <hidden from users>",
-			"Only available <in cities with a [Urban Defenses]>",
+			"Only available <in cities with a [Urban Defenses]> <hidden from users>",
 			"Consumes [1] [Aluminum]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -1564,7 +1567,7 @@
 		"production": 3,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
-			"Only available <in cities with a [Firearms Manufacturing Plant]>",
+			"Only available <in cities with a [Firearms Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Steel]",
@@ -1589,7 +1592,7 @@
 		"production": 8,
 		"requiredTech": "Mechs I",
 		"uniques": [
-			"Only available <in cities with a [Assembly Plant]>",
+			"Only available <in cities with a [Assembly Plant]> <hidden from users>",
 			"Only available [in this city] <with [Microchip]> <hidden from users>",
 			"Only available [in this city] <with [Aluminum]> <hidden from users>",
 			"Limited to [4] per Civilization",
@@ -1643,7 +1646,7 @@
 		"cityStrength": 15,
 		"requiredTech": "Ballistics",
 		"uniques": [
-			"Only available <in cities with a [Makeshift Runway]>",
+			"Only available <in cities with a [Makeshift Runway]> <hidden from users>",
 			"[+10]% [Production] [in this city]",
 			"[+20]% Production when constructing [{Air}] units [in this city]",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -1655,7 +1658,7 @@
 		"production": 7,
 		"requiredTech": "Robotics",
 		"uniques": [
-			"Only available <in cities with a [Integrated Firearms Manufacturing Plant]>",
+			"Only available <in cities with a [Integrated Firearms Manufacturing Plant]> <hidden from users>",
 			"Only available [in this city] <with [Microchip]> <hidden from users>",
 			"Only available [in this city] <with [Battery]> <hidden from users>",
 			"Limited to [2] per Civilization",
@@ -1674,7 +1677,7 @@
 		"cost": 4500,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": [
-			"Only available <in cities with a [Elite Unit Training Facilities]>",
+			"Only available <in cities with a [Elite Unit Training Facilities]> <hidden from users>",
 			"Only available [in this city] <with [Microchip]> <hidden from users>",
 			"Consumes [1] [Uranium]",
 			"Consumes [1] [Aluminum]",
@@ -1721,7 +1724,7 @@
 		"cityHealth": 25,
 		"requiredTech": "Mountain Mining I",
 		"uniques": [
-			"Only available <in cities with a [Military Base]>",
+			"Only available <in cities with a [Military Base]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users> <with [50]% chance>"],
 	},
 	{
@@ -1731,8 +1734,8 @@
 		"cityHealth": 30,
 		"requiredTech": "Mountain Mining III",
 		"uniques": [
-			"Only available <in cities with a [Research Lab]>",
-			"Only available <in cities with a [Underground Bunker]>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
+			"Only available <in cities with a [Underground Bunker]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users> <with [20]% chance>"],
 	}
 	{
@@ -1743,7 +1746,7 @@
 		"cityStrength": 15,
 		"requiredTech": "Subterranean Constructions",
 		"uniques": [
-			"Only available <in cities with a [Underground Compound]>",
+			"Only available <in cities with a [Underground Compound]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users> <with [50]% chance>"],
 	}
 
@@ -1758,7 +1761,7 @@
 		"requiredTech": "Refrigeration",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Research Center]>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
 			"Must be on [Coastal]",
 			"[+5]% Science",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -1773,11 +1776,11 @@
 		"food": 1,
 		"requiredTech": "Deep Sea Mining",
 		"uniques": [
-			"Only available <in cities with a [Deep Sea Mining Operations]>",
+			"Only available <in cities with a [Deep Sea Mining Operations]> <hidden from users>",
 			"[+3 Production] from [Coast] tiles [in this city]",
-			"[+30]% [Production] [in this city] <with [Aluminum]>",
-			"[+10]% [Science] [in this city] <with [Aluminum]>",
-			"[+50]% [Gold] [in this city] <with [Aluminum]>",
+			"[+30]% [Production] [in this city] <with [Aluminum]> <hidden from users>",
+			"[+10]% [Science] [in this city] <with [Aluminum]> <hidden from users>",
+			"[+50]% [Gold] [in this city] <with [Aluminum]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"[+5 Production] from [Ocean] tiles [in this city] <with [Aluminum]>",
 			"[+7 Production] from [Deep Ocean] tiles [in this city] <with [Aluminum]>",
@@ -1792,7 +1795,7 @@
 		"requiredTech": "Electronics",
 		"specialistSlots": {"Scientist": 2},
 		"uniques": [
-			"Only available <in cities with a [Deep Sea Mining Foundations]>",
+			"Only available <in cities with a [Deep Sea Mining Foundations]> <hidden from users>",
 			"Must be on [Coastal]",
 			"[+10]% [Science] [in this city] <with [Aluminum]>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -1807,9 +1810,9 @@
 		"requiredTech": "Nanotechnology",
 		"specialistSlots": {"Engineer": 2},
 		"uniques": [
-			"Only available <in cities with a [Deep Sea Mining Research Center]>",
+			"Only available <in cities with a [Deep Sea Mining Research Center]> <hidden from users>",
 			"Discover [Deep Sea Mining]",
-			"Must be on [Coastal]",
+			"Must be on [Coastal] <hidden from users>",
 			"[+5]% [Science] [in this city] <with [Aluminum]>",
 			"[+5]% [Production] [in this city] <with [Aluminum]>",
 			"[+5]% [Gold] [in this city] <with [Aluminum]>",
@@ -1823,7 +1826,7 @@
 		"gold": 1,
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
-			"Only available <in cities with a [Extraction Methods Research Center]>",
+			"Only available <in cities with a [Extraction Methods Research Center]> <hidden from users>",
 			"Only available [in this city] <with [Manganese Crusts]> <hidden from users>",
 			"Consumes [1] [Manganese Crusts]",
 			"Provides [2] [Cobalt]",
@@ -1843,7 +1846,7 @@
 		"production": 2,
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
-			"Only available <in cities with a [Deep Sea Mining Research Center]>",
+			"Only available <in cities with a [Deep Sea Mining Research Center]> <hidden from users>",
 			"Only available [in this city] <with [Polymetallic Nodules]> <hidden from users>",
 			"Consumes [1] [Polymetallic Nodules]",
 			"Provides [2] [Titanium]",
@@ -1876,7 +1879,7 @@
 		"production": 2,
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
-			"Only available <in cities with a [Deep Sea Mining Research Center]>",
+			"Only available <in cities with a [Deep Sea Mining Research Center]> <hidden from users>",
 			"Only available [in this city] <with [Sulfide Deposits]> <hidden from users>",
 			"Consumes [1] [Sulfide Deposits]",
 			"Provides [1] [Iron]",
@@ -1895,7 +1898,7 @@
 		"happiness": -2,
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
-			"Only available <in cities with a [Deep Sea Mining Infrastructure]>",
+			"Only available <in cities with a [Deep Sea Mining Infrastructure]> <hidden from users>",
 			"Only available [in this city] <with [Sulfide Deposits]> <hidden from users>",
 			"Consumes [1] [Sulfide Deposits]",
 			"Provides [5] [Sulfur]",
@@ -1911,10 +1914,10 @@
 		"food": 30,
 		"requiredTech": "Advanced Genetics",
 		"uniques": [
-			"Only available <in cities with a [GMO Plant]>",
+			"Only available <in cities with a [GMO Plant]> <hidden from users>",
 			"[+3 Food] from [Farm] tiles [in this city]",
 			"[+50]% [Food] [in this city]",
-			"[+20]% [Food] [in this city] <if [Chemicals Research Lab] is constructed>",
+			"[+20]% [Food] [in this city] <if [Chemicals Research Lab] is constructed> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Limited to [5] per Civilization",
 			"Must have an owned [Farm] within [1] tiles"],
@@ -1927,7 +1930,7 @@
 		"requiredBuilding": "Aquaculture Management Center",
 		"requiredTech": "Ecology",
 		"uniques": [
-			"Must be on [Coastal]",
+			"Must be on [Coastal] <hidden from users>",
 			"[+15]% [Food] [in this city]",
 			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Fishing Boats] within [2] tiles"],
@@ -1943,7 +1946,7 @@
 		"uniques": [
 			"[+1 Food] from [Fish] tiles [in this city]",
 			"[+5]% [Food] [in this city]",
-			"Must be on [Coastal]",
+			"Must be on [Coastal] <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -1953,7 +1956,7 @@
 		"food": 5,
 		"requiredTech": "Ecology",
 		"uniques": [
-			"Only available <in cities with a [Aquaculture Research Lab]>",
+			"Only available <in cities with a [Aquaculture Research Lab]> <hidden from users>",
 			"[+15]% Food [in this city]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -1967,10 +1970,10 @@
 		"requiredBuilding": "Granary",
 		"requiredTech": "Computers",
 		"uniques": [
-			"Only available <in cities with a [Granary]>",
+			"Only available <in cities with a [Granary]> <hidden from users>",
 			"[+2 Food] from [Farm] tiles [in this city]",
 			"[+10]% Food [in this city]",
-			"[+5]% Production [in this city]",
+			"[+e3]% Production [in this city]",
 			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Farm] within [2] tiles"],
 	},
@@ -1982,7 +1985,7 @@
 		"food": 4,
 		"requiredTech": "Fertilizer",
 		"uniques": [
-			"Only available <in cities with a [Factory]>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
 			"[+2 Food] from [Farm] tiles [in this city]",
 			"[+10]% [Food] [in this city]",
 			"[+20]% [Food] [in this city] <if [Chemicals Research Lab] is constructed>",
@@ -1995,7 +1998,7 @@
 		"food": 6,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": [
-			"Only available <in cities with a [Aquaculture Management Center]>",
+			"Only available <in cities with a [Aquaculture Management Center]> <hidden from users>",
 			"[+3 Food] from [Fish] tiles [in this city]",
 			"[+10]% [Food] [in this city]",
 			"Must have an owned [Fish] within [2] tiles",
@@ -2010,11 +2013,11 @@
 		"food": 15,
 		"requiredTech": "Genetics",
 		"uniques": [
-			"Only available <in cities with a [GMO Lab]>",
+			"Only available <in cities with a [GMO Lab]> <hidden from users>",
 			"[+2 Food] from [Farm] tiles [in this city]",
 			"[+30]% [Food] [in this city]",
-			"[+25]% [Food] [in this city] <if [Chemicals Research Lab] is constructed>",
-			"[+5]% [Science] [in this city]",
+			"[+25]% [Food] [in this city] <if [Chemicals Research Lab] is constructed> <hidden from users>",
+			"[+5]% [Science] [in this city] <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Limited to [5] per Civilization",
 			"Must have an owned [Farm] within [1] tiles"],
@@ -2026,8 +2029,8 @@
 		"food": 4,
 		"requiredTech": "Ecology",
 		"uniques": [
-			"Only available <in cities with a [Aquaculture Management Center]>",
-			"Must be on [Coastal]",
+			"Only available <in cities with a [Aquaculture Management Center]> <hidden from users>",
+			"Must be on [Coastal] <hidden from users>",
 			"[+10]% Food [in this city]",
 			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Fish] within [2] tiles"],
@@ -2041,10 +2044,10 @@
 		"food": 2,
 		"requiredTech": "Computers",
 		"uniques": [
-			"Only available <in cities with a [Granary]>",
+			"Only available <in cities with a [Granary]> <hidden from users>",
 			"[+2 Food] from [Pasture] tiles [in this city]",
 			"[+10]% Food [in this city]",
-			"[+5]% Production [in this city]",
+			"[+5]% Production [in this city] <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Pasture] within [2] tiles"],
 	},
@@ -2056,7 +2059,7 @@
 		"gold": 1,
 		"requiredTech": "Pottery",
 		"uniques": [
-			"Only available <in cities with a [Market]>",
+			"Only available <in cities with a [Market]> <hidden from users>",
 			"[+1 Food] from [Farm] tiles [in this city]",
 			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Farm] within [1] tiles"],
@@ -2069,7 +2072,7 @@
 		"gold": 1,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"Only available <in cities with a [Market]>",
+			"Only available <in cities with a [Market]> <hidden from users>",
 			"[+1 Food] from [Fish] tiles [in this city]",
 			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Fishing Boats] within [1] tiles"],
@@ -2087,7 +2090,7 @@
 		"uniques": [
 			"[+5]% Science [in this city]",
 			"[+15]% Science [in this city] <when at war> <hidden from users>",
-			"Cost increases by [200] per owned city",
+			"Cost increases by [200] per owned city <hidden from users>",
 			"Cannot be purchase <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2115,7 +2118,7 @@
 		"specialistSlots": {"Artist": 3},
 		"requiredTech": "Archaeology",
 		"uniques": [
-			"Only available <in cities with [Cultural Preservation Center]>",
+			"Only available <in cities with [Cultural Preservation Center]> <hidden from users>",
 			"[+40]% [Culture] [in this city]",
 			"[+5 Culture] [in all cities]",
 			"Cannot be purchased <hidden from users>",
@@ -2132,7 +2135,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
 			"[+5]% Science [in this city]",
-			"Cost increases by [100] per owned city",
+			"Cost increases by [100] per owned city <hidden from users>",
 			"Cannot be purchase <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2146,9 +2149,9 @@
 		"specialistSlots": {"Scientist": 3},
 		"uniques": [
 			"[+10]% Science [in this city]",
-			"Only available <in cities with a [Research Center]>",
-			"Only available <in cities with a [Research Lab]>",
-			"Cost increases by [200] per owned city",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
+			"Cost increases by [200] per owned city <hidden from users>",
 			"Cannot be purchase <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2162,8 +2165,8 @@
 		"specialistSlots": {"Scientist": 2},
 		"uniques": [
 			"[+5]% Science [in this city]",
-			"Only available <in cities with a [National Genome Research Institute]>",
-			"Cost increases by [100] per owned city",
+			"Only available <in cities with a [National Genome Research Institute]> <hidden from users>",
+			"Cost increases by [100] per owned city <hidden from users>",
 			"Cannot be purchase <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2177,8 +2180,8 @@
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
 			"[+10]% Science [in this city]",
-			"Only available <in cities with a [Institute of Technology]>",
-			"Cost increases by [100] per owned city",
+			"Only available <in cities with a [Institute of Technology]> <hidden from users>",
+			"Cost increases by [100] per owned city <hidden from users>",
 			"Cannot be purchase <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2192,8 +2195,8 @@
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
 			"[+5]% Science [in this city]",
-			"Only available <in cities with a [Institute of Technology]>",
-			"Cost increases by [40] per owned city",
+			"Only available <in cities with a [Institute of Technology]> <hidden from users>",
+			"Cost increases by [40] per owned city <hidden from users>",
 			"Cannot be purchase <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2210,8 +2213,8 @@
 		"specialistSlots": {"Engineer": 3},
 		"uniques": [
 			"New [Military] units start with [60] Experience [in this city]",
-			"[+5]% Science [in this city]",
-			"Cost increases by [50] per owned city",
+			"[+5]% Science [in this city] <hidden from users>",
+			"Cost increases by [50] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2230,7 +2233,7 @@
 		"uniques": [
 			"[+40]% [Culture] [in this city]",
 			"[+3]% [Science] [in this city]",
-			"Cost increases by [50] per owned city",
+			"Cost increases by [50] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2247,7 +2250,7 @@
 		"requiredTech": "Starships",
 		"uniques": [
 			"Only available <in cities with a [Orbital Station]> <hidden from users>",
-			"[+20]% Strength for cities [in all cities] <if [Orbital Defense Platform] is constructed>",
+			"[+20]% Strength for cities [in all cities] <if [Orbital Defense Platform] is constructed> <hidden from users>",
 			"Cost increases by [400] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
@@ -2263,10 +2266,10 @@
 		"culture": 3,
 		"requiredTech": "Space Exploration I",
 		"uniques": [
-			"Only available <in cities with a [Launch Platform]>",
+			"Only available <in cities with a [Launch Platform]> <hidden from users>",
 			"[+5]% [Culture] [in this city]",
 			"[+5]% [Science] [in this city]",
-			"Cost increases by [50] per owned city",
+			"Cost increases by [50] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2281,11 +2284,11 @@
 		"culture": 3,
 		"requiredTech": "Space Exploration II",
 		"uniques": [
-			"Only available <in cities with a [Spaceport]>",
-			"Only available <in cities with a [Explore Space I]>",
+			"Only available <in cities with a [Spaceport]> <hidden from users>",
+			"Only available <in cities with a [Explore Space I]> <hidden from users>",
 			"[+10]% [Culture] [in this city]",
 			"[+10]% [Science] [in this city]",
-			"Cost increases by [50] per owned city",
+			"Cost increases by [50] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2300,11 +2303,11 @@
 		"culture": 10,
 		"requiredTech": "Space Exploration III",
 		"uniques": [
-			"Only available <in cities with a [Spaceport]>",
-			"Only available <in cities with a [Explore Space II]>",
+			"Only available <in cities with a [Spaceport]> <hidden from users>",
+			"Only available <in cities with a [Explore Space II]> <hidden from users>",
 			"[+20]% [Culture] [in this city]",
 			"[+15]% [Science] [in this city]",
-			"Cost increases by [50] per owned city",
+			"Cost increases by [50] per owned city <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2446,8 +2449,8 @@
 		"requiredTech": "Ecology",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Research Center]>",
-			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
 			"Must be on [Coastal]","[+5]% [Food] [in this city]",
 			"Destroyed when the city is captured <hidden from users>",
 			"Must have an owned [Fish] within [2] tiles"],
@@ -2471,7 +2474,7 @@
 		"science": 5,
 		"requiredTech": "Plastics",
 		"uniques": [
-			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
 			"[+5]% Science [in this city]",
 			"[+5]% Production [in this city]",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2486,7 +2489,7 @@
 		"requiredTech": "Biology",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Research Center]>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
 			"[+1 Food] from [Farm] tiles [in this city]",
 			"[+5]% [Food] [in this city]",
 			"[+5]% [Science] [in this city]",
@@ -2501,9 +2504,9 @@
 		"requiredTech": "Dark Matter",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Research Center]>",
-			"Only available <in cities with a [Research Lab]>",
-			"Only available <in cities with a [Gravitational Influxes Research Facility]>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
+			"Only available <in cities with a [Gravitational Influxes Research Facility]> <hidden from users>",
 			"Provides [1] [Dark Matter]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -2515,9 +2518,9 @@
 		"requiredTech": "Dark Energy",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Research Center]>",
-			"Only available <in cities with a [Research Lab]>",
-			"Only available <in cities with a [Gravitational Influxes Research Facility]>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
+			"Only available <in cities with a [Gravitational Influxes Research Facility]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -2528,9 +2531,9 @@
 		"requiredTech": "Degenerate Matter",
 		"specialistSlots": {"Scientist": 2},
 		"uniques": [
-			"Only available <in cities with a [Research Center]>",
-			"Only available <in cities with a [Research Lab]>",
-			"Only available <in cities with a [Particle Accelerator Facility]>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
+			"Only available <in cities with a [Particle Accelerator Facility]> <hidden from users>",
 			"Provides [1] [Degenerate Matter]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -2542,7 +2545,7 @@
 		"science": 1,
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
-			"Only available <in cities with a [Research Center]>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
 			"only available [in this city] <with [Aluminum]> <hidden from users>",
 			"Consumes [1] [Aluminum]",
 			"[+5]% Science [in this city]",
@@ -2557,8 +2560,8 @@
 		"specialistSlots": {"Scientist": 2},
 		"requiredTech": "Synthesization",
 		"uniques": [
-			"Only available <in cities with a [Research Center]>",
-			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
 			"[+5]% [Science] [in this city]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -2571,9 +2574,9 @@
 		"requiredTech": "Hadron Physics",
 		"specialistSlots": {"Scientist": 2},
 		"uniques": [
-			"Only available <in cities with a [Research Lab]>",
-			"Only available <in cities with a [Research Center]>",
-			"Only available <in cities with a [Particle Accelerator Facility]>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
+			"Only available <in cities with a [Particle Accelerator Facility]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -2586,8 +2589,8 @@
 		"requiredTech": "Ecology",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Crop Research Center]>",
-			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Crop Research Center]> <hidden from users>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
 			"[+1 Food] from [Farm] tiles [in this city]",
 			"[+10]% [Food] [in this city]",
 			"[+5]% [Science] [in this city]",
@@ -2604,8 +2607,8 @@
 		"specialistSlots": {"Scientist": 1},
 		"requiredTech": "Refrigeration",
 		"uniques": [
-			"Only available <in cities with a [Research Center]>",
-			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
 			"[+5]% [Science] [in this city]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -2618,7 +2621,7 @@
 		"requiredTech": "Lasers",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Metallurgy Research Lab]>",
+			"Only available <in cities with a [Metallurgy Research Lab]> <hidden from users>",
 			"Provides [1] [Nickel]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -2630,7 +2633,7 @@
 		"requiredTech": "Synthesization",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Fluid Research Lab]>",
+			"Only available <in cities with a [Fluid Research Lab]> <hidden from users>",
 			"Provides [1] [Oil]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -2643,7 +2646,7 @@
 		"requiredTech": "Particle Physics",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
 			"Only available <in cities with a [Research Center]>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -2656,10 +2659,10 @@
 		"requiredTech": "Particle Physics",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Research Lab]>",
-			"Only available <in cities with a [Particle Accelerator Facility]>",
-			"Only available <in cities with a [Institute of Quantum Physics Research]>",
-			"Only available <in cities with a [Research Center]>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
+			"Only available <in cities with a [Particle Accelerator Facility]> <hidden from users>",
+			"Only available <in cities with a [Institute of Quantum Physics Research]> <hidden from users>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -2671,7 +2674,7 @@
 		"requiredTech": "Scientific Theory",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [University]>",
+			"Only available <in cities with a [University]> <hidden from users>",
 			"[+10]% [Science] [in this city] <with [Iron]>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -2682,7 +2685,7 @@
 		"cityHealth": 15,
 		"requiredTech": "Subterranean Constructions",
 		"uniques": [
-			"Only available <in cities with a [Underground Lab]>",
+			"Only available <in cities with a [Underground Lab]> <hidden from users>",
 			"[+10]% [Science] [in this city]",
 			"Destroyed when the city is captured <hidden from users> <with [80]% chance>"],
 	},
@@ -2693,9 +2696,9 @@
 		"science": 5,
 		"requiredTech": "Synthesization",
 		"uniques": [
-			"Only available <in cities with a [Research Lab]>",
-			"Only available <in cities with a [Research Center]>",
-			"Only available <in cities with a [Metallurgy Research Lab]>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
+			"Only available <in cities with a [Metallurgy Research Lab]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -2705,7 +2708,7 @@
 		"cityHealth": 15,
 		"requiredTech": "Mountain Mining II",
 		"uniques": [
-			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
 			"[+5]% [Science] [in this city]",
 			"Destroyed when the city is captured <hidden from users> <with [50]% chance>"],
 	},
@@ -2718,7 +2721,7 @@
 		"requiredTech": "Lasers",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Metallurgy Research Lab]>",
+			"Only available <in cities with a [Metallurgy Research Lab]> <hidden from users>",
 			"Provides [1] [Zinc]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -2741,8 +2744,8 @@
 		"requiredTech": "Construction",
 		"uniques": [
 			"<hidden from users>",
-			"only available <in cities with a [Battlements]>",
-			"only available <in cities with a [Walls]>",
+			"only available <in cities with a [Battlements]> <hidden from users>",
+			"only available <in cities with a [Walls]> <hidden from users>",
 			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"[+2 Culture] [in this city] <during the [Information era]><hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2755,9 +2758,9 @@
 		"cityHealth": 25,
 		"requiredTech": "Construction",
 		"uniques": [
-			"only available <in cities with a [Battlements]>",
+			"only available <in cities with a [Battlements]> <hidden from users>",
 			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
-			"Only available <in cities with a [Walls>",
+			"Only available <in cities with a [Walls]> <hidden from users>",
 			"Obsolete with [Dynamite]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -2768,7 +2771,7 @@
 		"cityHealth": 20,
 		"requiredTech": "Engineering",
 		"uniques": [
-			"Only available <in cities with a [Walls]>",
+			"Only available <in cities with a [Walls]> <hidden from users>",
 			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Combustion]",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2782,8 +2785,8 @@
 		"requiredTech": "Physics",
 		"uniques": [
 			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
-			"Only available <in cities with a [Walls]>",
-			"only available <in cities with a [Battlements]>",
+			"Only available <in cities with a [Walls]> <hidden from users>",
+			"only available <in cities with a [Battlements]> <hidden from users>",
 			"Obsolete with [Combustion]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
@@ -2804,8 +2807,8 @@
 		"citystrength": 15,
 		"requiredTech": "Military Science",
 		"uniques": [
-			"Only available <in cities with a [Walls]>",
-			"only available <in cities with a [Battlements]>",
+			"Only available <in cities with a [Walls]> <hidden from users>",
+			"only available <in cities with a [Battlements]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -2815,8 +2818,8 @@
 		"citystrength": 10,
 		"requiredTech": "Engineering",
 		"uniques": [
-			"Only available <in cities with a [Battlements]>",
-			"only available <in cities with a [Walls]>",
+			"Only available <in cities with a [Battlements]> <hidden from users>",
+			"only available <in cities with a [Walls]> <hidden from users>",
 			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Dynamite]",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2842,8 +2845,8 @@
 		"citystrength": 25,
 		"requiredTech": "Physics",
 		"uniques": [
-			"Only available <in cities with a [Castle]>",
-			"Requires at least [10] population",
+			"Only available <in cities with a [Castle]> <hidden from users>",
+			"Requires at least [20] population",
 			"[+8 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Flight]",
 			"Destroyed when the city is captured <hidden from users>"],
@@ -2858,7 +2861,7 @@
 		"uniques": [
 			"Only available <in cities with a [Castle]><hidden from users>",
 			"Only available <in cities with a [Fortress]><hidden from users>",
-			"Requires at least [15] population",
+			"Requires at least [30] population",
 			"[+12 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Electronics]",
 			"[-2] Unit Supply <when at war>",
@@ -2872,9 +2875,9 @@
 		"happiness": -1,
 		"requiredTech": "Physics",
 		"uniques": [
-			"Only available <in cities with a [Walls]>",
-			"only available <in cities with a [Stone Keep]>",
-			"only available <in cities with a [Castle]>",
+			"Only available <in cities with a [Walls]> <hidden from users>",
+			"only available <in cities with a [Stone Keep]> <hidden from users>",
+			"only available <in cities with a [Castle]> <hidden from users>",
 			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Obsolete with [Military Science]",
@@ -2887,7 +2890,7 @@
 		"happiness": 2,
 		"requiredTech": "Printing Press",
 		"uniques": [
-			"only available <in cities with a [Library]>",
+			"only available <in cities with a [Library]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
