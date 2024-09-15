@@ -762,6 +762,22 @@
 			"Destroyed when the city is captured"],
 	},
 	{
+		"name": "Nanofibers Manufacturing Plant",
+		"maintenance": 2,
+		"cost": 3000,
+		"production": 3,
+		"requiredTech": "Nanofibers",
+		"uniques": [
+			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only availabe [in this city] <with [Microchip]> <hidden from users>",
+			"Only availabe [in this city] <with [Aluminum]> <hidden from users>",
+			"Consumes [1] [Titanium]",
+			"Consumes [1] [Aluminum]",
+			"[+5]% [Production] [in this city] <with [Aluminum]>",
+			"[+5]% [Production] [in this city] <with [Titanium]>",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
+	{
 		"name": "Nickel Synthesis Plant",
 		"maintenance": 5,
 		"cost": 2000,
@@ -1089,6 +1105,54 @@
 			"[+5]% [Gold] [in this city]",
 			"Destroyed when the city is captured"],
 	},
+
+	//Happiness Pack
+	
+	{
+		"name": "Chatbots",
+		"cost": 300,
+		"happiness": 2,
+		"requiredTech": "Generative Intelligence",
+		"uniques": [
+			"Only available <in cities with a [Data Center]>",
+			"Only available <in cities with a [Social Media Interacts]>"],		
+	},
+	{
+		"name": "Data Center",
+		"maintenance": 3,
+		"cost": 2000,
+		"happiness": 3,
+		"requiredTech": "Digitalization",
+		"uniques": [
+			"Only available <in cities with a [Broadcast Tower]>"],		
+	},
+	{
+		"name": "Image Generators",
+		"cost": 300,
+		"happiness": 2,
+		"requiredTech": "Generative Intelligence",
+		"uniques": [
+			"Only available <in cities with a [Data Center]>",
+			"Only available <in cities with a [Social Media Interacts]>"],		
+	},
+	{
+		"name": "Nanitic Treatments Facility",
+		"maintenance": 3,
+		"cost": 1500,
+		"happiness": 3,
+		"requiredTech": "Nanites",
+		"uniques": [
+			"Only available <in cities with a [Hospital]>",
+			"Only available <if [Institute of Technology] is constructed> <in [in capital] cities>"],		
+	},
+	{
+		"name": "Social Media Interacts",
+		"cost": 300,
+		"happiness": 2,
+		"requiredTech": "Generative Intelligence",
+		"uniques": [
+			"Only available <in cities with a [Data Center]>"],		
+	},
 	
 	// Cultural Pack
 	// Cultural Base Blocks
@@ -1141,15 +1205,6 @@
 		"happiness": 1,
 		"requiredTech": "Advanced Radio",
 		"specialistSlots": {"Artist": 1},
-		"uniques": [
-			"Only available <in cities with a [Broadcast Tower]>"],		
-	},
-	{
-		"name": "Data Center",
-		"maintenance": 3,
-		"cost": 2000,
-		"happiness": 3,
-		"requiredTech": "Digitalization",
 		"uniques": [
 			"Only available <in cities with a [Broadcast Tower]>"],		
 	},
@@ -1796,6 +1851,21 @@
 	// Buildings that primarily produce Food and food-related aspects to the city. 
 
 	{
+		"name": "Advanced GMO Plant",
+		"maintenance": 12,
+		"cost": 6000,
+		"food": 30,
+		"requiredTech": "Advanced Genetics",
+		"uniques": [
+			"Only available <in cities with a [GMO Plant]>",
+			"[+3 Food] from [Farm] tiles [in this city]",
+			"[+50]% [Food] [in this city]",
+			"[+20]% [Food] [in this city] <if [Chemicals Research Lab] is constructed>",
+			"Destroyed when the city is captured",
+			"Limited to [5] per Civilization",
+			"Must have an owned [Farm] within [1] tiles"],
+	},
+	{
 		"name": "Algae Farm",
 		"maintenance": 4,
 		"cost": 900,
@@ -1884,11 +1954,11 @@
 		"science": 8,
 		"production": 5,
 		"food": 15,
-		"requiredTech": "Ecology",
+		"requiredTech": "Genetics",
 		"uniques": [
 			"Only available <in cities with a [GMO Lab]>",
-			"[+3 Food] from [Farm] tiles [in this city]",
-			"[+50]% [Food] [in this city]",
+			"[+2 Food] from [Farm] tiles [in this city]",
+			"[+30]% [Food] [in this city]",
 			"[+25]% [Food] [in this city] <if [Chemicals Research Lab] is constructed>",
 			"[+5]% [Science] [in this city]",
 			"Destroyed when the city is captured",
