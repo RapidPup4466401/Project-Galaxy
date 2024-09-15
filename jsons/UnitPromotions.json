@@ -1,1 +1,29 @@
-
+[
+    {
+        "name": "Orbital I",
+		"uniques": ["[+1] Movement","[+10] Sight","Unavailable"],
+		"unitTypes": ["Fighter","Bomber","Helicopter"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        "row": 10,
+        "column": 0
+    },
+    {
+        "name": "Orbital II",
+        "uniques": ["[+1] Movement","[+10] Sight","Unavailable"],		
+        "unitTypes": ["Fighter","Bomber","Helicopter"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        "row": 10,
+        "column": 2
+    },
+    {
+        "name": "Orbital III",
+        "uniques": ["[+1] Movement","[+10] Sight","[1] additional attacks per turn","Unavailable"],		
+        "unitTypes": ["Fighter","Bomber","Helicopter"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        "row": 10,
+        "column": 4
+    },
+]
