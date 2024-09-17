@@ -505,6 +505,12 @@
 				"prerequisites": ["Advanced Simulations","Metagenesis","Super Intelligence"],
 				"quote": "'True cloning, not that off-brand one that takes your DNA and 'grows' a second you. - ???"
 			}
+			{
+				"name": "Darkmatter Applications",
+				"row": 9,
+				"prerequisites": ["Advanced Simulations","Darkmatter","Dark Energy","Super Intelligence"],
+				"quote": "'Using dark  matter for war and peace? Let us see where it takes us. - ???"
+			}
 		]
 	},
 	{
