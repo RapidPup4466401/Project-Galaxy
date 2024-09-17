@@ -507,7 +507,7 @@
 			}
 			{
 				"name": "Darkmatter Applications",
-				"row": 9,
+				"row": 12,
 				"prerequisites": ["Advanced Simulations","Darkmatter","Dark Energy","Super Intelligence"],
 				"quote": "'Using dark  matter for war and peace? Let us see where it takes us. - ???"
 			}
@@ -523,7 +523,7 @@
 			{
 				"name": "Future Tech",
 				"row": 7,
-				"prerequisites": ["Gates","Wormholes","Terraform","Cloning"],
+				"prerequisites": ["Gates","Wormholes","Terraform","Cloning","Darkmatter Applications"],
 				"quote": "'To the future, and beyond!' - ???"
 			}
 		]
