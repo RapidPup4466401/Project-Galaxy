@@ -508,7 +508,7 @@
 			{
 				"name": "Darkmatter Applications",
 				"row": 12,
-				"prerequisites": ["Advanced Simulations","Darkmatter","Dark Energy","Super Intelligence"],
+				"prerequisites": ["Advanced Simulations","Dark Matter","Dark Energy","Super Intelligence"],
 				"quote": "'Using dark  matter for war and peace? Let us see where it takes us. - ???"
 			}
 		]
