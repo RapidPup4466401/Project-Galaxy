@@ -1,0 +1,1147 @@
+
+game.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Additive Manufacturing Plant
+  rotate: false
+  xy: 4, 1812
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Advanced Individual Training Facilities
+  rotate: false
+  xy: 4, 1604
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Algae Farm
+  rotate: false
+  xy: 212, 1812
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Aquaculture Management Center
+  rotate: false
+  xy: 4, 1396
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Armored Vehicles Assembly Plant
+  rotate: false
+  xy: 212, 1604
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Arts Studios
+  rotate: false
+  xy: 420, 1812
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Assembly Plant
+  rotate: false
+  xy: 4, 1188
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Automated Factory
+  rotate: false
+  xy: 212, 1396
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Basic Training Facilities
+  rotate: false
+  xy: 420, 1604
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Body Armor Manufacturing Plant
+  rotate: false
+  xy: 628, 1812
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cell Tower
+  rotate: false
+  xy: 4, 980
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Chatbots
+  rotate: false
+  xy: 212, 1188
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Chatbots AI
+  rotate: false
+  xy: 420, 1396
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/City Fortifications
+  rotate: false
+  xy: 628, 1604
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Community Center
+  rotate: false
+  xy: 836, 1812
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Crypto Market
+  rotate: false
+  xy: 4, 772
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cultural Preservation Center
+  rotate: false
+  xy: 212, 980
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Data Center
+  rotate: false
+  xy: 420, 1188
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Defensive Trenches
+  rotate: false
+  xy: 628, 1396
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Digitalized Market
+  rotate: false
+  xy: 836, 1604
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Elite Unit Training Facilities
+  rotate: false
+  xy: 1044, 1812
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fabrication Plant
+  rotate: false
+  xy: 4, 564
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Farming Management Center
+  rotate: false
+  xy: 212, 772
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fortified Tunnels
+  rotate: false
+  xy: 420, 980
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Heavy Machinery Assembly Plant
+  rotate: false
+  xy: 628, 1188
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Heritage Site
+  rotate: false
+  xy: 836, 1396
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Historical Society
+  rotate: false
+  xy: 1044, 1604
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Image Generators
+  rotate: false
+  xy: 1252, 1812
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Large Monument
+  rotate: false
+  xy: 4, 356
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Launch Platform
+  rotate: false
+  xy: 212, 564
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Launch Site
+  rotate: false
+  xy: 420, 772
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Logistical Hub
+  rotate: false
+  xy: 628, 980
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Manganese Crusts Extraction Plant
+  rotate: false
+  xy: 836, 1188
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Polymetallic Nodules Extraction Plant
+  rotate: false
+  xy: 836, 1188
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sulfide Deposits Extraction Plant
+  rotate: false
+  xy: 836, 1188
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Manufacturing Plant
+  rotate: false
+  xy: 1044, 1396
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nanitic Treatment Facility
+  rotate: false
+  xy: 1252, 1604
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nanitic Treatments Facility
+  rotate: false
+  xy: 1460, 1812
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/National Argicultural Agency
+  rotate: false
+  xy: 4, 148
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nuclear Factory
+  rotate: false
+  xy: 212, 356
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Quantum Data Center
+  rotate: false
+  xy: 420, 564
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ranching Management Center
+  rotate: false
+  xy: 628, 772
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Research Center
+  rotate: false
+  xy: 836, 980
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shipyard
+  rotate: false
+  xy: 1044, 1188
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Social Media Interacts
+  rotate: false
+  xy: 1252, 1396
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Spaceport
+  rotate: false
+  xy: 1460, 1604
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Statues
+  rotate: false
+  xy: 1668, 1812
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Steel Forge
+  rotate: false
+  xy: 212, 148
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Steel Production Plant
+  rotate: false
+  xy: 420, 356
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Supply Depot
+  rotate: false
+  xy: 628, 564
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Internet
+  rotate: false
+  xy: 836, 772
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tunnels
+  rotate: false
+  xy: 1044, 980
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Uranium Synthesis Plant
+  rotate: false
+  xy: 1252, 1188
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Vehicle Assembly Plant
+  rotate: false
+  xy: 1460, 1396
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Virtual Assistants Softwares
+  rotate: false
+  xy: 1668, 1604
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wainwright Shop
+  rotate: false
+  xy: 420, 148
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wire Wheel Factory
+  rotate: false
+  xy: 628, 356
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Aircraft Parts
+  rotate: false
+  xy: 1044, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Battery
+  rotate: false
+  xy: 1668, 1496
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ceramics
+  rotate: false
+  xy: 628, 248
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cobalt
+  rotate: false
+  xy: 112, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Electronic Circuit
+  rotate: false
+  xy: 220, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Electronic Component
+  rotate: false
+  xy: 1876, 1696
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Fibers
+  rotate: false
+  xy: 836, 448
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Lead
+  rotate: false
+  xy: 1360, 1080
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Magnet
+  rotate: false
+  xy: 1568, 1288
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Manganese
+  rotate: false
+  xy: 1776, 1496
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Manganese Crusts
+  rotate: false
+  xy: 628, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Microchip
+  rotate: false
+  xy: 736, 248
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Nickel
+  rotate: false
+  xy: 736, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Palladium
+  rotate: false
+  xy: 760, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Platinum
+  rotate: false
+  xy: 844, 340
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Polymetallic Nodules
+  rotate: false
+  xy: 844, 232
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Robotic Parts
+  rotate: false
+  xy: 952, 340
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Rubber
+  rotate: false
+  xy: 952, 232
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Steel
+  rotate: false
+  xy: 868, 16
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sulfide Deposits
+  rotate: false
+  xy: 976, 124
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sulfur
+  rotate: false
+  xy: 976, 16
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tin
+  rotate: false
+  xy: 1368, 864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Titanium
+  rotate: false
+  xy: 1676, 1388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Vehicle Parts
+  rotate: false
+  xy: 1676, 1280
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Wire
+  rotate: false
+  xy: 1784, 1388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Zinc
+  rotate: false
+  xy: 1784, 1280
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Abyssal Ocean
+  rotate: false
+  xy: 1984, 1984
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Abyssal Ocean+Brine Lakes
+  rotate: false
+  xy: 1876, 1660
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Abyssal Ocean+Cold Seeps
+  rotate: false
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Abyssal Ocean+Deep Sea Reef
+  rotate: false
+  xy: 1044, 836
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Abyssal Ocean+Guyot
+  rotate: false
+  xy: 1084, 836
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Abyssal Ocean+Hydrothermal Vents
+  rotate: false
+  xy: 1460, 1252
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Abyssal Ocean+Oceanic Trench
+  rotate: false
+  xy: 1984, 1948
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Abyssal Ocean+Seamounts
+  rotate: false
+  xy: 1876, 1624
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Abyssal Ocean+Whale Fall
+  rotate: false
+  xy: 1916, 1660
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Axial Seamount
+  rotate: false
+  xy: 44, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Bacterial Clusters
+  rotate: false
+  xy: 1044, 800
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coast+Manganese Crusts
+  rotate: false
+  xy: 1084, 800
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coast+Polymetallic Nodules
+  rotate: false
+  xy: 1124, 836
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Cobalt
+  rotate: false
+  xy: 1460, 1216
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Deep Ocean
+  rotate: false
+  xy: 1500, 1252
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Deep Ocean+ Oceanic Trench
+  rotate: false
+  xy: 1984, 1912
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Deep Ocean+Brine Lakes
+  rotate: false
+  xy: 1916, 1624
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Deep Ocean+Cold Seeps
+  rotate: false
+  xy: 84, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Deep Ocean+Deep Sea Reef
+  rotate: false
+  xy: 1124, 800
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Deep Ocean+Guyot
+  rotate: false
+  xy: 1164, 836
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Deep Ocean+Hydrothermal Vents
+  rotate: false
+  xy: 1500, 1216
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Deep Ocean+Oceanic Trench
+  rotate: false
+  xy: 1540, 1252
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Deep Ocean+Seamounts
+  rotate: false
+  xy: 1984, 1876
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Deep Ocean+Whale Fall
+  rotate: false
+  xy: 124, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Deep Sea Mineral Extraction Mine
+  rotate: false
+  xy: 1164, 800
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Desert+Caves
+  rotate: false
+  xy: 1204, 836
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Floating Ice Sheet
+  rotate: false
+  xy: 1540, 1216
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Frozen Lakes
+  rotate: false
+  xy: 1580, 1252
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Glacier
+  rotate: false
+  xy: 1984, 1840
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Glacier+Caves
+  rotate: false
+  xy: 164, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Caves
+  rotate: false
+  xy: 1204, 800
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Guyot
+  rotate: false
+  xy: 1580, 1216
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Iceberg
+  rotate: false
+  xy: 1620, 1252
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Large Ice
+  rotate: false
+  xy: 1984, 1804
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lead
+  rotate: false
+  xy: 204, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Manganese
+  rotate: false
+  xy: 1620, 1216
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Nickel
+  rotate: false
+  xy: 1984, 1768
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Brine Lakes
+  rotate: false
+  xy: 244, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Cold Seeps
+  rotate: false
+  xy: 1984, 1732
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Guyot
+  rotate: false
+  xy: 284, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Hydrothermal Vents
+  rotate: false
+  xy: 1984, 1696
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Manganese Crusts
+  rotate: false
+  xy: 1956, 1660
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Oceanic Ridges
+  rotate: false
+  xy: 324, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Oceanic Trench
+  rotate: false
+  xy: 1956, 1624
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Polymetallic Nodules
+  rotate: false
+  xy: 364, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Seamounts
+  rotate: false
+  xy: 404, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Sulfide Deposits
+  rotate: false
+  xy: 444, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Whale Fall
+  rotate: false
+  xy: 484, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Oceanic Trench
+  rotate: false
+  xy: 1996, 1660
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Palladium
+  rotate: false
+  xy: 1996, 1624
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Caves
+  rotate: false
+  xy: 1244, 828
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Platinum
+  rotate: false
+  xy: 1284, 828
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Seamounts
+  rotate: false
+  xy: 1324, 828
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Snow+Caves
+  rotate: false
+  xy: 1364, 828
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Snow+Frozen Forest
+  rotate: false
+  xy: 1404, 828
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Sulfur
+  rotate: false
+  xy: 1244, 792
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tin
+  rotate: false
+  xy: 1284, 792
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Titanium
+  rotate: false
+  xy: 1324, 792
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra+Caves
+  rotate: false
+  xy: 1364, 792
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra+Frozen Forest
+  rotate: false
+  xy: 1404, 792
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Zinc
+  rotate: false
+  xy: 1444, 828
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Advanced Nuclear Bomber
+  rotate: false
+  xy: 4, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Aerial Carrier
+  rotate: false
+  xy: 1876, 1912
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Aircraft Carrier Submarine
+  rotate: false
+  xy: 836, 664
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Antimatter Bomb
+  rotate: false
+  xy: 1252, 1080
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Atomic Bomber
+  rotate: false
+  xy: 1460, 1288
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Cruiser Submarine
+  rotate: false
+  xy: 1876, 1804
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Darkmatter Missile
+  rotate: false
+  xy: 836, 556
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hexapod Mech
+  rotate: false
+  xy: 328, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hexapod Mech Gunnery
+  rotate: false
+  xy: 436, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hypersonic Darkmatter Missile
+  rotate: false
+  xy: 944, 664
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hypersonic Guided Missile
+  rotate: false
+  xy: 944, 556
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Implosion Missile
+  rotate: false
+  xy: 944, 448
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Intercontinental Ballistic Missile
+  rotate: false
+  xy: 1152, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Nuclear Bomber
+  rotate: false
+  xy: 544, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Nuclear Devastation Missile
+  rotate: false
+  xy: 652, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Stealth Aerial Carrier
+  rotate: false
+  xy: 868, 124
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Super Aircraft Carrier Submarine
+  rotate: false
+  xy: 1260, 972
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Supersonic Guided Missile
+  rotate: false
+  xy: 1260, 864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tactical Nuke
+  rotate: false
+  xy: 1368, 972
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
