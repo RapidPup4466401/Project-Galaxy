@@ -218,7 +218,7 @@
 		"requiredTech": "Darkmatter Applications",
 		"movement": 1,
 		"uniques": [
-			"Consumes [1] [Darkmatter]",
+			"Consumes [1] [Dark Matter]",
 			"Cannot be purchased <upon discovering [Darkmatter Applications] technology> <for [20] turns> <hidden from users>",
 			"[-100]% maintenance costs <hidden from users>",
 			"Blast radius [2]",
@@ -235,7 +235,7 @@
 		"requiredTech": "Darkmatter Applications",
 		"movement": 1,
 		"uniques": [
-			"Consumes [1] [Darkmatter]",
+			"Consumes [1] [Dark Matter]",
 			"Cannot be purchased <upon discovering [Darkmatter Applications] technology> <for [50] turns> <hidden from users>",
 			"[-100]% maintenance costs <hidden from users>",
 			"Blast radius [3]",
@@ -252,7 +252,7 @@
 		"requiredTech": "Terraform",
 		"movement": 1,
 		"uniques": [
-			"Consumes [2] [Darkmatter]",
+			"Consumes [2] [Dark Matter]",
 			"Consumes [3] [Advanced Alloys]",
 			"Consumes [2] [Degenerate Matter]",
 			"Consumes [3] [Antimatter]",
