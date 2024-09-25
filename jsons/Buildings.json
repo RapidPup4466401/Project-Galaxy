@@ -335,6 +335,17 @@
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
+		"name": "Antimatter Reactor Plant",
+		"maintenance": 8,
+		"cost": 4000,
+		"requiredTech": "Antimatter Applications",
+		"uniques": [
+			"Only available <in cities with a [Antimatter Research Facility]> <hidden from users>",
+			"Only available <in cities with a [Nuclear Plant]> <hidden from users>",
+			"Consumes [2] [Antimatter]",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
+	{
 		"name": "Armored Vehicles Assembly Plant",
 		"maintenance": 5,
 		"cost": 800,
@@ -1452,6 +1463,17 @@
 			"Consumes [1] [Aluminum]",
 			"New [{Military}] units start with [40] Experience [in this city]",
 			"Limited to [2] per Civilization",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
+	{
+		"name": "Energy Weapons Testing Site",
+		"maintenance": 12,
+		"cost": 6000,
+		"requiredBuilding": "Experimental Weapons Testing Site",
+		"requiredTech": "Quantum Applications",
+		"uniques": [
+			"New [Military] units start with [40] Experience [in this city] <with [Antimatter]>",
+			"New [Military] units start with [40] Experience [in this city] <with [Dark Matter]>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
