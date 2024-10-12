@@ -1271,11 +1271,33 @@
 	{
 		"name": "Nanitic Treatments Facility",
 		"maintenance": 3,
-		"cost": 1500,
+		"cost": 4500,
 		"happiness": 3,
 		"requiredTech": "Nanites",
 		"uniques": [
 			"Only available <in cities with a [Hospital]> <hidden from users>",
+			"Only available <if [Institute of Technology] is constructed> <in [in capital] cities> <hidden from users>"],		
+	},
+	{
+		"name": "Genetic Modification Facility",
+		"maintenance": 5,
+		"cost": 7000,
+		"happiness": 3,
+		"requiredTech": "Genetic Enhancements",
+		"uniques": [
+			"New [Military] units start with [10] Experience [in this city]",
+			"Only available <in cities with a [Hospital]> <hidden from users>",
+			"Only available <if [National Genome Research Institute] is constructed> <in [in capital] cities> <hidden from users>"],		
+	},
+	{
+		"name": "Nanitic Enhancements Facility",
+		"maintenance": 7,
+		"cost": 12000,
+		"happiness": 7,
+		"requiredTech": "Nanitic Enhancements",
+		"uniques": [
+			"New [Military] units start with [20] Experience [in this city]",
+			"Only available <in cities with a [Hospital]> <in cities with a [Genetic Modifications Facility]> <in cities with a [Nanitic Treatments Facility]> <hidden from users>",
 			"Only available <if [Institute of Technology] is constructed> <in [in capital] cities> <hidden from users>"],		
 	},
 	{
