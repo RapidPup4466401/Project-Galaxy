@@ -500,7 +500,7 @@
 				"quote": "'Taking String Theory and applying them in our world? What does this even do?' - ???"
 			},
 			{
-				"name": "Repulsion Metals",
+				"name": "Repulsion Material",
 				"row": 7,
 				"prerequisites": ["Antimatter Applications","Dark Energy","Dark Matter","Quantum Applications"],
 				"quote": "'Metals that are able to repulse other materials even non-metals? What magic is this...' - ???"
@@ -513,13 +513,13 @@
 			},
 			{
 				"name": "Wormholes",
-				"row": 20,
+				"row": 22,
 				"prerequisites": [],
 				"quote": "'Creating a rife in the space-time continuum? Uh oh. - ???"
 			},
 			{
 				"name": "Terraform",
-				"row": 20,
+				"row": 24,
 				"prerequisites": [],
 				"quote": "'Playing god with planets now? Now this is my type of game. - ???"
 			}
@@ -553,7 +553,7 @@
 			{
 				"name": "Future Tech",
 				"row": 7,
-				"prerequisites": ["Gates","Wormholes","Terraform","Cloning","Darkmatter Applications"],
+				"prerequisites": ["Asteroid Mining II","Degenerate Applications","Repulsion Material","Cloning","Darkmatter Applications","String Applications"],
 				"quote": "'To the future, and beyond!' - ???"
 			}
 		]
