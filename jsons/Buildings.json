@@ -417,6 +417,7 @@
 		"uniques": [
 			"Only available <in cities with a [Antimatter Research Facility]> <hidden from users>",
 			"Only available <in cities with a [Nuclear Plant]> <hidden from users>",
+			"[+20]% [Production] [in this city] <with [Antimatter]>",
 			"Consumes [2] [Antimatter]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
