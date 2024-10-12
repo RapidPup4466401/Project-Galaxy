@@ -1543,11 +1543,11 @@
 	{
 		"name": "Energy Weapons Testing Site",
 		"maintenance": 12,
-		"cost": 6000,
+		"cost": 8000,
 		"requiredBuilding": "Experimental Weapons Testing Site",
-		"requiredTech": "Quantum Applications",
+		"requiredTech": "Stealth",
 		"uniques": [
-			"New [Military] units start with [40] Experience [in this city] <with [Antimatter]>",
+			"New [Military] units start with [20] Experience [in this city] <with [Antimatter]>",
 			"New [Military] units start with [40] Experience [in this city] <with [Dark Matter]>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
