@@ -322,7 +322,7 @@
 		"production": 5,
 		"requiredTech": "Mass Drilling",
 		"uniques": [
-			"Only available <in cities with a [Drilling Sites]> <after adopting [Industry]> <within [4] tiles of a [Mine]> <within [4] tiles of a [Titanium]>  <hidden from users>",
+			"Only available <in cities with a [Drilling Sites]> <after adopting [Industry]> <within [4] tiles of a [Mine]> <within [4] tiles of a [Iron]>  <hidden from users>",
 			"Consumes [1] [Machinery]",
 			"Double quantity of [Iron] produced <in this city>",
 			"Destroyed when the city is captured <hidden from users>"],
