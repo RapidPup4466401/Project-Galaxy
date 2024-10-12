@@ -2468,7 +2468,7 @@
 	{
 		"name": "Orbital Shipyard",
 		"isNationalWonder": "True",
-		"cost": 10000,
+		"cost": 20000,
 		"happiness": 5,
 		"gold": 5,
 		"production": 25,
@@ -2489,7 +2489,7 @@
 	{
 		"name": "Orbital Starship Support Structure",
 		"isNationalWonder": "True",
-		"cost": 30000,
+		"cost": 50000,
 		"requiredTech": "Starships",
 		"specialistSlots": {"Engineer": 6},
 		"uniques": [
@@ -2507,7 +2507,7 @@
 	{
 		"name": "Satellite Network",
 		"isNationalWonder": "True",
-		"cost": 1000,
+		"cost": 5000,
 		"happiness": 5,
 		"gold": 1,
 		"science": 3,
@@ -2542,8 +2542,27 @@
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
+	{
+		"name": "Planetary Headquarters",
+		"isWonder": "True",
+		"cost": 40000,
+		"cityHealth": 100,
+		"happiness": 15,
+		"science": 50,
+		"culture": 50,
+		"requiredTech": "Planetary Alliance",
+		"uniques": [
+			"Free [P.E.A.C.E Mech] appears",
+			"Only available <in cities with a [The Internet]> <hidden from users>",
+			"[+20]% [Culture] [in this city]",
+			"[+20]% [Science] [in this city]",
+			"Cost increases by [5000] per owned city <hidden from users>",
+			"Cannot be purchased <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
 
-	//End of National Buildings/other
+	//End of National Buildings/World Wonders
 			
 	// Buildings that primarily focuses on increasing science and/or science-related aspects of the city. 
 
