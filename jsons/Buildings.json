@@ -2178,7 +2178,7 @@
 	// National Buildings
 
 	{
-		"name": "Expiremental Weapons Testing Site",
+		"name": "Experimental Weapons Testing Site",
 		"isNationalWonder": true,
 		"cost": 2000,
 		"science": 10,
