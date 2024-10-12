@@ -1457,6 +1457,17 @@
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
+		"name": "Dronebase",
+		"maintenance": 6,
+		"cost": 12000,
+		"requiredTech": "Drones",
+		"requiredResource": "Aluminum",
+		"uniques": [
+			"Only available <in this city> <if [Military Base] is constructed> <hidden from users>",
+			"Only available <in this city> <if [Paved Runway] is constructed> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
+	{
 		"name": "Basic Training Facilities",
 		"maintenance": 2,
 		"cost": 500,
@@ -1684,7 +1695,7 @@
 	},
 	{
 		"name": "Mechs Assembly Plant",
-		"cost": 7000,
+		"cost": 12000,
 		"maintenance": 15,
 		"production": 8,
 		"requiredTech": "Mechs I",
@@ -1700,7 +1711,7 @@
 			"Consumes [1] [Electronic Component]",
 			"Consumes [1] [Electronic Circuit]",
 			"Provides [3] [Robotic Parts]",
-			"New [{Military}] units start with [100] Experience [in this city] <with [Microchip]>",
+			"New [non-air] units start with [80] Experience [in this city] <with [Microchip]>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
