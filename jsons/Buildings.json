@@ -290,7 +290,7 @@
 			"Must have an owned [Mine] within [4] tiles <hidden from users>",
 			"[+2 Production] from every [Aluminum] <hidden from users>",
 			"Consumes [1] [Machinery]",
-			"Double quantity of [Aluminum] produced <in this city>",
+			"Provides [5] [Aluminum]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -304,7 +304,7 @@
 			"Must have an owned [Mine] within [4] tiles <hidden from users>",
 			"[+2 Production] from every [Cobalt] <hidden from users>",
 			"Consumes [1] [Machinery]",
-			"Double quantity of [Cobalt] produced <in this city>",
+			"Provides [5] [Cobalt]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -318,7 +318,7 @@
 			"Must have an owned [Mine] within [4] tiles <hidden from users>",
 			"[+2 Production] from every [Copper] <hidden from users>",
 			"Consumes [1] [Machinery]",
-			"Double quantity of [Copper] produced <in this city>",
+			"Provides [5] [Copper]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -332,7 +332,7 @@
 			"Must have an owned [Mine] within [4] tiles <hidden from users>",
 			"[+2 Production] from every [Gold ore] <hidden from users>",
 			"Consumes [1] [Machinery]",
-			"Double quantity of [Gold ore] produced <in this city>",
+			"Provides [5] [Gold ore]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -346,7 +346,7 @@
 			"Must have an owned [Mine] within [4] tiles <hidden from users>",
 			"[+2 Production] from every [Iron] <hidden from users>",
 			"Consumes [1] [Machinery]",
-			"Provides [1] [Iron] <for every [Iron]> <in this city> <within [3] tiles of a [Iron]>",
+			"Provides [5] [Iron]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -360,7 +360,7 @@
 			"Must have an owned [Mine] within [4] tiles <hidden from users>",
 			"[+2 Production] from every [Manganese] <hidden from users>",
 			"Consumes [1] [Machinery]",
-			"Double quantity of [Manganese] produced <in this city>",
+			"Provides [5] [Manganese]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -374,7 +374,7 @@
 			"Must have an owned [Mine] within [4] tiles <hidden from users>",
 			"[+2 Production] from every [Nickel] <hidden from users>",
 			"Consumes [1] [Machinery]",
-			"Double quantity of [Nickel] produced <in this city>",
+			"Provides [5] [Nickel]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -388,7 +388,7 @@
 			"Must have an owned [Mine] within [4] tiles <hidden from users>",
 			"[+2 Production] from every [Sulfur] <hidden from users>",
 			"Consumes [1] [Machinery]",
-			"Double quantity of [Sulfur] produced <in this city>",
+			"Provides [5] [Sulfur]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -402,7 +402,7 @@
 			"Must have an owned [Mine] within [4] tiles <hidden from users>",
 			"[+2 Production] from every [Titanium] <hidden from users>",
 			"Consumes [1] [Machinery]",
-			"Double quantity of [Titanium] produced <in this city>",
+			"Provides [5] [Titanium]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -416,7 +416,7 @@
 			"Must have an owned [Mine] within [4] tiles <hidden from users>",
 			"[+2 Production] from every [Uranium] <hidden from users>",
 			"Consumes [1] [Machinery]",
-			"Double quantity of [Uranium] produced <in this city>",
+			"Provides [5] [Uranium]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
