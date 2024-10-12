@@ -502,7 +502,7 @@
 			{
 				"name": "Repulsion Metals",
 				"row": 7,
-				"prerequisites": ["Antimatter Applications","Dark Energy","Dark Matter","Quantum Applications","],
+				"prerequisites": ["Antimatter Applications","Dark Energy","Dark Matter","Quantum Applications"],
 				"quote": "'Metals that are able to repulse other materials even non-metals? What magic is this...' - ???"
 			},
 			{
