@@ -346,7 +346,7 @@
 			"Must have an owned [Mine] within [4] tiles <hidden from users>",
 			"[+2 Production] from every [Iron] <hidden from users>",
 			"Consumes [1] [Machinery]",
-			"Provide [1] [Iron] <for every [Iron]> <in this city>",
+			"Provides [1] [Iron] <for every [Iron]> <in this city>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
