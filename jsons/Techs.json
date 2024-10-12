@@ -490,7 +490,7 @@
 			{
 				"name": "Asteroid Mining II",
 				"row": 1,
-				"prerequisites": ["Space Colonization","Mass Drilling III","Automation","Asteroid Mining"],
+				"prerequisites": ["Space Colonization","Mass Drilling III","Automation","Asteroid Mining I"],
 				"quote": "'What if... What if we privatised this new field of mining?' - ???"
 			},
 			{
