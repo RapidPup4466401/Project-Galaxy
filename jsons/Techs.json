@@ -472,6 +472,12 @@
 				"prerequisites": ["Simulations","Mechs III","Advanced Alloys","Small Fusion Reactors","Decomposition"],
 				"quote": "'The densest materials we know of that somehow are at a quantum level filled? What does that even mean?' - ???"
 			}
+			{
+				"name": "Asteroid Mining I",
+				"row": 20,
+				"prerequisites": ["Starships","Mass Drilling II","Space Exploration III"],
+				"quote": "'Mining all those metals up there, so much potential. - ???"
+			},
 		]
 	},
 	{
@@ -482,21 +488,39 @@
 		"wonderCost": 1900,
 		"techs": [
 			{
-				"name": "Gates",
+				"name": "Asteroid Mining II",
 				"row": 1,
-				"prerequisites": ["Dark Energy","Degenerate Matter","Dark Matter","Quantum Applications","Antimatter Applications"],
-				"quote": "'Creating a rife in the space-time continuum? Uh oh. - ???"
+				"prerequisites": ["Space Colonization","Mass Drilling III","Automation","Asteroid Mining"],
+				"quote": "'What if... What if we privatised this new field of mining?' - ???"
+			},
+			{
+				"name": "String Applications",
+				"row": 4,
+				"prerequisites": ["Quantum Applications","Dark Energy","Dark Matter"],
+				"quote": "'Taking String Theory and applying them in our world? What does this even do?' - ???"
+			},
+			{
+				"name": "Repulsion Metals",
+				"row": 7,
+				"prerequisites": ["Antimatter Applications","Dark Energy","Dark Matter","Quantum Applications","],
+				"quote": "'Metals that are able to repulse other materials even non-metals? What magic is this...' - ???"
+			},
+			{
+				"name": "Gates",
+				"row": 20,
+				"prerequisites": [],
+				"quote": "'Creating a rift in the space-time continuum? Uh oh. - ???"
 			},
 			{
 				"name": "Wormholes",
-				"row": 3,
-				"prerequisites": ["Dark Energy","Degenerate Matter","Dark Matter","Quantum Applications","Antimatter Applications"],
+				"row": 20,
+				"prerequisites": [],
 				"quote": "'Creating a rife in the space-time continuum? Uh oh. - ???"
 			},
 			{
 				"name": "Terraform",
-				"row": 6,
-				"prerequisites": ["Advanced Simulations","Planetary Alliance","Advanced Flight","Space Colonization","Automation"],
+				"row": 20,
+				"prerequisites": [],
 				"quote": "'Playing god with planets now? Now this is my type of game. - ???"
 			}
 			{
@@ -511,12 +535,18 @@
 				"prerequisites": ["Advanced Simulations","Dark Matter","Dark Energy","Super Intelligence"],
 				"quote": "'Using dark  matter for war and peace? Let us see where it takes us. - ???"
 			}
+			{
+				"name": "Degenerate Applications",
+				"row": 15,
+				"prerequisites": ["Advanced Simulations","Degenerate Matter","Super Intelligence"],
+				"quote": "'Using dark  matter for war and peace? Let us see where it takes us. - ???"
+			}
 		]
 	},
 	{
 		"columnNumber": 23,
 		"era": "Future era",
-		"techCost": 22000,
+		"techCost": 120000,
 		"buildingCost": 1500,
 		"wonderCost": 1900,
 		"techs": [
