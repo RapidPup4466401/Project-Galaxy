@@ -1567,7 +1567,8 @@
 			"New [Military] units start with [20] Experience [in this city] <with [Iron]>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
-	"name": "Airbase",
+	{
+		"name": "Airbase",
 		"maintenance": 4,
 		"cost": 7000,
 		"requiredTech": "Flight",
