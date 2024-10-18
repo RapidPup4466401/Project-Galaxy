@@ -437,7 +437,7 @@
 			"Consumes [1] [Advanced Alloys]"],
 		"attackSound": "missile",
 	},
-	 {
+	{
 		"name": "Infantry Mech",
 		"unitType": "Gunpowder",
     		"cost": 6000,
@@ -453,7 +453,7 @@
 			"Can pass through impassable tiles <hidden from users>",
 			"Ignores terrain cost <hidden from users>"],
 	},
-	 {
+	{
 		"name": "Armored Mech",
 		"unitType": "Gunpowder",
     		"cost": 14000,
@@ -471,7 +471,7 @@
 			"Can pass through impassable tiles <hidden from users>",
 			"Ignores terrain cost <hidden from users>"],
 	},
-	 {
+	{
 		"name": "Artillery Mech",
 		"unitType": "Gunpowder",
     		"cost": 14000,
