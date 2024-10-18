@@ -1567,15 +1567,24 @@
 			"New [Military] units start with [20] Experience [in this city] <with [Iron]>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
+	"name": "Airbase",
+		"maintenance": 4,
+		"cost": 7000,
+		"requiredTech": "Flight",
+		"uniques": [
+			"Only available <in this city> <if [Military Base] is constructed> <hidden from users>",
+			"Only available <in this city> <if [Paved Runway] is constructed> <hidden from users>",
+			"Consumes [1] [Aluminum]",
+			"Destroyed when the city is captured <hidden from users>"],
 	{
 		"name": "Dronebase",
 		"maintenance": 6,
 		"cost": 12000,
 		"requiredTech": "Drones",
-		"requiredResource": "Aluminum",
 		"uniques": [
 			"Only available <in this city> <if [Military Base] is constructed> <hidden from users>",
 			"Only available <in this city> <if [Paved Runway] is constructed> <hidden from users>",
+			"Consumes [1] [Aluminum]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
@@ -1695,7 +1704,7 @@
 	},
 	{
 		"name": "Exo-Suit Assembly Plant",
-		"cost": 6500,
+		"cost": 8000,
 		"maintenance": 20,
 		"production": 6,
 		"requiredTech": "Nuclear Fusion",
@@ -1868,6 +1877,18 @@
 			"Only available <in cities with a [Makeshift Runway]> <hidden from users>",
 			"[+10]% [Production] [in this city]",
 			"[+20]% Production when constructing [{Air}] units [in this city]",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
+	{
+		"name": "Specialized Pilot Academy",
+		"cost": 10000,
+		"maintenance": 5,
+		"requiredTech": "Mechs I",
+		"uniques": [
+			"Only available <in cities with a [Military Academy]> <hidden from users>",
+			"Consumes [1] [Aircraft Parts]",
+			"New [air] units start with [30] Experience [in this city]",
+			"New [land] units start with [30] Experience [in this city]",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
