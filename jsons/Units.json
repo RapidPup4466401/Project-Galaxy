@@ -500,13 +500,15 @@
 		"range": 2,
 		"requiredTech": "Mechs III",
 		"attackSound": "gdrAttack",
-    		"uniques": [
+    		"uniques": 
+		[
 			"Only available <if [Mechs Assembly Plant] is constructed> <in this city> <hidden from users>", 
 			"Consumes [1] [Advanced Alloys]",
 			"Consumes [1] [Uranium]",
 			"Can carry [4] [Missile] units",
 			"[+100]% chance to intercept air attacks <hidden from users>",
-			"Can pass through impassable tiles <hidden from users>"],
+			"Can pass through impassable tiles <hidden from users>"
+		],
 	},
 	{
 		"name": "Silo Mech",
@@ -516,13 +518,15 @@
 		"strength": 100,
 		"requiredTech": "Advanced Flight",
 		"attackSound": "gdrAttack",
-    		"uniques": [
+    		"uniques": 
+		[
 			"Only available <if [Mechs Assembly Plant] is constructed> <in this city> <hidden from users>", 
 			"Consumes [2] [Advanced Alloys]",
 			"Consumes [1] [Uranium]",
 			"Can carry [12] [Missile] units",
 			"[+100]% chance to intercept air attacks <hidden from users>",
-			"Can pass through impassable tiles <hidden from users>"],
+			"Can pass through impassable tiles <hidden from users>"
+		],
 	},
 	{
 		"name": "Orbital Jet",
@@ -534,13 +538,15 @@
 		"range": 25,
 		"interceptRange": 20,
 		"requiredTech": "Synthethic Materials",
-		"attackSound": "jetgun"
-    		"uniques": [
+		"attackSound": "jetgun",
+    		"uniques": 
+		[
 			"Only available <if [Airbase] is constructed> <in this city> <hidden from users>", 
 			"Consumes [2] [Titanium]",
 			"Consumes [1] [Aircraft Parts]",
 			"Consumes [1] [Aluminum]",
-			"Consumes [1] [Uranium]"],
+			"Consumes [1] [Uranium]"
+		],
 	},
 	{
 		"name": "Orbital Bomber",
@@ -551,12 +557,14 @@
 		"rangedStrength": 250,
 		"range": 35,
 		"requiredTech": "Advanced Flight",
-		"attackSound": "bombing"
-    		"uniques": [
+		"attackSound": "bombing",
+    		"uniques": 
+		[
 			"Only available <if [Airbase] is constructed> <in this city> <hidden from users>", 
 			"Consumes [1] [Advanced Alloys]",
 			"Consumes [1] [Aircraft Parts]",
-			"Consumes [1] [Uranium]"],
+			"Consumes [1] [Uranium]"
+		],
 	},
 	{
 		"name": "P.E.A.C.E Mech",
@@ -565,7 +573,8 @@
 		"strength": 400,
 		"requiredTech": "Planetary Alliance",
 		"attackSound": "gdrAttack",
-    		"uniques": [
+    		"uniques": 
+		[
 			"Unbuildable <hidden from users>",
 			"Only available <if [Mechs Assembly Plant] is constructed> <in this city> <hidden from users>", 
 			"Consumes [4] [Advanced Alloys]",
@@ -576,7 +585,8 @@
 			"Can pass through impassable tiles <hidden from users>",
 			"[+100]% chance to intercept air attacks <hidden from users>",
 			"Can see invisible [Wounded] units",
-			"Ignores terrain cost <hidden from users>"],
+			"Ignores terrain cost <hidden from users>"
+		],
 	},
 ]
 
