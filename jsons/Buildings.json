@@ -1576,6 +1576,7 @@
 			"Only available <in this city> <if [Paved Runway] is constructed> <hidden from users>",
 			"Consumes [1] [Aluminum]",
 			"Destroyed when the city is captured <hidden from users>"],
+	},
 	{
 		"name": "Dronebase",
 		"maintenance": 6,
