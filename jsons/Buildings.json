@@ -3177,6 +3177,6 @@
 		"requiredTech": "Printing Press",
 		"uniques": [
 			"only available <in cities with a [Library]> <hidden from users>",
-			"Destroyed when the city is captured <hidden from users>"],
+			"Destroyed when the city is captured <hidden from users>"]
 	}
 ]
