@@ -135,13 +135,13 @@
 		"uniques": [
 			"Cannot be purchased <upon discovering [Quantum Applications] technology> <for [50] turns><hidden from users>",
 			"Consumes [1] [Iron]",
-			"Consumes [2] [Uranium]",
+			"Consumes [1] [Uranium]",
+			"Consumes [1] [Antimatter]",
 			"Blast radius [5]",
 			"Nuclear weapon of Strength [5]",
 			"Self-destructs when attacking <hidden from users>"],
 		"attackSound": "nuke",
 	},
-	/// Need to add new resource for antimatter, dark matter, and so on technologies
 	{
 		"name": "Antimatter Bomb",
 		"unitType": "Missile",
