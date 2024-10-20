@@ -478,7 +478,7 @@
     		"cost": 9000,
 		"movement": 3,
 		"strength": 170,
-		"requiredTech": "Smmall Fusion Reactor",
+		"requiredTech": "Smmall Fusion Reactors",
 		"attackSound": "gdrAttack",
     		"uniques": [
 			"Only available <if [Mechs Assembly Plant] is constructed> <in this city> <hidden from users>", 
@@ -572,7 +572,7 @@
 		"rangedStrength": 150,
 		"range": 25,
 		"interceptRange": 20,
-		"requiredTech": "Synthethic Materials",
+		"requiredTech": "Synthetic Materials",
 		"attackSound": "jetgun",
     		"uniques": 
 		[
@@ -586,6 +586,24 @@
 	{
 		"name": "Orbital Bomber",
 		"unitType": "Bomber",
+    		"cost": 20000,
+		"movement": 1,
+		"strength": 250,
+		"rangedStrength": 250,
+		"range": 35,
+		"requiredTech": "Advanced Flight",
+		"attackSound": "bombing",
+    		"uniques": 
+		[
+			"Only available <if [Airbase] is constructed> <in this city> <hidden from users>", 
+			"Consumes [1] [Advanced Alloys]",
+			"Consumes [1] [Aircraft Parts]",
+			"Consumes [1] [Uranium]"
+		],
+	},
+	{
+		"name": "Orbital Bomber",
+		"unitType": "Missile",
     		"cost": 20000,
 		"movement": 1,
 		"strength": 250,
@@ -622,6 +640,54 @@
 			"Can see invisible [Wounded] units",
 			"Ignores terrain cost <hidden from users>"
 		]
-	}
+	},
+	{
+		"name": "Orbital Drop Strike",
+		"unitType": "Missile",
+    		"cost": 40000,
+		"movement": 1,
+		"strength": 1000,
+		"rangedStrength": 1000,
+		"range": 50,
+		"requiredTech": "Space Exploration II",
+		"attackSound": "bombing",
+    		"uniques": 
+		[
+			"Only available <if [Orbital Station] is constructed> <in this city> <hidden from users>", 
+			"Consumes [1] [Lead]",
+		],
+	},
+	{
+		"name": "Orbital Railcannon Strike",
+		"unitType": "Missile",
+    		"cost": 10000,
+		"movement": 1,
+		"strength": 500,
+		"rangedStrength": 500,
+		"range": 50,
+		"requiredTech": "Space Exploration III",
+		"attackSound": "bombing",
+    		"uniques": 
+		[
+			"Only available <if [Orbital Station] is constructed> <in this city> <hidden from users>", 
+
+		],
+	},
+	{
+		"name": "Orbital Laser",
+		"unitType": "Missile",
+    	"cost": 10000,
+		"movement": 1,
+		"strength": 750,
+		"rangedStrength": 750,
+		"range": 50,
+		"requiredTech": "Quantum Reactors",
+		"attackSound": "bombing",
+    		"uniques": 
+		[
+			"Only available <if [Orbital Station] is constructed> <in this city> <hidden from users>", 
+
+		],
+	},
 ]
 
