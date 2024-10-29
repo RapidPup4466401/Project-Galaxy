@@ -1567,6 +1567,20 @@
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
+		"name": "Advanced Shipyard",
+		"maintenance": 8,
+		"cost": 6500,
+		"production": 3,
+		"requiredTech": "Advanced Submersibles",
+		"specialistSlots": {"Engineer": 1},
+		"uniques": [
+			"Only available <in this city> <if [Shipyard] is constructed> <hidden from users>",
+			"Must be on [Coastal] <hidden from users>",
+			"[+5]% Production when constructing [{Water}] units [in this city]",
+			"[+5]% [Production] [in this city] <with [Aluminum]><hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
+	{
 		"name": "Airbase",
 		"maintenance": 4,
 		"cost": 7000,
@@ -1575,6 +1589,20 @@
 			"Only available <in this city> <if [Military Base] is constructed> <hidden from users>",
 			"Only available <in this city> <if [Paved Runway] is constructed> <hidden from users>",
 			"Consumes [1] [Aluminum]",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
+	{
+		"name": "Automated Shipyard",
+		"maintenance": 14,
+		"cost": 12000,
+		"production": 4,
+		"requiredTech": "Automation",
+		"specialistSlots": {"Engineer": 2},
+		"uniques": [
+			"Only available <in this city> <if [Advanced Shipyard] is constructed> <hidden from users>",
+			"Must be on [Coastal] <hidden from users>",
+			"[+5]% Production when constructing [{Water}] units [in this city]",
+			"[+5]% [Production] [in this city] <with [Aluminum]><hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
