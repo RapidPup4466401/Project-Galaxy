@@ -26,6 +26,7 @@
 		"requiredTech": "Mechs I",
 	  	"interceptRange": 2,
 		"uniques": [
+			"Only available <if [Advanced Shipyard] is constructed> <in this city> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Consumes [1] [Uranium]",
 			"Consumes [1] [Titanium]",
@@ -46,6 +47,7 @@
 		"requiredTech": "Quantum Applications",
 	  	"interceptRange": 3,
     		"uniques":  [
+			"Only available <if [Automated Shipyard] is constructed> <in this city> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Consumes [1] [Antimatter]",
 			"Consumes [4] [Advanced Alloys]",
@@ -70,6 +72,8 @@
     		"rangedStrength": 40,
 		"requiredTech": "Synthetic Materials",
     		"uniques": [
+			"Only available <if [Airbase] is constructed> <in this city> <hidden from users>",
+			"Only available <if [Dronebase] is constructed> <in this city> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Consumes [2] [Uranium]",
 			"Consumes [1] [Aluminum]",
@@ -93,6 +97,8 @@
 		"requiredTech": "Advanced Flight",
     	"uniques": 
 		[
+			"Only available <if [Airbase] is constructed> <in this city> <hidden from users>",
+			"Only available <if [Dronebase] is constructed> <in this city> <hidden from users>",
 			"Cannot be purchased",
 			"Consumes [4] [Uranium]",
 			"Consumes [4] [Advanced Alloys]",
