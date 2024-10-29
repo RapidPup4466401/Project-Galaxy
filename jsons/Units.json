@@ -38,7 +38,7 @@
 		"upgradesTo": "Super Aircraft Carrier Submarine",	
   	},
   	{
-		"name": "Super Aircraft Carrier Submarine",
+		"name": "Heavy Aircraft Carrier Submarine",
 		"unitType": "Submarine",
     		"cost": 20000,
 		"movement": 5,
@@ -59,7 +59,7 @@
 			"Can pass through impassable tiles <hidden from users>",
 			"Can enter ice tiles <hidden from users>",
 			"May enter foreign tiles without open borders <hidden from users>",
-			"Triggers the following global alert: [A Super Carrier has been constructed.]"],	
+			"Triggers the following global alert: [A Heavy Carrier has been constructed.]"],	
   	},
   	{
 		"name": "Aerial Carrier",
@@ -86,12 +86,13 @@
 	{
 		"name": "Stealth Aerial Carrier",
 		"unitType": "Helicopter",
-    		"cost": 10000,
+    	"cost": 10000,
 		"movement": 13,
 		"strength": 35,
-    		"rangedStrength": 60,
+    	"rangedStrength": 60,
 		"requiredTech": "Advanced Flight",
-    		"uniques": [
+    	"uniques": 
+		[
 			"Cannot be purchased",
 			"Consumes [4] [Uranium]",
 			"Consumes [4] [Advanced Alloys]",
@@ -107,6 +108,89 @@
 			"May enter foreign tiles without open borders <hidden from users>",
 			"Can move after attacking <hidden from users>"],	
   	},
+	{
+		"name": "Missile Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 7,
+		"strength": 80,
+		"rangedStrength": 100,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 425,
+		"requiredTech": "Robotics",
+		"uniques": 
+		[
+			"[100]% chance to intercept air attacks", 
+			"Can see invisible [Submarine] units",
+			"Can carry [3] [Missile] units", 
+			"[+100]% Strength <vs [Submarine] units>", 
+			"Never appears as a Barbarian unit",
+			"Obsolete with [Fusion Applications]"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Heavy Missile Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 100,
+		"rangedStrength": 120,
+		"range": 4,
+		"interceptRange": 2,
+		"cost": 2000,
+		"requiredTech": "Fusion Applications",
+		"uniques": 
+		[
+			"Only available <if [Advanced Shipyard] is constructed> <in this city> <hidden from users>", 
+			"[100]% chance to intercept air attacks", 
+			"Can see invisible [Submarine] units",
+			"Can carry [4] [Missile] units", 
+			"[+100]% Strength <vs [Submarine] units>",
+			"Obsolete with [Advanced Satellites]"
+		],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Mechanized Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 6,
+		"strength": 130,
+		"rangedStrength": 160,
+		"range": 4,
+		"interceptRange": 3,
+		"cost": 4000,
+		"requiredTech": "Synthetic Fluids",
+		"uniques": 
+		[
+			"Only available <if [Advanced Shipyard] is constructed> <in this city> <hidden from users>", 
+			"[100]% chance to intercept air attacks", 
+			"Can see invisible [Submarine] units",
+			"Can carry [5] [Missile] units", 
+			"[+150]% Strength <vs [Submarine] units>",
+		],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Railcannon Battleship",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 140,
+		"rangedStrength": 280,
+		"range": 6,
+		"interceptRange": 1,
+		"cost": 8000,
+		"requiredTech": "Automation",
+		"uniques": 
+		[
+			"Only available <if [Automated Shipyard] is constructed> <in this city> <hidden from users>", 
+			"[100]% chance to intercept air attacks", 
+			"Can carry [4] [Missile] units", 
+			"Consumes [2] [Advanced Alloys]",
+			"[+100]% Strength <vs [Land] units>",
+		],
+		"attackSound": "shipguns"
+	},
 	{
 		"name": "Fallout Missile",
 		"unitType": "Missile",
@@ -412,7 +496,7 @@
 			"Double movement in [Mountain] <hidden from users>",
 			"May withdraw before melee ([25]%) <hidden from users>",
 			"Can pass through impassable tiles <hidden from users>",
-			"Can carry [3] [Missile] units",
+			"Can carry [2] [Missile] units",
 			"Consumes [1] [Uranium]",
 			"Consumes [1] [Titanium]",
 			"Consumes [1] [Aluminum]"],
@@ -430,7 +514,7 @@
 		"uniques": [
 			"Only available <if [Mechs Assembly Plant] is constructed> <in this city> <hidden from users>", 
 			"Can pass through impassable tiles <hidden from users>",
-			"Can carry [4] [Missile] units",
+			"Can carry [3] [Missile] units",
 			"[+30]% chance to intercept air attacks <hidden from users>",
 			"Must set up to ranged attack",
 			"Consumes [1] [Uranium]",
@@ -461,7 +545,7 @@
     		"cost": 6000,
 		"movement": 2,
 		"strength": 110,
-		"requiredTech": "Mechs II",
+		"requiredTech": "Small Fission Reactors",
 		"attackSound": "gdrAttack",
     		"uniques": [
 			"Only available <if [Mechs Assembly Plant] is constructed> <in this city> <hidden from users>", 
@@ -475,18 +559,20 @@
 	{
 		"name": "Infantry Mech MK2",
 		"unitType": "Gunpowder",
-    		"cost": 9000,
+    	"cost": 9000,
 		"movement": 3,
 		"strength": 170,
 		"requiredTech": "Smmall Fusion Reactors",
 		"attackSound": "gdrAttack",
-    		"uniques": [
+    	"uniques": 
+		[
 			"Only available <if [Mechs Assembly Plant] is constructed> <in this city> <hidden from users>", 
 			"Consumes [1] [Advanced Alloys]",
 			"May withdraw before melee ([50]%) <hidden from users>",
 			"Can move after attacking <hidden from users>",
 			"Can pass through impassable tiles <hidden from users>",
-			"Ignores terrain cost <hidden from users>"],
+			"Ignores terrain cost <hidden from users>"
+		],
 	},
 	{
 		"name": "Armored Mech",
