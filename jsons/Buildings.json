@@ -2640,7 +2640,7 @@
 		"gold": 40,
 		"science": 10,
 		"production": 50,
-		"requiredTech": "Asteroid Mining",
+		"requiredTech": "Asteroid Mining I",
 		"uniques": [
 			"Only available <in cities with a [Spaceport]> <hidden from users>",
 			"Only available <in cities with a [Explore Space III]> <hidden from users>",
@@ -2666,7 +2666,7 @@
 		"gold": 20,
 		"science": 10,
 		"production": 20,
-		"requiredTech": "Asteroid Mining",
+		"requiredTech": "Asteroid Mining I",
 		"uniques": [
 			"Only available <in cities with a [Spaceport]> <hidden from users>",
 			"Only available <in cities with a [Explore Space III]> <hidden from users>",
