@@ -568,7 +568,7 @@
     	"cost": 9000,
 		"movement": 3,
 		"strength": 170,
-		"requiredTech": "Smmall Fusion Reactors",
+		"requiredTech": "Small Fusion Reactors",
 		"attackSound": "gdrAttack",
     	"uniques": 
 		[
