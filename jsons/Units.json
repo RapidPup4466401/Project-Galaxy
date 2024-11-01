@@ -36,7 +36,7 @@
 			"Can carry [6] [Air] units",
 			"Can carry [5] [Missile] units",
 			"[+20]% chance to intercept air attacks <hidden from users>"],
-		"upgradesTo": "Super Aircraft Carrier Submarine",	
+		"upgradesTo": "Heavy Aircraft Carrier Submarine",	
   	},
   	{
 		"name": "Heavy Aircraft Carrier Submarine",
