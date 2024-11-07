@@ -3101,6 +3101,20 @@
 			"Destroyed when the city is captured <hidden from users>"],
 	},
 	{
+		"name": "Quark Manipulation Facility",
+		"cost": 10000,
+		"maintenance": 8,
+		"science": 10,
+		"requiredTech": "Quark Physics",
+		"specialistSlots": {"Scientist": 3},
+		"uniques": [
+			"Only available <in cities with a [Research Lab]> <hidden from users>",
+			"Only available <in cities with a [Particle Accelerator Facility]> <hidden from users>",
+			"Only available <in cities with a [Institute of Quantum Physics Research]> <hidden from users>",
+			"Only available <in cities with a [Research Center]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
+	{
 		"name": "Research Center",
 		"maintenance": 5,
 		"cost": 1000,
