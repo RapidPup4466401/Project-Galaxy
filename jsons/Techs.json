@@ -506,24 +506,6 @@
 				"quote": "'Metals that are able to repulse other materials even non-metals? What magic is this...' - ???"
 			},
 			{
-				"name": "Gates",
-				"row": 20,
-				"prerequisites": [],
-				"quote": "'Creating a rift in the space-time continuum? Uh oh. - ???"
-			},
-			{
-				"name": "Wormholes",
-				"row": 22,
-				"prerequisites": [],
-				"quote": "'Creating a rife in the space-time continuum? Uh oh. - ???"
-			},
-			{
-				"name": "Terraform",
-				"row": 24,
-				"prerequisites": [],
-				"quote": "'Playing god with planets now? Now this is my type of game. - ???"
-			}
-			{
 				"name": "Cloning",
 				"row": 9,
 				"prerequisites": ["Advanced Simulations","Metagenesis","Super Intelligence"],
