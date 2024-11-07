@@ -1562,6 +1562,18 @@
 			"[+5 Culture] [in all cities]",
 			"Only available <in cities with a [Data Center]> <hidden from users>"],		
 	},
+	{
+		"name": "Quarkic Communication Towers",
+		"cost": 4000,
+		"maintenance": 2,
+		"science": 2,
+		"culture": 2,
+		"happiness": 1,
+		"requiredTech": "Hadron Physics",
+		"uniques": [
+			"Only available <in cities with a [Quark Manipulation Facility]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
 		
 	// Military Pack
 	
