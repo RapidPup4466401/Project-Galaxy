@@ -11,6 +11,94 @@
 		],		
   	},
 	{
+		"name": "Corvette",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Support Vessel",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Repair Vessel",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Construction Vessel",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Advanced Construction Vessel",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Light Carrier",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Medium Carrier",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Heavy Cruiser",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
 		"name": "Destroyer",
 		"unitType": "?",
     		"cost": 100,
@@ -23,6 +111,51 @@
   	},
 	{
 		"name": "Cruiser",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Battleship",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Heavy Battleship",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Dreadnought",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	
+	{
+		"name": "Heavy Dreadnought",
 		"unitType": "?",
     		"cost": 100,
 		"movement": 3,
