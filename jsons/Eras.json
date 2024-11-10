@@ -1,8 +1,8 @@
 [
   {
-        "name": "Ancient era",
+        "name": "First Years Era",
         "researchAgreementCost": 150,
-        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingSettlerCount": 1, 
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 1,
         "startingMilitaryUnit": "Warrior",
@@ -27,7 +27,7 @@
         "iconRGB": [255, 87, 35]
     },
     {
-        "name": "Classical era",
+        "name": "Exploration Era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
@@ -56,7 +56,7 @@
         "iconRGB": [233, 31, 99]
     },
     {
-        "name": "Medieval era",
+        "name": "Mining Era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
@@ -87,7 +87,7 @@
         "iconRGB": [157, 39, 176]
     },
     {
-        "name": "Renaissance era",
+        "name": "New Ideas Era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
@@ -119,7 +119,7 @@
         "iconRGB": [104, 58, 183]
     },
     {
-        "name": "Industrial era",
+        "name": "Scaling Era",
         "researchAgreementCost": 300,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
@@ -152,14 +152,13 @@
         "iconRGB": [63, 81, 182],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-            "Starting in this era disables religion"
         ]
 		"civilopediaText": [
 			{"text": "The Industrial Revolution changed very extensively the way the world works. In Future Expansion, most of the content starts being unlocked here."}
 		]
     },
     {
-        "name": "Modern era",
+        "name": "Nova Modern Era",
         "researchAgreementCost": 350,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
@@ -193,11 +192,10 @@
         "iconRGB": [33, 150, 243],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-            "Starting in this era disables religion"
         ]
     },
     {
-        "name": "Atomic era",
+        "name": "Nova Information Era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
@@ -232,11 +230,10 @@
         "iconRGB": [0, 150, 136],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-            "Starting in this era disables religion"
         ]
     },
     {
-        "name": "Information era",
+        "name": "Reignited Hearts Era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
@@ -276,14 +273,13 @@
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-            "Starting in this era disables religion"
         ]
 		"civilopediaText": [
 			{"text": "The Information era represents the final step towards the Future. From this point on, advancements unlocked by Techs become less direct. And Perks become more impactful."}
 		]
   },
   {
-        "name": "Future era",
+        "name": "Future Era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
@@ -306,7 +302,33 @@
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-            "Starting in this era disables religion",
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+  }
+	{
+        "name": "Beyond the Future Era",
+        "researchAgreementCost": 1000,
+        "startingSettlerCount": 4,
+        "startingWorkerCount": 4,
+        "startingMilitaryUnitCount": 8,
+        "startingMilitaryUnit": "Marine",
+        "startingGold": 1000,
+        "startingCulture": 1200,
+        "settlerPopulation": 9,
+        "settlerBuildings": ["Monument","Granary","Lighthouse","Market","Workshop","Amphitheater","Barracks","Library","Colosseum","Theatre","Bank"],
+        "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Petra", "Great Wall", "Colossus",
+            "Hagia Sophia", "Chichen Itza", "Machu Picchu", "Angkor Wat", "Alhambra", "Notre Dame",
+            "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Kremlin",
+            "The Louvre", "Big Ben", "Brandenburg Gate",
+            "Eiffel Tower", "Statue of Liberty", "Neuschwanstein", "Cristo Redentor"],
+        "baseUnitBuyCost": 1500,
+        "embarkDefense": 45,
+        "startPercent": 80,
+        "citySound": "cityFuture",
+        "iconRGB": [76, 176, 81],
+        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [400] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
   }
