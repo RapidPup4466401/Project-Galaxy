@@ -165,4 +165,26 @@
 		[
 		],		
   	},
+	{
+		"name": "Planet Destroyer",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Star Destroyer",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
 ]
