@@ -1,6 +1,6 @@
 [
-  	{
-		"name": "Frigate",
+	{
+		"name": "Advanced Construction Vessel",
 		"unitType": "?",
     		"cost": 100,
 		"movement": 3,
@@ -11,29 +11,7 @@
 		],		
   	},
 	{
-		"name": "Corvette",
-		"unitType": "?",
-    		"cost": 100,
-		"movement": 3,
-		"strength": 10,
-		"requiredTech": "?",
-    		"uniques":
-		[
-		],		
-  	},
-	{
-		"name": "Support Vessel",
-		"unitType": "?",
-    		"cost": 100,
-		"movement": 3,
-		"strength": 10,
-		"requiredTech": "?",
-    		"uniques":
-		[
-		],		
-  	},
-	{
-		"name": "Repair Vessel",
+		"name": "Battleship",
 		"unitType": "?",
     		"cost": 100,
 		"movement": 3,
@@ -55,7 +33,95 @@
 		],		
   	},
 	{
-		"name": "Advanced Construction Vessel",
+		"name": "Corvette",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Cruiser",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Destroyer",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Dreadnought",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+  	{
+		"name": "Frigate",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Heavy Battleship",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Heavy Carrier",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Heavy Cruiser",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Heavy Dreadnought",
 		"unitType": "?",
     		"cost": 100,
 		"movement": 3,
@@ -88,85 +154,7 @@
 		],		
   	},
 	{
-		"name": "Heavy Cruiser",
-		"unitType": "?",
-    		"cost": 100,
-		"movement": 3,
-		"strength": 10,
-		"requiredTech": "?",
-    		"uniques":
-		[
-		],		
-  	},
-	{
-		"name": "Destroyer",
-		"unitType": "?",
-    		"cost": 100,
-		"movement": 3,
-		"strength": 10,
-		"requiredTech": "?",
-    		"uniques":
-		[
-		],		
-  	},
-	{
-		"name": "Cruiser",
-		"unitType": "?",
-    		"cost": 100,
-		"movement": 3,
-		"strength": 10,
-		"requiredTech": "?",
-    		"uniques":
-		[
-		],		
-  	},
-	{
-		"name": "Battleship",
-		"unitType": "?",
-    		"cost": 100,
-		"movement": 3,
-		"strength": 10,
-		"requiredTech": "?",
-    		"uniques":
-		[
-		],		
-  	},
-	{
-		"name": "Heavy Battleship",
-		"unitType": "?",
-    		"cost": 100,
-		"movement": 3,
-		"strength": 10,
-		"requiredTech": "?",
-    		"uniques":
-		[
-		],		
-  	},
-	{
-		"name": "Dreadnought",
-		"unitType": "?",
-    		"cost": 100,
-		"movement": 3,
-		"strength": 10,
-		"requiredTech": "?",
-    		"uniques":
-		[
-		],		
-  	},
-	
-	{
-		"name": "Heavy Dreadnought",
-		"unitType": "?",
-    		"cost": 100,
-		"movement": 3,
-		"strength": 10,
-		"requiredTech": "?",
-    		"uniques":
-		[
-		],		
-  	},
-	{
-		"name": "Planet Destroyer",
+		"name": "Repair Vessel",
 		"unitType": "?",
     		"cost": 100,
 		"movement": 3,
@@ -178,6 +166,28 @@
   	},
 	{
 		"name": "Star Destroyer",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Support Vessel",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Planet Destroyer",
 		"unitType": "?",
     		"cost": 100,
 		"movement": 3,
