@@ -88,6 +88,17 @@
 		],		
   	},
 	{
+		"name": "Galaxy Destroyer",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
 		"name": "Heavy Battleship",
 		"unitType": "?",
     		"cost": 100,
@@ -121,7 +132,29 @@
 		],		
   	},
 	{
+		"name": "Heavy Corvette",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
 		"name": "Heavy Dreadnought",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Heavy Frigate",
 		"unitType": "?",
     		"cost": 100,
 		"movement": 3,
@@ -144,6 +177,17 @@
   	},
 	{
 		"name": "Medium Carrier",
+		"unitType": "?",
+    		"cost": 100,
+		"movement": 3,
+		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Mothership Carrier",
 		"unitType": "?",
     		"cost": 100,
 		"movement": 3,
