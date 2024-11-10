@@ -295,7 +295,7 @@
 		"defenceBonus": -0.85
 	},
 	{
-		"name": "Galactic Nucleus",
+		"name": "Blackhole",
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"occursOn": ["New Space"],
@@ -307,6 +307,19 @@
 			"Always Fertility [4] for Map Generation",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"
+		],
+	},
+	{
+		"name": "Wormhole",
+		"type": "TerrainFeature",
+		"movementCost": 10,
+		"occursOn": ["Dead Space"],
+		"uniques": 
+		[
+			"Rare feature",
+			"Only [All Road] improvements may be built on this tile",
+			"Always Fertility [3] for Map Generation",
+			"Considered [Science] when determining start locations",
 		],
 	},
 	{
