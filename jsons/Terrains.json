@@ -1,189 +1,370 @@
-[	
+[
+	// Base terrains
 	{
-		"name": "Axial Seamount",
-		"type": "NaturalWonder",
-                "food": 1,
-		"science": 8,
-		"gold": 3,
-		"production": 10,
-		"occursOn": ["Deep Ocean"],
-		"uniques": ["Must be adjacent to [6] to [6] [Deep Ocean] tiles","Must be adjacent to [0] [Ocean] tiles","Neighboring tiles will convert to [Deep Ocean]"],
-		"turnsInto": "Deep Ocean",
-		"unbuildable": true,
-	},
-	{
-		"name": "Frozen Lakes",
-		"type": "TerrainFeature",
-		"occursOn": ["Snow"],
-		"culture": 1,
-		"food": 1,
-		"uniques": ["Fresh Water"],
-		"unbuildable": true,
-	},
-	{
-		"name": "Deep Ocean",
+		"name": "Intergalactic Space",
 		"type": "Water",
 		"food": 1,
-		"science": 2,
 		"gold": 1,
 		"movementCost": 1,
-		"uniques": [
-            		"[+3] to Fertility for Map Generation",
-            		"A Region is formed with at least [40]% [Deep Ocean] tiles, with priority [4]",
-            		"A Region can not contain more [Abyssal Ocean] tiles than [Deep Ocean] tiles",
-            		"Every [15] tiles with this terrain will receive a major deposit of a strategic resource."]
+		"RGB": [43, 87, 151]
 	},
 	{
-		"name": "Abyssal Ocean",
+		"name": "Interstellar Space",
 		"type": "Water",
 		"food": 1,
-		"science": 2,
+        "gold": 1,
 		"movementCost": 1,
-		"uniques": [
-            		"[+3] to Fertility for Map Generation",
-            		"A Region is formed with at least [40]% [Deep Ocean] tiles, with priority [4]",
-            		"A Region can not contain more [Abyssal Ocean] tiles than [Deep Ocean] tiles",
-            		"Every [15] tiles with this terrain will receive a major deposit of a strategic resource."],
+		"RGB": [70, 138, 216],
+		"uniques": ["[+2] to Fertility for Map Generation",
+            "Considered [Desirable] when determining start locations <on water maps>",
+            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
-		"name": "Glacier",
+		"name": "Circumstellar Space",
 		"type": "Land",
-		"science": 1,
-		"movementCost": 1,
-		"defenceBonus": -0.25,
-		"uniques": [ 
-			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
-            		"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
-            		"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
-            		"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
-            		"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
-            		"Always Fertility [-1] for Map Generation",
-            		"Considered [Undesirable] when determining start locations"],
-	},
-	{
-		"name": "Oceanic Trench",
-		"type": "TerrainFeature",
-		"science": 2,
-		"gold": 1,
-		"occursOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
-		"uniques": [
-			"[5]% Chance to be destroyed by nukes",
-			"[-2] to Fertility for Map Generation",
-			"A Region is formed with at least [40]% [Oceanic Trench] tiles, with priority [2]",
-			"Base Terrain on this tile is not counted for Region determination",
-			"Every [2] tiles with this terrain will receive a major deposit of a strategic resource."],
-	},	
-	{
-		"name": "Seamounts",
-		"type": "TerrainFeature",
-		"science": 2,
-		"gold": 1,
-		"production": 1,
-		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": [
-			"[1]% Chance to be destroyed by nukes",
-			"[+2] to Fertility for Map Generation",
-			"A Region is formed with at least [40]% [Seamounts] tiles, with priority [5]",
-			"Base Terrain on this tile is not counted for Region determination",
-			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."],
-	},
-	{
-		"name": "Deep Sea Reef",
-		"type": "TerrainFeature",
-		"science": 3,
-		"gold": 2,
 		"food": 2,
-		"occursOn": ["Deep Ocean","Abyssal Ocean"],
-		"uniques": [
-			"[4]% Chance to be destroyed by nukes",
-			"[+1] to Fertility for Map Generation",
-			"A Region is formed with at least [10]% [Deep Sea Reef] tiles, with priority [3]",
-			"Base Terrain on this tile is not counted for Region determination",
-			"Every [10] tiles with this terrain will receive a major deposit of a strategic resource."],
-	},	
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+            "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+            "Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [1]",
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [1]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1]",
+            "Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+            "[+3] to Fertility for Map Generation",
+            "A Region is formed with at least [30]% [Circumstellar Space] tiles, with priority [7]",
+            "A Region can not contain more [Space] tiles than [Circumstellar Space] tiles",
+            "Considered [Desirable] when determining start locations",
+            "Considered [Food] when determining start locations <in [Heavy Star Clusters] Regions>",
+            "Considered [Food] when determining start locations <in [Medium Star Clusters] Regions>",
+            "Considered [Food] when determining start locations <in [Association Clusters] Regions>",
+            "Considered [Food] when determining start locations <in [Circumstellar Space] Regions>",
+            "Considered [Food] when determining start locations <in [Hybrid] Regions>",
+            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+    },
 	{
-		"name": "Hydrothermal Vents",
-		"type": "TerrainFeature",
-		"science": 2,
-		"gold": 1,
-		"production": 3,
-		"occursOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
-		"uniques": [
-			"[2]% Chance to be destroyed by nukes",
-			"[+3] to Fertility for Map Generation",
-			"A Region is formed with at least [40]% [Seamounts] tiles, with priority [6]",
-			"Base Terrain on this tile is not counted for Region determination",
-			"Every [10] tiles with this terrain will receive a major deposit of a strategic resource."],
-	},		
-	{
-		"name": "Whale Fall",
-		"type": "TerrainFeature",
-		"science": 5,
+		"name": "Space",
+		"type": "Land",
 		"food": 1,
-		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": [
-			"[10]% Chance to be destroyed by nukes",
-			"[1] to Fertility for Map Generation",
-			"A Region is formed with at least [5]% [Whale Fall] tiles, with priority [2]",
-			"Base Terrain on this tile is not counted for Region determination"],
-	},	
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [153, 180, 51],
+		"uniques": ["Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
+            "Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
+            "Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+            "[+4] to Fertility for Map Generation",
+            "A Region is formed with at least [30]% [Space] tiles, with priority [6]",
+            "A Region can not contain more [Circumstellar Space] tiles than [Space] tiles",
+            "Considered [Desirable] when determining start locations",
+            "Considered [Food] when determining start locations <in [Halo] Regions>",
+            "Considered [Food] when determining start locations <in [New Space] Regions>",
+            "Considered [Food] when determining start locations <in [Association Clusters] Regions>",
+            "Considered [Food] when determining start locations <in [Space] Regions>",
+            "Considered [Food] when determining start locations <in [Hybrid] Regions>",
+            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
 	{
-		"name": "Cold Seeps",
-		"type": "TerrainFeature",
-		"science": 3,
+		"name": "Halo",
+		"type": "Land",
+		"food": 1,
+		"movementCost": 1,
+		"RGB": [124, 62, 57],
+		"uniques": ["Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+            "Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+            "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+            "Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
+            "[+2] to Fertility for Map Generation",
+            "A Region is formed with at least [30]% [Halo] tiles and [Dead Space] tiles, with priority [1]",
+            "Considered [Food] when determining start locations <in [Halo] Regions>",
+            "Considered [Desirable] when determining start locations <in [Halo] Regions>",
+            "Becomes [Space] when adjacent to [River]",
+            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "New Space",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [230, 172, 0],
+		"uniques": ["Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+            "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+            "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+            "[+1] to Fertility for Map Generation",
+            "A Region is formed with at least [25]% [New Space] tiles, with priority [4]",
+            "Becomes [Flood Space] when adjacent to [River]",
+            "Considered [Undesirable] when determining start locations <in all except [New Space] Regions>",
+            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Nebulae",
+		"type": "Water",
+		"food": 2,
 		"gold": 1,
-		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": [
-			"Rare feature",
-			"[1]% Chance to be destroyed by nukes",
-			"[-2] to Fertility for Map Generation",
-			"Every [4] tiles with this terrain will receive a major deposit of a strategic resource."],
-	},	
+		"RGB": [0, 171, 169],
+		"uniques": 
+		[
+			"Fresh water",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"],
+		]
+	},
 	{
-		"name": "Brine Lakes",
-		"type": "TerrainFeature",
-		"science": 4,
-		"gold": 1,
-		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": [
-			"Rare feature",
-			"[-4] to Fertility for Map Generation",
-			"[2]% Chance to be destroyed by nukes",
-			"Every [4] tiles with this terrain will receive a major deposit of a strategic resource."],
-	},	
-	{
-		"name": "Iceberg",
-		"type": "TerrainFeature",
-		"science": 3,
+		"name": "Asteroid Field",
+		"type": "Land",
 		"impassable": true,
-		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-	},	
-	{
-		"name": "Floating Ice Sheet",
-		"type": "TerrainFeature",
-		"science": 1,
-		"impassable": true,
-		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["[10]% Chance to be destroyed by nukes"],
-	},	
-	{
-		"name": "Large Ice",
-		"type": "TerrainFeature",
-		"impassable": true,
-		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean","Coast"],
-		"uniques": ["[3]% Chance to be destroyed by nukes"],
-	},	
-	{
-		"name": "Caves",
-		"type": "TerrainFeature",
-		"occursOn": ["Snow","Grassland","Plains","Desert","Tundra"],
-		"uniques": ["[3]% Chance to be destroyed by nukes"],
-	},	
-	{
-		"name": "Frozen Forest",
-		"type": "TerrainFeature",
-		"occursOn": ["Snow","Tundra"],
-		"movementCost": 2,
 		"defenceBonus": 0.25,
-	}
-]	
+		"RGB": [102, 102, 102],
+		"uniques": 
+		[
+			"Rough terrain",
+			"Has an elevation of [2] for visibility calculations",
+			"Occurs in chains at high elevations",
+			"Units ending their turn on this terrain take [25] damage",
+			"Always Fertility [-2] for Map Generation",
+			"Considered [Undesirable] when determining start locations"]
+	},
+	{
+		"name": "Dead Space",
+		"type": "Land",
+		"movementCost": 1,
+		"uniques": 
+		[
+            "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+            "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+            "Always Fertility [-1] for Map Generation",
+            "Considered [Undesirable] when determining start locations",
+            "Becomes [Halo] when adjacent to [River]",
+            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Never receives any resources <in [Association Clusters] tiles>"]
+	},
+
+	// Terrain features
+	{
+		"name": "Light Star Clusters",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"occursOn": ["Halo","Space","Circumstellar Space","New Space","Dead Space"],
+		"uniques": 
+		[
+			"Rough terrain",
+			"[+5] Strength for cities built on this terrain",
+			"Has an elevation of [1] for visibility calculations",
+			"Occurs in groups around high elevations",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [40]% [Association Clusters] tiles, with priority [5]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Starts in regions of this type receive an extra [Sheep]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Medium Star Clusters",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"occursOn": ["Halo","Space","Circumstellar Space","Association Clusters"],
+		"uniques": 
+		[
+			"Rough terrain", "Vegetation",
+			"Provides a one-time Production bonus to the closest city when cut down",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[25]% Chance to be destroyed by nukes",
+			"A Region is formed with at least [30]% [Medium Star Clusters] tiles, with priority [3]",
+			"A Region is formed with at least [35]% [Medium Star Clusters] tiles and [Heavy Star Clusters] tiles, with priority [3]",
+			"A Region can not contain more [Heavy Star Clusters] tiles than [Medium Star Clusters] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Considered [Food] when determining start locations <in [Medium Star Clusters] Regions>",
+			"Considered [Food] when determining start locations <in [Halo] Regions>",
+			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
+	},
+	{
+		"name": "Heavy Star Clusters",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"occursOn": ["Space","Circumstellar Space"],
+		"uniques": 
+		[
+			"Rough terrain", "Vegetation",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[25]% Chance to be destroyed by nukes",
+			"[-1] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Heavy Star Clusters] tiles, with priority [2]",
+			"A Region is formed with at least [35]% [Heavy Star Clusters] tiles and [Medium Star Clusters] tiles, with priority [2]",
+			"A Region can not contain more [Medium Star Clusters] tiles than [Heavy Star Clusters] tiles",
+			"Considered [Food] when determining start locations <in all except [Circumstellar Space] Regions>",
+			"Considered [Desirable] when determining start locations <in all except [Circumstellar Space] Regions>",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{
+		"name": "Association Clusters",
+		"type": "TerrainFeature",
+		"movementCost": 3,
+		"occursOn": ["Circumstellar Space"],
+		"uniques": 
+		[
+			"Rare feature",
+			"[-2] to Fertility for Map Generation",
+			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+	},
+	{
+		"name": "Supernova Remnants",
+		"type": "TerrainFeature",
+		"movementCost": 3,
+		"occursOn": ["Asteroid Field"],
+		"uniques": 
+		[
+			"Rare feature",
+			"[-2] to Fertility for Map Generation",
+			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
+	},
+	{
+		"name": "Glassification",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"unbuildable": true,
+		"uniques": 
+		[
+			"Nullifies all other stats this tile provides", 
+			"Doesn't generate naturally"
+		],
+		"occursOn": ["Circumstellar Space","Space","New Space","Halo","Dead Space","Medium Star Clusters","Heavy Star Clusters","Association Clusters","Flood Space","Marsh","Oasis"],
+		"defenceBonus": -0.15
+	},
+	{
+		"name": "Dark Matter Clusters",
+		"type": "TerrainFeature",
+		"movementCost": 3,
+		"unbuildable": true,
+		"uniques": 
+		[
+			"Nullifies all other stats this tile provides", 
+			"Doesn't generate naturally"
+		],
+		"occursOn": ["Circumstellar Space","Space","New Space","Halo","Dead Space","Medium Star Clusters","Heavy Star Clusters","Association Clusters","Flood Space","Marsh","Oasis"],
+		"defenceBonus": -0.25
+	},
+	{
+		"name": "Warped Space",
+		"type": "TerrainFeature",
+		"movementCost": 4,
+		"unbuildable": true,
+		"uniques": 
+		[
+			"Nullifies all other stats this tile provides", 
+			"Doesn't generate naturally"
+		],
+		"occursOn": ["Circumstellar Space","Space","New Space","Halo","Dead Space","Medium Star Clusters","Heavy Star Clusters","Association Clusters","Flood Space","Marsh","Oasis"],
+		"defenceBonus": -0.50
+	},
+	{
+		"name": "Rifted Space",
+		"type": "TerrainFeature",
+		"movementCost": 5,
+		"unbuildable": true,
+		"uniques": 
+		[
+			"Nullifies all other stats this tile provides", 
+			"Doesn't generate naturally"
+		],
+		"occursOn": ["Circumstellar Space","Space","New Space","Halo","Dead Space","Medium Star Clusters","Heavy Star Clusters","Association Clusters","Flood Space","Marsh","Oasis"],
+		"defenceBonus": -0.75
+	},
+	{
+		"name": "Void Space",
+		"type": "TerrainFeature",
+		"movementCost": 6,
+		"unbuildable": true,
+		"uniques": 
+		[
+			"Nullifies all other stats this tile provides", 
+			"Doesn't generate naturally"
+		],
+		"occursOn": ["Circumstellar Space","Space","New Space","Halo","Dead Space","Medium Star Clusters","Heavy Star Clusters","Association Clusters","Flood Space","Marsh","Oasis"],
+		"defenceBonus": -0.85
+	},
+	{
+		"name": "Galactic Nucleus",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"occursOn": ["New Space"],
+		"uniques": 
+		[
+			"Fresh water", 
+			"Rare feature",
+			"Only [All Road] improvements may be built on this tile",
+			"Always Fertility [4] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		],
+	},
+	{
+		"name": "Stellar Nursery",
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 1,
+		"defenceBonus": -0.1,
+		"occursOn": ["New Space"],
+		"uniques": 
+		[
+			"Always Fertility [5] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		]
+	},
+	{
+		"name": "Debris Cluster",
+		"type": "TerrainFeature",
+		"impassable": true,
+		"overrideStats": true,
+		"occursOn": ["Intergalactic Space", "Interstellar Space"],
+		"uniques": 
+		[
+			"Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
+			"[-1] to Fertility for Map Generation",
+			"Considered [Undesirable] when determining start locations"
+		]
+	},
+	{
+		"name": "Lone Star System",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"occursOn": ["Interstellar Space"],
+		"uniques": 
+		[
+			"Rare feature"
+		]
+	},
+
+    // Virtual River entry, used for stats, Uniques and Civilopedia
+    // Modders take heed:
+    // * This never exists on the map, it's a placeholder to allow you to mod the actual river's stats.
+    // * The name is hardcoded to apply stats and the Stats Unique when a tile has one or more edges with an actual river.
+    // * No other Unique is implemented and will work - for now.
+    {
+        "name": "Gravity Slipstream",
+        "type": "TerrainFeature",
+        "movementCost": 0,  // So Civilopedia won't display a cost of 1
+        "uniques": 
+		[
+			"Doesn't generate naturally", 
+			"Excluded from map editor"],
+        ]
+    }
+]
