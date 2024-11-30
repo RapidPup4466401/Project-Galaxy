@@ -85,7 +85,7 @@
 			{
 				"name": "Improved Rocket Engines",
 				"row": 7,
-				"prerequisites": ["Spaceflight", "Space Docking"],
+				"prerequisites": ["Spaceflight", "Orbital Docking"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "We must increase its efficiency further - ???"
 			},
