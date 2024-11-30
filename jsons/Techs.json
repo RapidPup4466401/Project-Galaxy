@@ -23,10 +23,11 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Space Stations",
+				"name": "Universal Calendar",
 				"row": 2,
 				"prerequisites": ["Rocket Launches"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "When the calendars of old based on a star's cycle becomes too small in the grand scale of the universe, one must require a calendar of a universal scale. - ???"
 			},
 			{
 				"name": "Orbital Docking",
@@ -58,16 +59,15 @@
 			{
 				"name": "Solar Sails",
 				"row": 1,
-				"prerequisites": ["Space Stations"],
+				"prerequisites": ["Satellite Exploration"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "To explore space with solar wind? How ingenius... - ???"
 			},
 			{
-				"name": "Universal Calendar",
+				"name": "Space Stations",
 				"row": 2,
-				"prerequisites": ["Space Stations"],
+				"prerequisites": ["Orbital Docking"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "When the calendars of old based on a star's cycle becomes too small in the grand scale of the universe, one must require a calendar of a universal scale. - ???"
 			},
 			{
 				"name": "Planetary Communications",
@@ -83,7 +83,7 @@
 				"quote": "Solar panels in space? Must be on a way to a dyson swarm, or sphere... - ???"
 			},
 			{
-				"name": "Improved Rocket Engines",
+				"name": "Improved Rocket Engines I",
 				"row": 7,
 				"prerequisites": ["Spaceflight", "Orbital Docking"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
@@ -96,9 +96,21 @@
 				"quote": "Mining comets for ice and minerals, truly magnificent. - ???"
 			},
 			{
-				"name": "Orbital Processing Plants",
+				"name": "Orbital Ore Processing",
 				"row": 10,
-				"prerequisites": ["Space Stations"],
+				"prerequisites": ["Orbital Docking"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+			}
+			{
+				"name": "Orbital Agriculture",
+				"row": 12,
+				"prerequisites": ["Orbital Docking"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+			}
+			{
+				"name": "Orbital Dynamics",
+				"row": 13,
+				"prerequisites": ["Spaceflight"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
 			}
 		]
@@ -108,36 +120,42 @@
 	
 	{
 		"columnNumber": 3,
-		"era": "Classical era",
-		"techCost": 105,
-		"buildingCost": 100,
-		"wonderCost": 250,
+		"era": "Exploration Era",
+		"techCost": 205,
+		"buildingCost": 200,
+		"wonderCost": 600,
 		"techs": [
 			{
-				"name": "Optics",
+				"name": "Improved Liquid Fuels",
 				"cost": 85,
 				"row": 1,
-				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],
-				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+				"prerequisites": ["Improved Rocket Engines I"]
 			},
 			{
-				"name": "Horseback Riding",
+				"name": "Fuel Efficiency I",
 				"row": 5,
-				"prerequisites": ["Trapping","The Wheel"],
-                "uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+				"prerequisites": ["Improved Rocket Engines I"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
 			},
 			{
-				"name": "Mathematics",
+				"name": "Improved Rocket Engines II",
 				"row": 7,
-				"prerequisites": ["The Wheel"],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"prerequisites": ["Improved Rocket Engines I"],
+                		"uniques": 
+				[
+					"[+100]% weight to this choice for AI decisions",
+					"Enables embarkation for land units"
+				],
 			},
 			{
-				"name": "Construction",
+				"name": "Improved Geometric Spacial Mathmetatics",
+				"row": 7,
+				"prerequisites": ["Orbital Dynamics"],
+			},
+			{
+				"name": "Orbital Construction",
 				"row": 9,
-				"prerequisites": ["Masonry","The Wheel"],
+				"prerequisites": ["Space Stations","Orbital Dynamics"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			}
