@@ -26,7 +26,7 @@
 				"name": "Space Stations",
 				"row": 2,
 				"prerequisites": ["Rocket Launches"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
 			},
 			{
 				"name": "Orbital Docking",
@@ -37,73 +37,75 @@
 				"name": "Spaceflight",
 				"row": 7,
 				"prerequisites": ["Rocket Launches"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
 			},
 			{
 				"name": "Satellite Exploration",
 				"row": 9,
 				"prerequisites": ["Rocket Launches"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
 			}
 
 		]
 	},
 	{
 		"columnNumber": 2,
-		"era": "Ancient era",
+		"era": "First Years Era",
 		"techCost": 55,
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Sailing",
+				"name": "Solar Sails",
 				"row": 1,
-				"prerequisites": ["Pottery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+				"prerequisites": ["Space Stations"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "To explore space with solar wind? How ingenius... - ???"
 			},
 			{
-				"name": "Calendar",
+				"name": "Universal Calendar",
 				"row": 2,
-				"prerequisites": ["Pottery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+				"prerequisites": ["Space Stations"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "When the calendars of old based on a star's cycle becomes too small in the grand scale of the universe, one must require a calendar of a universal scale. - ???"
 			},
 			{
-				"name": "Writing",
+				"name": "Planetary Communications",
 				"row": 3,
-				"prerequisites": ["Pottery"],
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+				"prerequisites": ["Satellite Exploration"],
+				"quote": "When on must be able to communicate between yourself and your planet's moon(s)), call us! Your local planetary space agency! - ???"
 			},
 			{
-				"name": "Trapping",
+				"name": "Orbital Solar Collectors",
 				"row": 5,
-				"prerequisites": ["Animal Husbandry"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+				"prerequisites": ["Orbital Docking"],
+               			"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "Solar panels in space? Must be on a way to a dyson swarm, or sphere... - ???"
 			},
 			{
-				"name": "The Wheel",
+				"name": "Improved Rocket Engines",
 				"row": 7,
-				"prerequisites": ["Animal Husbandry", "Archery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+				"prerequisites": ["Spaceflight", "Space Docking"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "We must increase its efficiency further - ???"
 			},
 			{
-				"name": "Masonry",
+				"name": "Comet Drilling",
 				"row": 9,
-				"prerequisites": ["Mining"],
-				"quote": "'How happy are those whose walls already rise!' - Virgil"
+				"prerequisites": ["Satellite Exploration"],
+				"quote": "Mining comets for ice and minerals, truly magnificent. - ???"
 			},
 			{
-				"name": "Bronze Working",
+				"name": "Orbital Processing Plants",
 				"row": 10,
-				"prerequisites": ["Mining"],
-                "uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+				"prerequisites": ["Space Stations"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
 			}
 		]
 	},
+
+	END OF WIP
+	
 	{
 		"columnNumber": 3,
 		"era": "Classical era",
