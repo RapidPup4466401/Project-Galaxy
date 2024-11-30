@@ -27,25 +27,25 @@
         ]
 	},
 	{
-		"name": "Granary",
+		"name": "Launch Platforms",
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Pottery"
+		"requiredTech": "Rocket Launches"
 		"uniques": 
         [
-            "[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]",
-            "Destroyed when the city is captured <with [20]% chance> <hidden from users>"
+		"[+1 Food] from [Deer] tiles [in this city]",
+		"[+1 Food] from [Bananas] tiles [in this city]",
+		"[+1 Food] from [Wheat] tiles [in this city]",
+		"Destroyed when the city is captured <with [20]% chance> <hidden from users>"
         ],
 	},
 	{
-		"name": "Shrine",
+		"name": "Shrines",
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
+		"requiredTech": "Space Stations",
 		"uniques": 
         [
             "Only available <when religion is enabled>",
@@ -53,13 +53,13 @@
         ]
 	},
 	{
-		"name": "Stone Works",
+		"name": "Orbital Mining Foundation",
 		"happiness": 1,
 		"production": 1,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-        "requiredTech": "Calendar"
+        "requiredTech": "Universal Calendar"
 		"uniques": 
         [
             "Must not be on [Plains]",
@@ -69,10 +69,10 @@
         ],
 	},
 	{
-		"name": "Library",
+		"name": "Research Facility",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Writing"
+		"requiredTech": "Satellite Exploration"
 		"uniques": 
         [
             "[+1 Science] per [2] population [in this city]",
@@ -80,23 +80,22 @@
         ],
 	},
 	{
-		"name": "Circus",
-		"requiredNearbyImprovedResources": ["Ivory","Horses"],
+		"name": "Orbital Hotel",
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Trapping"
+		"requiredTech": "Orbital Solar Collectors"
         "uniques": 
         [
             "Destroyed when the city is captured <with [20]% chance> <hidden from users>"
         ],
 	},
 	{
-		"name": "Water Mill",
+		"name": "Geothermal Plants",
 		"maintenance": 2,
 		"food": 2,
 		"production": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "The Wheel",
+		"requiredTech": "Orbital Docking",
 		"uniques": 
         [
             "Must be on [River]",
@@ -113,6 +112,9 @@
         [
             "Destroyed when the city is captured <with [50]% chance> <hidden from users>"
         ],  
+
+END OF WIP
+		
 	},
 	{
 		"name": "Barracks",
