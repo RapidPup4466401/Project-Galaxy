@@ -1,0 +1,118 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Support Class",
+        "movementType": "Land"
+    },
+  {
+        "name": "Medium Support Class",
+        "movementType": "Land"
+    },
+  {
+        "name": "Heavy Support Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Field Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Intermediate Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Medium Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Heavy-Medium Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Heavy Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Super-Heavy Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Titan Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Colossal Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Behemoth Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Planet Class",
+        "movementType": "Land"
+    },
+    {
+        "name": "Galactic Class",
+        "movementType": "Water"
+    },
+    {
+        "name": "Experimental Class",
+        "movementType": "Land"
+    },
+     {
+        "name": "Unknown",
+        "movementType": "Land"
+    },
+     {
+        "name": "Organism",
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Stealth Class",
+        "movementType": "Land",
+        "uniques": ["Invisible to non-adjacent units"]
+    },
+   {
+        "name": "Medium Stealth Class",
+        "movementType": "Land",
+        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Light Stealth Class] units"]
+    },
+   {
+        "name": "Heavy Stealth Class",
+        "movementType": "Land",
+        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Medium Stealth Class] units"]
+    },
+    {
+        "name": "Fighter Class",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+2] Sight", "Can perform Air Sweep"]
+    },
+    {
+        "name": "Bomber Class",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Laser",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking","Cannot be intercepted"]
+    },
+    {
+        "name": "Bomb",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"]
+    },
+]
