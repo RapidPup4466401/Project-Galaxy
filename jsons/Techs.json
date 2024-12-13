@@ -116,17 +116,16 @@
 		]
 	},
 
-	END OF WIP
 	
 	{
 		"columnNumber": 3,
 		"era": "Exploration Era",
 		"techCost": 205,
-		"buildingCost": 200,
-		"wonderCost": 600,
+		"buildingCost": 300,
+		"wonderCost": 800,
 		"techs": [
 			{
-				"name": "Improved Liquid Fuels",
+				"name": "Improved Liquid Fuels I",
 				"cost": 85,
 				"row": 1,
 				"prerequisites": ["Improved Rocket Engines I"]
@@ -144,11 +143,11 @@
                 		"uniques": 
 				[
 					"[+100]% weight to this choice for AI decisions",
-					"Enables embarkation for land units"
+					"Enables embarkation for land units <hidden from users>"
 				],
 			},
 			{
-				"name": "Improved Geometric Spacial Mathmetatics",
+				"name": "Improved Geometric Spacial Mathematics",
 				"row": 7,
 				"prerequisites": ["Orbital Dynamics"],
 			},
@@ -156,53 +155,88 @@
 				"name": "Orbital Construction",
 				"row": 9,
 				"prerequisites": ["Space Stations","Orbital Dynamics"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+			}
+			{
+				"name": "Refinement I",
+				"row": 11,
+				"prerequisites": ["Comet Drilling","Orbital Ore Processing"],
+			}
+			{
+				"name": "Alloys I",
+				"row": 12,
+				"prerequisites": ["Comet Drilling","Orbital Ore Processing"],
+			}
+			{
+				"name": "Automation",
+				"row": 14,
+				"prerequisites": ["Space Stations","Planetary Communications"],
 			}
 		]
 	},
 	{
 		"columnNumber": 4,
-		"era": "Classical era",
-		"techCost": 175,
+		"era": "Expansion Era",
+		"techCost": 350,
 		"buildingCost": 100,
-		"wonderCost": 250,
+		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Philosophy",
+				"name": "Cosmic Philosophy",
 				"row": 2,
-				"prerequisites": ["Writing","Calendar"],
-				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+				"prerequisites": ["Fuel Efficiency I"],
 			},
 			{
-				"name": "Drama and Poetry",
+				"name": "Quantum Communications",
 				"row": 3,
-				"prerequisites": ["Writing"],
-				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+				"prerequisites": ["Improved Geometric Spacial Mathematics"],
 			},
 			{
-				"name": "Currency",
+				"name": "Standardized Currency I",
 				"row": 7,
-				"prerequisites": ["Mathematics"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+				"prerequisites": ["Improved Geometric Spacial Mathematics"],
+               			"uniques": ["[+100]% weight to this choice for AI decisions"],
 			},
 			{
-				"name": "Engineering",
+				"name": "Space Engineering",
 				"row": 8,
-				"prerequisites": ["Mathematics","Construction"],
+				"prerequisites": ["Improved Geometric Spacial Mathematics","Orbital Construction"],
 				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
-				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 			{
-				"name": "Iron Working",
+				"name": "Colonization",
 				"row": 10,
-				"prerequisites": ["Bronze Working"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+				"prerequisites": ["Orbital Construction","Automation"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],	
+			}
+			{
+				"name": "Lightweight Materials",
+				"row": 12,
+				"prerequisites": ["Alloys I"],
+				
+			}
+			{
+				"name": "Hydroponics I",
+				"row": 13,
+				"prerequisites": ["Orbital Construction"],
+				
+			}
+			{
+				"name": "Fuel Efficiency II",
+				"row": 15,
+				"prerequisites": ["Fuel Efficiency I"],
+				
+			}
+			{
+				"name": "Artificial Intelligence I",
+				"row": 15,
+				"prerequisites": ["Automation"],
+				
 			}
 		]
 	},
+[END OF WIP]
+	
 	{
 		"columnNumber": 5,
 		"era": "Medieval era",
