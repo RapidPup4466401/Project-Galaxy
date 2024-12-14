@@ -198,10 +198,14 @@
                			"uniques": ["[+100]% weight to this choice for AI decisions"],
 			},
 			{
-				"name": "Space Engineering",
+				"name": "Engineering I",
 				"row": 8,
 				"prerequisites": ["Improved Geometric Spacial Mathematics","Orbital Construction"],
-				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
+				"uniques": 
+				[
+					"Roads connect tiles across rivers",
+					"[+100]% weight to this choice for AI decisions"
+				],
 			},
 			{
 				"name": "Colonization",
@@ -230,7 +234,13 @@
 			{
 				"name": "Artificial Intelligence I",
 				"row": 15,
-				"prerequisites": ["Automation"],
+				"prerequisites": ["Automation","Improved Geometric Spacial Mathematics"],
+				
+			}
+			{
+				"name": "Garden Integrations I",
+				"row": 17,
+				"prerequisites": ["Fuel Efficiency I"],
 				
 			}
 		]
@@ -239,37 +249,53 @@
 	
 	{
 		"columnNumber": 5,
-		"era": "Medieval era",
+	"medieval era"
+		"era": "Expansion Era",
 		"techCost": 275,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Theology",
+				"name": "Belief",
 				"row": 2,
-				"prerequisites": ["Philosophy", "Drama and Poetry"],
-				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+				"prerequisites": ["Cosmic Philosophy", "Colonization"],
 			},
 			{
 				"name": "Civil Service",
 				"row": 5,
-				"prerequisites": ["Currency","Horseback Riding","Drama and Poetry"],
-				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
-				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+				"prerequisites": ["Standardized Currency I","Colonization"],
+				"uniques": 
+				[
+					"Enables Open Borders agreements",
+					"[+100]% weight to this choice for AI decisions"
+				],
 			},
 			{
-				"name": "Guilds",
+				"name": "Corporations",
 				"row": 7,
-				"prerequisites": ["Currency"],
-				"uniques": ["Enables conversion of city production to [Gold]"],
-				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+				"prerequisites": ["Standardized Currency I"],
+				"uniques": 
+				[
+					"Enables conversion of city production to [Gold]"
+				],
 			},
 			{
-				"name": "Metal Casting",
+				"name": "Engineering II",
+				"row": 8,
+				"prerequisites": ["Engineering I","Lightweight Materials"],
+               			"uniques": 
+				[
+					"[+100]% weight to this choice for AI decisions"
+				],
+			}
+			{
+				"name": "Manufacturing I",
 				"row": 9,
-				"prerequisites": ["Engineering","Iron Working"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+				"prerequisites": ["Engineering I","Lightweight Materials"],
+               			"uniques": 
+				[
+					"[+100]% weight to this choice for AI decisions"
+				],
 			}
 		]
 	},
