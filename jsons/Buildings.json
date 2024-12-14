@@ -151,14 +151,14 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Space Engineering"
+		"requiredTech": "Engineering I"
 	},
 	{
 		"name": "Sports Dome",
 		"maintenance": 1,
 		"happiness": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Space Engineering"
+		"requiredTech": "Engineering I"
 	},
 	{
 		"name": "Temples",
@@ -259,7 +259,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"requiredTech": "Standardized Currency"
+		"requiredTech": "Standardized Currency I"
 	},
 	{
 		"name": "Minting Plants",
@@ -267,14 +267,14 @@
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
-		"requiredTech": "Standardized Currency"
+		"requiredTech": "Standardized Currency I"
 	},
 	{
 		"name": "Irrigated Orbital Farms",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
-		"requiredTech": "Space Engineering"
+		"requiredTech": "Engineering I"
 	},
 	{
 		"name": "Hydroponics Upgrade",
@@ -296,46 +296,31 @@
 		],
 		"requiredTech": "Lightweight Materials"
 	},
-
-	[END OF WIP]
-	// Medieval Era
-
-	// Column 5
 	{
-		"name": "Garden",
-		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"name": "Modern Gardens",
+		"uniques": 
+		[
+			"[+25]% Great Person generation [in this city]", 
+			"Must be next to [Fresh water]"
+		],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Theology"
+		"requiredTech": "Garden Integrations I",
 	},
 	{
-		"name": "Hagia Sophia",
-		"faith": 3,
-		"isWonder": true,
-		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Only available <when religion is enabled>"],
-		"requiredTech": "Theology",
-		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
-	},
-	{
-		"name": "Great Mosque of Djenne",
-		"culture": 1,
-		"faith": 3,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": ["Gain a free [Mosque] [in this city]", "Only available <when religion is enabled>",
-            "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
-            "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"],
-		"requiredTech": "Theology",
-		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
-	},
-	{
-		"name": "Grand Temple",
-		"cost": 125,
+		"name": "Nova Temple",
+		"cost": 250,
 		"culture": 1,
 		"faith": 8,
-		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
-		"requiredTech": "Theology",
+		"uniques": 
+		[
+			"Only available <if [Temples] is constructed in all [non-[Puppeted]] cities>", 
+			"Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", 
+			"Only available <when religion is enabled>", 
+			"Can only be built <in [Holy] cities>"
+		],
+		"requiredTech": "Belief",
 		"isNationalWonder": true
 	},
 	{
