@@ -24,14 +24,14 @@
 		"techs": [
 			{
 				"name": "Universal Calendar",
-				"row": 2,
+				"row": 1,
 				"prerequisites": ["Rocket Launches"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "When the calendars of old based on a star's cycle becomes too small in the grand scale of the universe, one must require a calendar of a universal scale. - ???"
 			},
 			{
 				"name": "Orbital Docking",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Rocket Launches"],
 			},
 			{
@@ -42,7 +42,7 @@
 			},
 			{
 				"name": "Satellite Exploration",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Rocket Launches"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
 			}
@@ -58,20 +58,20 @@
 		"techs": [
 			{
 				"name": "Solar Sails",
-				"row": 1,
+				"row": 6,
 				"prerequisites": ["Satellite Exploration"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "To explore space with solar wind? How ingenius... - ???"
 			},
 			{
 				"name": "Space Stations",
-				"row": 2,
+				"row": 4,
 				"prerequisites": ["Orbital Docking"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
 			},
 			{
 				"name": "Planetary Communications",
-				"row": 3,
+				"row": 12,
 				"prerequisites": ["Satellite Exploration"],
 				"quote": "When on must be able to communicate between yourself and your planet's moon(s)), call us! Your local planetary space agency! - ???"
 			},
@@ -91,7 +91,7 @@
 			},
 			{
 				"name": "Comet Drilling",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Satellite Exploration"],
 				"quote": "Mining comets for ice and minerals, truly magnificent. - ???"
 			},
@@ -103,13 +103,13 @@
 			}
 			{
 				"name": "Orbital Agriculture",
-				"row": 12,
+				"row": 11,
 				"prerequisites": ["Orbital Docking"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
 			}
 			{
 				"name": "Orbital Dynamics",
-				"row": 13,
+				"row": 7,
 				"prerequisites": ["Spaceflight"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
 			}
