@@ -385,7 +385,7 @@
 			{
 				"name": "Manufacturing II",
 				"row": 10,
-				"prerequisites": ["Engineering I"],
+				"prerequisites": ["Manufacturing I"],
                			"uniques": 
 				[
 					"[+100]% weight to this choice for AI decisions"
@@ -468,7 +468,7 @@
 			{
 				"name": "Manufacturing III",
 				"row": 10,
-				"prerequisites": ["Engineering II"],
+				"prerequisites": ["Manufacturing II"],
 			},
 			{
 				"name": "Refinement IV",
@@ -578,7 +578,7 @@
 			{
 				"name": "Manufacturing IV",
 				"row": 10,
-				"prerequisites": ["Engineering III"],
+				"prerequisites": ["Manufacturing III"],
 			},
 			{
 				"name": "Refinement V",
@@ -591,28 +591,27 @@
 				"prerequisites": ["Alloys III", "Engineering IV"],
 			}
 			{
-				"name": "Hydroponics IV",
+				"name": "Hydroponics V",
 				"row": 14,
-				"prerequisites": ["Hydroponics III"],
+				"prerequisites": ["Hydroponics IV"],
 				
 			},
 			{
-				"name": "Fuel Efficiency V",
+				"name": "Advanced Fuel Efficiency I",
 				"row": 15,
-				"prerequisites": ["Fuel Efficiency IV"],
+				"prerequisites": ["Fuel Efficiency V"],
 				
 			},
 			{
-				"name": "Artificial Intelligence III",
+				"name": "Artificial Intelligence IV",
 				"row": 16,
-				"prerequisites": ["Education II" ,"Artificial Intelligence II"],
+				"prerequisites": ["Education III" ,"Artificial Intelligence III"],
 				
 			},
 			{
 				"name": "Advanced Construction I",
 				"row": 19,
-				"prerequisites": ["Acoustics","Banking"],
-				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
+				"prerequisites": ["Engineering IV", "Manufacturing III"],
 			},
 			{
 				"name": "Advanced Metallurgy",
@@ -637,14 +636,80 @@
 		"wonderCost": 600,
 		"techs": [
 			{
-				"name": "Archaeology",
-				"row": 2,
-				"prerequisites": ["Navigation","Architecture"],
+				"name": "Liquid Fuels II",
+				"cost": 85,
+				"row": 1,
+				"prerequisites": ["Liquid Fuels I"]
 			},
 			{
-				"name": "Scientific Theory",
+				"name": "Education IV",
+				"row": 3,
+				"prerequisites": ["Education III"],
+			},
+			{
+				"name": "Economics II",
 				"row": 4,
-				"prerequisites": ["Architecture","Economics"],
+				"prerequisites": ["Economics I","Artificial Intelligence III"],
+			},
+			{
+				"name": "Rocket Engines II",
+				"row": 6,
+				"prerequisites": ["Rocket Engines I"],
+			},
+			{
+				"name": "Advanced Engineering I",
+				"row": 9,
+				"prerequisites": ["Engineering V"],
+			},
+			{
+				"name": "Manufacturing V",
+				"row": 10,
+				"prerequisites": ["Manufacturing IV"],
+			},
+			{
+				"name": "Advanced Refinement I",
+				"row": 11,
+				"prerequisites": ["Refinment V"],
+			},
+			{
+				"name": "Alloys V",
+				"row": 12,
+				"prerequisites": ["Alloys IV", "Engineering V"],
+			}
+			{
+				"name": "Advanced Hydroponics",
+				"row": 14,
+				"prerequisites": ["Hydroponics V"],
+				
+			},
+			{
+				"name": "Advanced Fuel Efficiency I",
+				"row": 15,
+				"prerequisites": ["Fuel Efficiency V"],
+				
+			},
+			{
+				"name": "Artificial Intelligence V",
+				"row": 16,
+				"prerequisites": ["Education IV" ,"Artificial Intelligence IV"],
+				
+			},
+			{
+				"name": "Advanced Construction II",
+				"row": 19,
+				"prerequisites": ["Engineering V","Manufacturing IV","Advanced Construction I"],
+			},
+
+			
+			{
+				"name": "Astrobiology",
+				"row": 2,
+				"prerequisites": ["Artificial Intelligence IV"],
+			},
+			{
+				"name": "String Theory",
+				"row": 4,
+				"prerequisites": ["Artificial Intelligence IV","Engineering 5"]
 			},
 			{
 				"name": "Industrialization",
@@ -662,9 +727,9 @@
 				"prerequisites": ["Metallurgy","Chemistry"],
 			},
 			{
-				"name": "Fertilizer",
+				"name": "Advanced Fertilizers",
 				"row": 10,
-				"prerequisites": ["Chemistry"],
+				"prerequisites": ["Hydroponics V"],
 			{
 				"name": "Advanced Electroplating",
 				"row": 14,
