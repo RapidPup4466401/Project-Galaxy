@@ -324,22 +324,16 @@
 		"isNationalWonder": true
 	},
 	{
-		"name": "Chichen Itza",
-		"culture": 1,
-		"happiness": 4,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": ["[+50]% Golden Age length"],
-		"requiredTech": "Civil Service",
-		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
-	},
-	{
-		"name": "National Treasury",
+		"name": "Intelligent Financing",
 		"cost": 125,
 		"gold": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"uniques": 
+		[
+			"Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", 
+			"Cost increases by [30] per owned city"
+		],
 		"requiredTech": "Guilds"
 	},
 	{
