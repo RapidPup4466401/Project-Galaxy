@@ -109,7 +109,7 @@
 			}
 			{
 				"name": "Orbital Dynamics",
-				"row": 7,
+				"row": 13,
 				"prerequisites": ["Spaceflight"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
 			}
@@ -138,7 +138,7 @@
 			},
 			{
 				"name": "Improved Rocket Engines II",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Improved Rocket Engines I"],
                 		"uniques": 
 				[
@@ -221,7 +221,7 @@
 			}
 			{
 				"name": "Hydroponics I",
-				"row": 13,
+				"row": 14,
 				"prerequisites": ["Orbital Construction"],
 				
 			}
@@ -310,7 +310,7 @@
 			}
 			{
 				"name": "Hydroponics II",
-				"row": 13,
+				"row": 14,
 				"prerequisites": ["Hydroponics I"],
 				
 			},
@@ -336,9 +336,15 @@
 		"wonderCost": 400,
 		"techs": [
 			{
+				"name": "Improved Liquid Fuels II",
+				"cost": 85,
+				"row": 1,
+				"prerequisites": ["Improved Liquid Fuels I"]
+			},
+			{
 				"name": "Star Navigation",
 				"cost": 375,
-				"row": 1,
+				"row": 2,
 				"prerequisites": ["Fuel Efficiency III","Belief"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 			},
@@ -347,6 +353,16 @@
 				"row": 3,
 				"prerequisites": ["Belief","Public Service"],
 				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements","[+100]% weight to this choice for AI decisions"],
+			},
+			{
+				"name": "Improved Rocket Engines II",
+				"row": 6,
+				"prerequisites": ["Improved Rocket Engines I"],
+                		"uniques": 
+				[
+					"[+100]% weight to this choice for AI decisions",
+					"Enables embarkation for land units <hidden from users>"
+				],
 			},
 			{
 				"name": "Standardized Currency III",
@@ -391,7 +407,7 @@
 			},
 			{
 				"name": "Hydroponics III",
-				"row": 13,
+				"row": 14,
 				"prerequisites": ["Hydroponics I"],
 				
 			},
