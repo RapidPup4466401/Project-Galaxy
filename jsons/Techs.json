@@ -199,7 +199,7 @@
 			},
 			{
 				"name": "Engineering I",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Improved Geometric Spacial Mathematics","Orbital Construction"],
 				"uniques": 
 				[
@@ -233,7 +233,7 @@
 			}
 			{
 				"name": "Artificial Intelligence I",
-				"row": 15,
+				"row": 16,
 				"prerequisites": ["Automation","Improved Geometric Spacial Mathematics"],
 				
 			}
@@ -261,7 +261,7 @@
 				"prerequisites": ["Cosmic Philosophy", "Colonization"],
 			},
 			{
-				"name": "Civil Service",
+				"name": "Public Service",
 				"row": 5,
 				"prerequisites": ["Standardized Currency I","Colonization"],
 				"uniques": 
@@ -271,8 +271,14 @@
 				],
 			},
 			{
-				"name": "Corporations",
+				"name": "Standardized Currency II",
 				"row": 7,
+				"prerequisites": ["Improved Geometric Spacial Mathematics"],
+               			"uniques": ["[+100]% weight to this choice for AI decisions"],
+			},
+			{
+				"name": "Corporations",
+				"row": 8,
 				"prerequisites": ["Standardized Currency I"],
 				"uniques": 
 				[
@@ -281,7 +287,7 @@
 			},
 			{
 				"name": "Engineering II",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Engineering I","Lightweight Materials"],
                			"uniques": 
 				[
@@ -290,12 +296,35 @@
 			}
 			{
 				"name": "Manufacturing I",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Engineering I","Lightweight Materials"],
                			"uniques": 
 				[
 					"[+100]% weight to this choice for AI decisions"
 				],
+			},
+			{
+				"name": "Refinement II",
+				"row": 11,
+				"prerequisites": ["Engineering I","Standardized Currency I"],
+			}
+			{
+				"name": "Hydroponics II",
+				"row": 13,
+				"prerequisites": ["Hydroponics I"],
+				
+			},
+			{
+				"name": "Fuel Efficiency III",
+				"row": 15,
+				"prerequisites": ["Fuel Efficiency II"],
+				
+			}
+			{
+				"name": "Garden Integrations II",
+				"row": 17,
+				"prerequisites": ["Fuel Efficiency II","Hydroponics I"],
+				
 			}
 		]
 	},
@@ -307,47 +336,82 @@
 		"wonderCost": 400,
 		"techs": [
 			{
-				"name": "Compass",
+				"name": "Star Navigation",
 				"cost": 375,
 				"row": 1,
-				"prerequisites": ["Optics","Theology"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+				"prerequisites": ["Fuel Efficiency III","Belief"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
 			},
 			{
-				"name": "Education",
+				"name": "Education I",
 				"row": 3,
-				"prerequisites": ["Theology","Civil Service"],
+				"prerequisites": ["Belief","Public Service"],
 				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements","[+100]% weight to this choice for AI decisions"],
-				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
-				"name": "Chivalry",
-				"row": 6,
-				"prerequisites": ["Civil Service","Guilds"],
-                "uniques": ["Enables Defensive Pacts"],
-                "quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+				"name": "Standardized Currency III",
+				"row": 7,
+				"prerequisites": ["Improved Geometric Spacial Mathematics"],
+               			"uniques": ["[+100]% weight to this choice for AI decisions"],
 			},
 			{
-				"name": "Machinery",
+				"name": "Durable Materials",
 				"row": 8,
-				"prerequisites": ["Guilds","Engineering"],
-				"uniques": ["Improves movement speed on roads"],
-				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
-			},
-			{
-				"name": "Physics",
-				"row": 9,
-				"prerequisites": ["Metal Casting"],
-				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
-			},
-			{
-				"name": "Steel",
-				"row": 10,
-				"prerequisites": ["Metal Casting"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
+				"prerequisites": ["Refinement II"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
 			}
+			{
+				"name": "Engineering III",
+				"row": 9,
+				"prerequisites": ["Engineering I","Lightweight Materials"],
+               			"uniques": 
+				[
+					"[+100]% weight to this choice for AI decisions"
+				],
+			}
+			{
+				"name": "Manufacturing II",
+				"row": 10,
+				"prerequisites": ["Engineering I","Lightweight Materials"],
+               			"uniques": 
+				[
+					"[+100]% weight to this choice for AI decisions"
+				],
+			},
+			{
+				"name": "Refinement III",
+				"row": 11,
+				"prerequisites": ["Engineering I","Standardized Currency I"],
+			}
+			{
+				"name": "Advanced Machinery",
+				"row": 12,
+				"prerequisites": ["Manufcaturing I","Engineering II"],
+				"uniques": ["Improves movement speed on roads"],
+			},
+			{
+				"name": "Hydroponics III",
+				"row": 13,
+				"prerequisites": ["Hydroponics I"],
+				
+			},
+			{
+				"name": "Fuel Efficiency IV",
+				"row": 15,
+				"prerequisites": ["Fuel Efficiency II"],
+				
+			},
+			{
+				"name": "Artificial Intelligence II",
+				"row": 16,
+				"prerequisites": ["Engineering II","Artificial Intelligence I"],
+				
+			}
+			{
+				"name": "Spacial Calculations",
+				"row": 17,
+				"prerequisites": ["Engineering II"],
+			},
 		]
 	},
 	{
@@ -358,8 +422,8 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Astronomy",
-				"row": 2,
+				"name": "Astronomical Navigation",
+				"row": 1,
 				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
 				"prerequisites": ["Compass","Education"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
