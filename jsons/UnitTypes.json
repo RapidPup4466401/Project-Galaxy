@@ -83,17 +83,22 @@
    {
         "name": "Medium Stealth Class",
         "movementType": "Land",
-        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Light Stealth Class] units"]
+        "uniques": ["Invisible to non-adjacent units"]
     },
    {
         "name": "Heavy Stealth Class",
         "movementType": "Land",
-        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Medium Stealth Class] units"]
+        "uniques": ["Invisible to non-adjacent units"]
     },
     {
         "name": "Fighter Class",
         "movementType": "Air",
         "uniques": ["Aircraft", "[+2] Sight", "Can perform Air Sweep"]
+    },
+    {
+        "name": "Attacker Class",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+2] Sight"]
     },
     {
         "name": "Bomber Class",
@@ -107,6 +112,11 @@
     },
     {
         "name": "Bomb",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"]
+    },
+    {
+        "name": "Mine",
         "movementType": "Air",
         "uniques": ["Self-destructs when attacking"]
     },
