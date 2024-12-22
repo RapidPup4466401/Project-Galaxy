@@ -208,12 +208,47 @@
 		[
 		],		
   	},
+
+	///Repair Vessel Variations
 	{
-		"name": "Repair Vessel",
+		"name": "Repair Vessel Mk.I",
 		"unitType": "?",
     		"cost": 100,
 		"movement": 3,
 		"strength": 10,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Repair Vessel Mk.II",
+		"unitType": "?",
+    		"cost": 150,
+		"movement": 3,
+		"strength": 12,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Repair Vessel Mk.III",
+		"unitType": "?",
+    		"cost": 200,
+		"movement": 3,
+		"strength": 15,
+		"requiredTech": "?",
+    		"uniques":
+		[
+		],		
+  	},
+	{
+		"name": "Advanced Repair Vessel Mk.I",
+		"unitType": "?",
+    		"cost": 500,
+		"movement": 4,
+		"strength": 35,
 		"requiredTech": "?",
     		"uniques":
 		[
