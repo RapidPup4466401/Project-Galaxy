@@ -1042,7 +1042,7 @@
 	},
 	{
 		"columnNumber": 15,
-		"era": "Nova Information era",
+		"era": "Nova Information Era",
 		"techCost": 7700,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -1118,7 +1118,7 @@
 
 	{
 		"columnNumber": 16,
-		"era": "Nova Information era",
+		"era": "Nova Information Era",
 		"techCost": 8800,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -1188,7 +1188,7 @@
 	},
 	{
 		"columnNumber": 17,
-		"era": "Future era",
+		"era": "Future Era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
