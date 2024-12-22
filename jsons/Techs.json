@@ -501,7 +501,7 @@
 	},
 	{
 		"columnNumber": 8,
-		"era": "Mining era",
+		"era": "Mining Era",
 		"techCost": 1500,
 		"buildingCost": 250,
 		"wonderCost": 1000,
@@ -584,7 +584,7 @@
 	},
 	{
 		"columnNumber": 9,
-		"era": "Scaling era",
+		"era": "Scaling Era",
 		"techCost": 2000,
 		"buildingCost": 400,
 		"wonderCost": 600,
@@ -692,7 +692,7 @@
 	},
 	{
 		"columnNumber": 10,
-		"era": "Scaling era",
+		"era": "Scaling Era",
 		"techCost": 2350,
 		"buildingCost": 360,
 		"wonderCost": 900,
@@ -762,7 +762,7 @@
 	},
 	{
 		"columnNumber": 11,
-		"era": "Nova Modern ra",
+		"era": "Nova Modern Era",
 		"techCost": 3100,
 		"buildingCost": 500,
 		"wonderCost": 1060,
