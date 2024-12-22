@@ -83,7 +83,7 @@
 				"quote": "Solar panels in space? Must be on a way to a dyson swarm, or sphere... - ???"
 			},
 			{
-				"name": "Improved Rocket Engines I",
+				"name": "Improved Engines I",
 				"row": 7,
 				"prerequisites": ["Spaceflight", "Orbital Docking"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
@@ -128,18 +128,18 @@
 				"name": "Improved Liquid Fuels I",
 				"cost": 85,
 				"row": 1,
-				"prerequisites": ["Improved Rocket Engines I"]
+				"prerequisites": ["Improved Engines I"]
 			},
 			{
 				"name": "Fuel Efficiency I",
 				"row": 5,
-				"prerequisites": ["Improved Rocket Engines I"],
+				"prerequisites": ["Improved Engines I"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
 			},
 			{
-				"name": "Improved Rocket Engines II",
+				"name": "Improved Engines II",
 				"row": 6,
-				"prerequisites": ["Improved Rocket Engines I"],
+				"prerequisites": ["Improved Engines I"],
                 		"uniques": 
 				[
 					"[+100]% weight to this choice for AI decisions",
@@ -352,9 +352,9 @@
 				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements","[+100]% weight to this choice for AI decisions"],
 			},
 			{
-				"name": "Improved Rocket Engines II",
+				"name": "Improved Engines II",
 				"row": 6,
-				"prerequisites": ["Improved Rocket Engines I"],
+				"prerequisites": ["Improved Engines I"],
                 		"uniques": 
 				[
 					"[+100]% weight to this choice for AI decisions",
@@ -451,9 +451,9 @@
 				"prerequisites": ["Education I"],
 			},
 			{
-				"name": "Improved Rocket Engines III",
+				"name": "Improved Engines III",
 				"row": 6,
-				"prerequisites": ["Improved Rocket Engines II"],
+				"prerequisites": ["Improved Engines II"],
 			},
 			{
 				"name": "Standardized Currency IV",
@@ -524,9 +524,9 @@
 				"prerequisites": ["Education II","Artificial Intelligence II"],
 			},
 			{
-				"name": "Rocket Engines I",
+				"name": "Engines I",
 				"row": 6,
-				"prerequisites": ["Improved Rocket Engines III"],
+				"prerequisites": ["Improved Engines III"],
 			},
 			{
 				"name": "Standardized Currency V",
@@ -607,9 +607,9 @@
 				"prerequisites": ["Economics I","Artificial Intelligence IV"],
 			},
 			{
-				"name": "Rocket Engines II",
+				"name": "Engines II",
 				"row": 6,
-				"prerequisites": ["Rocket Engines I"],
+				"prerequisites": ["Engines I"],
 			},
 			{
 				"name": "Advanced Engineering I",
@@ -716,9 +716,9 @@
 				"prerequisites": ["Economics II","Artificial Intelligence V"],
 			},
 			{
-				"name": "Rocket Engines III",
+				"name": "Engines III",
 				"row": 6,
-				"prerequisites": ["Rocket Engines II"],
+				"prerequisites": ["Engines II"],
 			},
 			{
 				"name": "Advanced Engineering II",
@@ -786,9 +786,9 @@
 				"prerequisites": ["Economics III","Advanced Artificial Intelligence I"],
 			},
 			{
-				"name": "Advanced Rocket Engines I",
+				"name": "Advanced Engines I",
 				"row": 6,
-				"prerequisites": ["Rocket Engines III"],
+				"prerequisites": ["Engines III"],
 			},
 			{
 				"name": "Advanced Engineering III",
@@ -856,9 +856,9 @@
 				"prerequisites": ["Economics IV","Advanced Artificial Intelligence II"],
 			},
 			{
-				"name": "Advanced Rocket Engines II",
+				"name": "Advanced Engines II",
 				"row": 6,
-				"prerequisites": ["Advanced Rocket Engines I"],
+				"prerequisites": ["Advanced Engines I"],
 			},
 			{
 				"name": "Advanced Engineering IV",
@@ -926,9 +926,9 @@
 				"prerequisites": ["Economics V"],
 			},
 			{
-				"name": "Advanced Rocket Engines III",
+				"name": "Advanced Engines III",
 				"row": 6,
-				"prerequisites": ["Advanced Rocket Engines II"],
+				"prerequisites": ["Advanced Engines II"],
 			},
 			{
 				"name": "Advanced Engineering V",
@@ -996,9 +996,9 @@
 				"prerequisites": ["Advanced Economics I"],
 			},
 			{
-				"name": "Advanced Rocket Engines IV",
+				"name": "Advanced Engines IV",
 				"row": 6,
-				"prerequisites": ["Advanced Rocket Engines III"],
+				"prerequisites": ["Advanced Engines III"],
 			},
 			{
 				"name": "Superior Engineering I",
@@ -1066,9 +1066,9 @@
 				"prerequisites": ["Advanced Economics II"],
 			},
 			{
-				"name": "Advanced Rocket Engines V",
+				"name": "Advanced Engines V",
 				"row": 6,
-				"prerequisites": ["Advanced Rocket Engines IV"],
+				"prerequisites": ["Advanced Engines IV"],
 			},
 			{
 				"name": "Superior Engineering II",
@@ -1126,50 +1126,50 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Superior",
+				"name": "Superior Liquids Fuels I",
 				"cost": 85,
 				"row": 1,
-				"prerequisites": ["Advanced Liquid Fuels IV"]
+				"prerequisites": ["Advanced Liquid Fuels V"]
 			},
 			{
-				"name": "Advanced Education V",
+				"name": "Superior Education I",
 				"row": 3,
-				"prerequisites": ["Advanced Education IV"],
+				"prerequisites": ["Advanced Education V"],
 			},
 			{
-				"name": "Advanced Economics III",
+				"name": "Advanced Economics IV",
 				"row": 4,
-				"prerequisites": ["Advanced Economics II"],
+				"prerequisites": ["Advanced Economics III"],
 			},
 			{
-				"name": "Advanced Rocket Engines V",
+				"name": "Superior Engines I",
 				"row": 6,
-				"prerequisites": ["Advanced Rocket Engines IV"],
+				"prerequisites": ["Advanced Engines V"],
 			},
 			{
-				"name": "Superior Engineering II",
+				"name": "Superior Engineering III",
 				"row": 9,
-				"prerequisites": ["Superior Engineering I"],
+				"prerequisites": ["Superior Engineering II"],
 			},
 			{
-				"name": "Superior Manufacturing I",
+				"name": "Superior Manufacturing II",
 				"row": 10,
-				"prerequisites": ["Advanced Manufacturing V"],
+				"prerequisites": ["Superior Manufacturing I"],
 			},
 			{
-				"name": "Superior Refinement II",
+				"name": "Superior Refinement III",
 				"row": 11,
-				"prerequisites": ["Superior Refinement I"],
+				"prerequisites": ["Superior Refinement II"],
 			},
 			{
-				"name": "Superior Alloys I",
+				"name": "Superior Alloys II",
 				"row": 12,
-				"prerequisites": ["Advanced Alloys V", "Superior Engineering I"],
+				"prerequisites": ["Superior Alloys I", "Superior Engineering II"],
 			}
 			{
-				"name": "Terraform I",
+				"name": "Terraform II",
 				"row": 14,
-				"prerequisites": ["Sky Farms V","Superior Engineering I","Advanced Artificial Intelligence V","Advanced Economics II","Superior Construction II"],
+				"prerequisites": ["Terraform I","Superior Engineering II","Superior Construction III"],
 			},
 			{
 				"name": "Superior Fuel Efficiency II",
@@ -1177,14 +1177,14 @@
 				"prerequisites": ["Superior Fuel Efficiency I"],
 			},
 			{
-				"name": "Superior AI I",
+				"name": "Superior AI II",
 				"row": 16,
-				"prerequisites": ["Advanced Education IV" ,"Advanced Artificial Intelligence V"],
+				"prerequisites": ["Advanced Education V" ,"Superior AI I"],
 			},
 			{
-				"name": "Superior Construction III",
+				"name": "Superior Construction IV",
 				"row": 19,
-				"prerequisites": ["Superior Construction I","Advanced Manufacturing IV","Advanced Engineering V"],
+				"prerequisites": ["Superior Construction III","Superior Engineering II"],
 			},
 		]
 	},
@@ -1198,10 +1198,8 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Nanotechnology","Stealth"],
+				"prerequisites": ["Superior AI II"],
 				"uniques": ["Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
 			}
 		]
 	}
