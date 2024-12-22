@@ -100,13 +100,13 @@
 				"row": 10,
 				"prerequisites": ["Orbital Docking"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
-			}
+			},
 			{
 				"name": "Orbital Agriculture",
 				"row": 11,
 				"prerequisites": ["Orbital Docking"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
-			}
+			},
 			{
 				"name": "Orbital Dynamics",
 				"row": 13,
@@ -143,7 +143,6 @@
                 		"uniques": 
 				[
 					"[+100]% weight to this choice for AI decisions",
-					"Enables embarkation for land units <hidden from users>"
 				],
 			},
 			{
@@ -156,17 +155,17 @@
 				"row": 9,
 				"prerequisites": ["Space Stations","Orbital Dynamics"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
-			}
+			},
 			{
 				"name": "Refinement I",
 				"row": 11,
 				"prerequisites": ["Comet Drilling","Orbital Ore Processing"],
-			}
+			},
 			{
 				"name": "Alloys I",
 				"row": 12,
 				"prerequisites": ["Comet Drilling","Orbital Ore Processing"],
-			}
+			},
 			{
 				"name": "Automation",
 				"row": 14,
@@ -212,31 +211,31 @@
 				"row": 10,
 				"prerequisites": ["Orbital Construction","Automation"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],	
-			}
+			},
 			{
 				"name": "Lightweight Materials",
 				"row": 12,
 				"prerequisites": ["Alloys I"],
 				
-			}
+			},
 			{
 				"name": "Hydroponics I",
 				"row": 14,
 				"prerequisites": ["Orbital Construction"],
 				
-			}
+			},
 			{
 				"name": "Fuel Efficiency II",
 				"row": 15,
 				"prerequisites": ["Fuel Efficiency I"],
 				
-			}
+			},
 			{
 				"name": "Artificial Intelligence I",
 				"row": 16,
 				"prerequisites": ["Automation","Improved Geometric Spacial Mathematics"],
 				
-			}
+			},
 			{
 				"name": "Garden Integrations I",
 				"row": 17,
@@ -290,7 +289,7 @@
 				[
 					"[+100]% weight to this choice for AI decisions"
 				],
-			}
+			},
 			{
 				"name": "Manufacturing I",
 				"row": 10,
@@ -304,7 +303,7 @@
 				"name": "Refinement II",
 				"row": 11,
 				"prerequisites": ["Refinement I"],
-			}
+			},
 			{
 				"name": "Hydroponics II",
 				"row": 14,
@@ -316,7 +315,7 @@
 				"row": 15,
 				"prerequisites": ["Fuel Efficiency II"],
 				
-			}
+			},
 			{
 				"name": "Garden Integrations II",
 				"row": 17,
@@ -372,7 +371,7 @@
 				"row": 8,
 				"prerequisites": ["Refinement II"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
-			}
+			},
 			{
 				"name": "Engineering III",
 				"row": 9,
@@ -400,7 +399,7 @@
 				"name": "Alloys II",
 				"row": 12,
 				"prerequisites": ["Refinement II","Engineering I", "Alloys I"],
-			}
+			},
 			{
 				"name": "Advanced Machinery",
 				"row": 13,
@@ -424,7 +423,7 @@
 				"row": 16,
 				"prerequisites": ["Engineering II","Artificial Intelligence I"],
 				
-			}
+			},
 			{
 				"name": "Spacial Calculations",
 				"row": 17,
@@ -552,7 +551,7 @@
 				"name": "Alloys IV",
 				"row": 12,
 				"prerequisites": ["Alloys III", "Engineering IV"],
-			}
+			},
 			{
 				"name": "Hydroponics V",
 				"row": 14,
@@ -630,7 +629,7 @@
 				"name": "Alloys V",
 				"row": 12,
 				"prerequisites": ["Alloys IV", "Engineering V"],
-			}
+			},
 			{
 				"name": "Advanced Hydroponics",
 				"row": 14,
@@ -654,8 +653,6 @@
 				"row": 19,
 				"prerequisites": ["Engineering V","Manufacturing IV","Advanced Construction I"],
 			},
-
-			
 			{
 				"name": "Astrobiology",
 				"row": 2,
@@ -675,6 +672,7 @@
 				"name": "Advanced Fertilizers",
 				"row": 13,
 				"prerequisites": ["Hydroponics V"],
+			},
 			{
 				"name": "Advanced Electroplating",
 				"row": 20,
@@ -739,7 +737,7 @@
 				"name": "Advanced Alloys I",
 				"row": 12,
 				"prerequisites": ["Alloys V", "Advanced Engineering I"],
-			}
+			},
 			{
 				"name": "Sky Farms I",
 				"row": 14,
@@ -809,7 +807,7 @@
 				"name": "Advanced Alloys II",
 				"row": 12,
 				"prerequisites": ["Advanced Alloys I", "Advanced Engineering II"],
-			}
+			},
 			{
 				"name": "Sky Farms II",
 				"row": 14,
@@ -879,7 +877,7 @@
 				"name": "Advanced Alloys III",
 				"row": 12,
 				"prerequisites": ["Advanced Alloys II", "Advanced Engineering III"],
-			}
+			},
 			{
 				"name": "Sky Farms III",
 				"row": 14,
@@ -949,7 +947,7 @@
 				"name": "Advanced Alloys IV",
 				"row": 12,
 				"prerequisites": ["Advanced Alloys III", "Advanced Engineering IV"],
-			}
+			},
 			{
 				"name": "Sky Farms IV",
 				"row": 14,
@@ -1019,7 +1017,7 @@
 				"name": "Advanced Alloys V",
 				"row": 12,
 				"prerequisites": ["Advanced Alloys IV", "Advanced Engineering V"],
-			}
+			},
 			{
 				"name": "Sky Farms V",
 				"row": 14,
@@ -1089,7 +1087,7 @@
 				"name": "Superior Alloys I",
 				"row": 12,
 				"prerequisites": ["Advanced Alloys V", "Superior Engineering I"],
-			}
+			},
 			{
 				"name": "Terraform I",
 				"row": 14,
@@ -1165,7 +1163,7 @@
 				"name": "Superior Alloys II",
 				"row": 12,
 				"prerequisites": ["Superior Alloys I", "Superior Engineering II"],
-			}
+			},
 			{
 				"name": "Terraform II",
 				"row": 14,
