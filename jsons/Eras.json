@@ -124,7 +124,7 @@
         "iconRGB": [33, 150, 243],
     },
     {
-        "name": "Reigintion Era",
+        "name": "Reignition Era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
@@ -163,7 +163,7 @@
         "startPercent": 80,
         "citySound": "cityFuture",
         "iconRGB": [76, 176, 81],
-  }
+  },
 {
         "name": "Beyond the Future Era",
         "researchAgreementCost": 1000,
