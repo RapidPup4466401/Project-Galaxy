@@ -1,4 +1,6 @@
 [
+	
+	//Natural Strategic
 	{
 		"name": "Aluminum",
 		"resourceType": "Strategic",
@@ -322,6 +324,9 @@
 		"terrainsCanBeFoundOn": ["?"],
 		"improvement": "?",
 	},
+
+	//Artificial Strategic
+	///Matter
 	{
 		"name": "Antimatter",
 		"resourceType": "Strategic",
@@ -334,8 +339,188 @@
 		"name": "Degenerate Matter",
 		"resourceType": "Strategic",
 	},
+	///Processed
 	{
 		"name": "Advanced Alloys",
 		"resourceType": "Strategic",
+	},
+	{
+		"name": "Alloys",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Armaments",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Cybernetic Components",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Energy",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Electrical Components",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Fuels",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Machinery",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Microchips",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Robotic Components",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Starship Components",
+		"resourceType": "Strategic",
+	},
+
+	//Artificial Luxury
+	
+	{
+		"name": "Alcohol",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Antibiotics",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Art",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Clothes",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Coffee",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Computers",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Confectioneries",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Cosmetics",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Decor",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Drones",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Exotic Fauna",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Exotic Flora",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Fragrances",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Furniture",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Games",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Hallucinogens",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Inhalants",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Instruments",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Jewelery",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Medical Supplies",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Neuralinks",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Opioids",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Peripherals",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Recreation Goods",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Robots",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Salts",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Silk",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Softwares",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Sport Goods",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Spices",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Stimulants",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Tea",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Vehicles",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Wine",
+		"resourceType": "Luxury",
 	},
 ]
