@@ -403,7 +403,7 @@
 			{
 				"name": "Advanced Machinery",
 				"row": 13,
-				"prerequisites": ["Manufcaturing I","Engineering II"],
+				"prerequisites": ["Manufacturing I","Engineering II"],
 				"uniques": ["Improves movement speed on roads"],
 			},
 			{
@@ -545,7 +545,7 @@
 			{
 				"name": "Refinement V",
 				"row": 11,
-				"prerequisites": ["Refinment IV"],
+				"prerequisites": ["Refinement IV"],
 			},
 			{
 				"name": "Alloys IV",
@@ -623,7 +623,7 @@
 			{
 				"name": "Advanced Refinement I",
 				"row": 11,
-				"prerequisites": ["Refinment V"],
+				"prerequisites": ["Refinement V"],
 			},
 			{
 				"name": "Alloys V",
@@ -661,7 +661,7 @@
 			{
 				"name": "String Theory",
 				"row": 17,
-				"prerequisites": ["Artificial Intelligence IV","Engineering 5"]
+				"prerequisites": ["Artificial Intelligence IV","Engineering V"]
 			},
 			{
 				"name": "Intra-System Integration",
@@ -902,7 +902,7 @@
 	},
 	{
 		"columnNumber": 13,
-		"era": "Reiginition Era",
+		"era": "Reignition Era",
 		"techCost": 3500,
 		"buildingCost": 1500,
 		"wonderCost": 1000,
@@ -972,7 +972,7 @@
 	},
 	{
 		"columnNumber": 14,
-		"era": "Reiginition Era",
+		"era": "Reignition Era",
 		"techCost": 4000,
 		"buildingCost": 760,
 		"wonderCost": 1700,
