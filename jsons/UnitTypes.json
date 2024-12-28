@@ -24,15 +24,7 @@
         "movementType": "Land"
     },
     {
-        "name": "Intermediate Class",
-        "movementType": "Land"
-    },
-    {
         "name": "Medium Class",
-        "movementType": "Land"
-    },
-    {
-        "name": "Heavy-Medium Class",
         "movementType": "Land"
     },
     {
